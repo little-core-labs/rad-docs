@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Profile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>Rad TV for PS VR2</Name>
+  <Identification>
+    <FriendlyName>Rad TV for PS VR2</FriendlyName>
+    <Headers>
+      <HttpHeaderInfo name="User-Agent" value="RadTVPSVR2" match="Substring" />
+    </Headers>
+  </Identification>
+  <Manufacturer>Rad TV</Manufacturer>
+  <ManufacturerUrl>https://github.com/jellyfin/jellyfin</ManufacturerUrl>
+  <ModelName>Jellyfin Server</ModelName>
+  <ModelDescription>UPnP/AV 1.0 Compliant Media Server</ModelDescription>
+  <ModelNumber>01</ModelNumber>
+  <ModelUrl>https://github.com/jellyfin/jellyfin</ModelUrl>
+  <EnableAlbumArtInDidl>false</EnableAlbumArtInDidl>
+  <EnableSingleAlbumArtLimit>false</EnableSingleAlbumArtLimit>
+  <EnableSingleSubtitleLimit>false</EnableSingleSubtitleLimit>
+  <SupportedMediaTypes>Video</SupportedMediaTypes>
+  <AlbumArtPn>JPEG_SM</AlbumArtPn>
+  <MaxAlbumArtWidth>480</MaxAlbumArtWidth>
+  <MaxAlbumArtHeight>480</MaxAlbumArtHeight>
+  <MaxIconWidth>48</MaxIconWidth>
+  <MaxIconHeight>48</MaxIconHeight>
+  <MaxStreamingBitrate>140000000</MaxStreamingBitrate>
+  <MaxStaticBitrate>140000000</MaxStaticBitrate>
+  <MusicStreamingTranscodingBitrate>192000</MusicStreamingTranscodingBitrate>
+  <MaxStaticMusicBitrate xsi:nil="true" />
+  <ProtocolInfo>http-get:*:video/mpeg:*,http-get:*:video/mp4:*,http-get:*:video/vnd.dlna.mpeg-tts:*,http-get:*:video/avi:*,http-get:*:video/x-matroska:*,http-get:*:video/x-ms-wmv:*,http-get:*:video/wtv:*,http-get:*:audio/mpeg:*,http-get:*:audio/mp3:*,http-get:*:audio/mp4:*,http-get:*:audio/x-ms-wma:*,http-get:*:audio/wav:*,http-get:*:audio/L16:*,http-get:*:image/jpeg:*,http-get:*:image/png:*,http-get:*:image/gif:*,http-get:*:image/tiff:*</ProtocolInfo>
+  <TimelineOffsetSeconds>0</TimelineOffsetSeconds>
+  <RequiresPlainVideoItems>false</RequiresPlainVideoItems>
+  <RequiresPlainFolders>false</RequiresPlainFolders>
+  <EnableMSMediaReceiverRegistrar>false</EnableMSMediaReceiverRegistrar>
+  <IgnoreTranscodeByteRangeRequests>false</IgnoreTranscodeByteRangeRequests>
+  <XmlRootAttributes />
+  <DirectPlayProfiles>
+    <DirectPlayProfile container="mp4,m4v" audioCodec="aac,opus" videoCodec="mpeg4,h264,hevc" type="Video" />
+    <DirectPlayProfile container="ts,mpegts" audioCodec="aac,opus" videoCodec="mpeg4,h264,hevc" type="Video" />
+    <DirectPlayProfile container="webm" audioCodec="aac,opus" videoCodec="vp9" type="Video" />
+  </DirectPlayProfiles>
+  <ContainerProfiles />
+  <CodecProfiles />
+  <ResponseProfiles>
+    <ResponseProfile container="m4v" type="Video" mimeType="video/mp4">
+      <Conditions />
+    </ResponseProfile>
+  </ResponseProfiles>
+  <SubtitleProfiles>
+    <SubtitleProfile format="srt" method="Embed" />
+    <SubtitleProfile format="ass" method="Embed" />
+    <SubtitleProfile format="ssa" method="Embed" />
+    <SubtitleProfile format="smi" method="Embed" />
+    <SubtitleProfile format="dvdsub" method="Embed" />
+    <SubtitleProfile format="pgs" method="Embed" />
+    <SubtitleProfile format="pgssub" method="Embed" />
+    <SubtitleProfile format="sub" method="Embed" />
+    <SubtitleProfile format="subrip" method="Embed" />
+    <SubtitleProfile format="vtt" method="Embed" />
+  </SubtitleProfiles>
+</Profile>
