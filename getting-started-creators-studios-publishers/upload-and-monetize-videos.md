@@ -90,15 +90,7 @@ Once you have entered all metadata click the '>' button at the bottom of the for
 
 <figure><img src="../.gitbook/assets/IMG_5833.JPG" alt=""><figcaption></figcaption></figure>
 
-7. Monetization: After you click the ‘>’ button you will be taken to the monetization page where you can select how/if you would like to monetize this piece of content
-
-<figure><img src="../.gitbook/assets/Monetziation page.png" alt=""><figcaption><p>Video Monetization Page</p></figcaption></figure>
-
-* There are multiple monetization options:
-  * No Monetization (Free): Selecting this option will make your video available for free. Anyone can access this content ad-free without a Rad TV account.
-    * If you want to make your video available for anyone to watch click the ‘Publish Video’ button
-
-<figure><img src="../.gitbook/assets/IMG_5835.JPG" alt=""><figcaption><p>Publish Video</p></figcaption></figure>
+7. Monetization: After you click the ‘>’ button you will be taken to the monetization page where you can select how/if you would like to monetize this piece of content. If you want to make your video available for anyone to watch click the ‘Publish Video’ button.
 
 After you click the publish video button you will be taken back to your '[My Videos](https://rad.live/studio/videos/)' page
 
