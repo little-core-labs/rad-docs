@@ -20,21 +20,11 @@ Premium subscriptions to Rad TV give viewers access to exclusive content with no
 
 ## Unlock Your Rad TV Premium Subscriptions
 
-There are 3 ways to unlock a premium subscription:
-
-1. **Traditional Recurring Debit/Credit/Paypal Payment**
+**Traditional Recurring Debit/Credit/Paypal Payment**
 
 Subscribe to Rad TV Premium for $6.99/month or Rad TV Premium+ for $29.99/month
 
 Learn more and subscribe here: [http://rad.live/premium](https://t.co/F1C9OmmvMy) &#x20;
-
-2. **Stream Pass NFT**
-
-Our Ethereum-based Stream Pass NFT allows you to purchase an NFT that unlocks premium streaming features on Rad TV via a one time, non-recurring purchase, that is also resell-able. Yes, resell-able. [Purchase a Stream Pass](https://rad.live/streampass), connect the web3 wallet that holds the Stream Pass to your Rad TV account, claim access, and you have access to all of Rad TV's premium content and streaming features as long as you hold your Stream Pass NFT. If at any point you find that you're not using your Stream Pass NFT to access Rad TV, you can list it for sale on any NFT marketplace that supports Ethereum based NFTs (like [OpenSea](https://opensea.io/collection/stream-pass).)
-
-For detailed instructions on how to mint a Stream Pass [visit the tutorial here](unlock-rad-tv-premium-with-a-stream-pass-nft.md), or to purchase a Stream Pass and dive right in head to [http://rad.live/streampass](https://t.co/5eTzd5Fxwr).
-
-
 
 ## Sideloading Only License
 
