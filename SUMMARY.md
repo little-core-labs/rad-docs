@@ -20,6 +20,7 @@
   * [Maximize Your Earnings](getting-started-creators-studios-publishers/maximize-your-earnings.md)
   * [VR and Portrait Content FAQ](getting-started-creators-studios-publishers/vr-and-portrait-content-faq.md)
 * [Getting Started - Subscribers, Viewers](getting-started-subscribers-viewers/README.md)
+  * [Account Management](getting-started-subscribers-viewers/account-management.md)
   * [Premium and Free On-Demand Video, and Free TV](getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv.md)
   * [Rad TV for Web](getting-started-subscribers-viewers/rad-tv-for-web.md)
   * [Rad TV for PS5 / PS VR2](getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README.md)
@@ -54,4 +55,3 @@
 * [Rad TV Blockchain Integrations](rad-tv-blockchain-integrations.md)
 * [Rad TV Community Updates](rad-tv-community-updates.md)
 * [Rad TV Technical Support](rad-tv-technical-support.md)
-* [Account Management](account-management.md)
