@@ -8,7 +8,7 @@ You can also search for "Rad TV" on the Apple App Store
 
 ## Supported Features
 
-<table><thead><tr><th width="308"></th><th width="221" data-type="checkbox">iOS</th><th data-type="checkbox">Apple TV</th></tr></thead><tbody><tr><td>Free Live TV</td><td>true</td><td>true</td></tr><tr><td>Free On Demand</td><td>true</td><td>true</td></tr><tr><td>Premium Live TV¹</td><td>true</td><td>true</td></tr><tr><td>Premium On Demand¹</td><td>true</td><td>true</td></tr><tr><td>Sideloading¹</td><td>true</td><td>false</td></tr><tr><td>DLNA/UPnP¹</td><td>true</td><td>true</td></tr><tr><td>RSS Feeds¹</td><td>true</td><td>true</td></tr><tr><td>Access Purchased Content</td><td>true</td><td>true</td></tr></tbody></table>
+<table><thead><tr><th width="308"></th><th width="221" data-type="checkbox">iOS</th><th data-type="checkbox">Apple TV</th></tr></thead><tbody><tr><td>Free Live TV</td><td>true</td><td>true</td></tr><tr><td>Free On Demand</td><td>true</td><td>true</td></tr><tr><td>Premium Live TV¹</td><td>true</td><td>true</td></tr><tr><td>Premium On Demand¹</td><td>true</td><td>true</td></tr><tr><td>Sideloading¹</td><td>true</td><td>false</td></tr><tr><td>DLNA/UPnP¹</td><td>true</td><td>true</td></tr><tr><td>RSS Feeds¹</td><td>true</td><td>true</td></tr></tbody></table>
 
 {% hint style="info" %}
 ¹ Requires a [Premium subscription](premium-and-free-on-demand-video-and-free-tv.md).
