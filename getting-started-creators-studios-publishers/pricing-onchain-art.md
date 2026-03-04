@@ -1,5 +1,6 @@
 ---
 description: Balancing Market Appeal and True Value
+hidden: true
 ---
 
 # Pricing Onchain Art
