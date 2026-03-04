@@ -1,5 +1,6 @@
 ---
 description: Step by Step Guide to Mint a Stream Pass & Unlock Access
+hidden: true
 ---
 
 # Unlock Rad TV Premium with a Stream Pass NFT
