@@ -2,6 +2,7 @@
 description: >-
   Interested in integrating your blockchain with Rad TV for global content
   distribution?
+hidden: true
 ---
 
 # Rad TV Blockchain Integrations
