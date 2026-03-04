@@ -78,9 +78,7 @@ Choose Video Categories: Select a few categories your video belongs in. This giv
 
 <figure><img src="../.gitbook/assets/IMG_5825.JPG" alt=""><figcaption><p>Category Selection</p></figcaption></figure>
 
-Rad TV supports NSFW content as long as the content is appropriately tagged NSFW. You can mark content as NSFW by selecting 'NSFW' from the Video Rating dropdown menu pictured below.
 
-<figure><img src="../.gitbook/assets/IMG_5829.JPG" alt=""><figcaption><p>Video Rating</p></figcaption></figure>
 
 Rad TV supports many resolutions and content types. If you are uploading VR, 360°, 180°, or 3D content you will need to select a 'Video Hint' in order to tell our system how to display the video. You can change this anytime. If you aren't sure which to select, trial and error will only take a few clicks.&#x20;
 
