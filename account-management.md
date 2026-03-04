@@ -38,8 +38,6 @@ If you have an active subscription, this page gives you a summary of its status 
 * **Feature Settings**:
   * **Edit Subscription**: Click here to go to the detailed billing and payment management page.
   * **Authorize Device**: Manage the devices that are authorized to use your account.
-* **Wallet Settings**:
-  * **Connect Wallet**: Link a cryptocurrency wallet to your account for blockchain-based features and NFTs.
 
 #### Choosing or Changing Your Plan
 
@@ -84,16 +82,6 @@ This powerful feature allows you to add your own content to Rad TV via RSS feeds
 * **New RSS Feed URL**: Paste the URL of a valid RSS feed into this field and click **Add** to import it.
 * **Feed List**: Below the input box, you will see a list of all the RSS feeds you have successfully added.
 * **Delete**: To remove a feed, check the box next to it and click the **Delete** button.
-
-***
-
-### Purchases
-
-<figure><img src=".gitbook/assets/rad-account-management-4-purchases.png" alt=""><figcaption></figcaption></figure>
-
-This section keeps a record of any individual content you have purchased on Rad TV.
-
-This page will list any on-demand movies, special events, or other content you have bought. If you haven't made any individual purchases, it will show the message "No purchases found." This is separate from your recurring subscription.
 
 ***
 
