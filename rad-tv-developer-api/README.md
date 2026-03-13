@@ -1,4 +1,4 @@
-# Rad TV API Documentation
+# Rad TV Developer API Documentation
 
 The public API for the [Rad](https://rad.live) platform provides a **GraphQL API** and an **MCP (Model Context Protocol) server** for building apps and integrating with coding agents (e.g. Cursor, Claude).
 
