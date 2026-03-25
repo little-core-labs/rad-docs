@@ -1,6 +1,6 @@
 # Distribute Your FAST Channel
 
-**Rad TV has 45+ FAST channels live today with some of the best FAST channel partners in the world.**&#x20;
+**Rad TV has 55+ FAST channels live today with some of the best FAST channel partners in the world.**&#x20;
 
 If you're a content creator, studio, or content owner that has an existing FAST channel, you can can get started for free at RadTV.com and instantly have your channels live across all of Rad TV's apps.
 

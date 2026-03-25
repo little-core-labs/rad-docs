@@ -26,7 +26,7 @@ Navigate to the 'My Library' section at [RadTV.com](../rad-tv-community-updates.
 
 From the My Library section you can upload new videos, see how much storage space you are utilizing, and see how many upload minutes (transcoding time) you have left for the month.
 
-**It is important that you select the correct hints for your content to ensure that it is transcoded with the right settings.** Rad TV is not responsible for errors in this selection process and upload minutes will not be credited to users that select the wrong option at the time of upload. If you have questions please reach out via [Discord](https://discord.gg/radtv) or [𝕏](https://x.com/radnftv).
+**It is important that you select the correct hints for your content to ensure that it is transcoded with the right settings.** Rad TV is not responsible for errors in this selection process and upload minutes will not be credited to users that select the wrong option at the time of upload. If you have questions please reach out via [Discord](https://discord.gg/radtv) or [𝕏](https://x.com/radtv__).
 
 Once you have selected content to upload you will be shown how much storage space the content will utilize as well as how many upload minutes the content will consume. Premium+ subscribers can upload 900 minutes (15 hours) of content each month. Upload minutes do not rollover.&#x20;
 
@@ -48,4 +48,4 @@ To access your Private Uploads in Rad TV apps including [iOS](https://apps.apple
 
 For PS4 and [Quest](https://www.meta.com/experiences/rad-tv/5046491592044459/?utm_source=brevo\&utm_campaign=New%20editor%20Rad_PSVR2Update_copy\&utm_medium=email) the link will be formatted as: https://content.mhq......
 
-For questions, comments, or support please join our [Discord](https://discord.gg/radtv) or reach out via [DM on 𝕏](https://x.com/radnftv). &#x20;
+For questions, comments, or support please join our [Discord](https://discord.gg/radtv) or reach out via [DM on 𝕏](https://x.com/radtv__). &#x20;

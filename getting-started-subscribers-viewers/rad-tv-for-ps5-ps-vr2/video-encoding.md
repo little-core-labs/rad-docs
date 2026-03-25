@@ -14,7 +14,7 @@ Please ensure your content meets these specifications prior to contacting suppor
 * Users are reporting issues with 8k content at 50+ fps
 * Users are seeing rad results with 7K content
 
-If your content meets these requirements and you are still experiencing issues please download [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) and post a screenshot of the full metadata tree to our [discord server](https://https/discord.gg/radtv) or send us a DM on [𝕏](https://x.com/radnftv). &#x20;
+If your content meets these requirements and you are still experiencing issues please download [MediaInfo](https://mediaarea.net/en/MediaInfo/Download) and post a screenshot of the full metadata tree to our [discord server](https://https/discord.gg/radtv) or send us a DM on [𝕏](https://x.com/radtv__). &#x20;
 
 ## Encoding Restrictions <a href="#psvrsideloadinstructions-en-recommendedsettings" id="psvrsideloadinstructions-en-recommendedsettings"></a>
 

@@ -16,8 +16,8 @@ Rad TV’s creator verification process is designed to maintain a high-quality, 
   * That channel has at least 1 piece of high quality video content set to public
     * That public content must have title, description, and high quality cover image
 * Share a link to your Rad TV channel on social media
-  * Be sure to tag [@RadNFTV](https://x.com/radnftv) in the post or
-  * DM us the link on [𝕏](https://x.com/radnftv)&#x20;
+  * Be sure to tag [@RadTV\_\_](https://x.com/radtv__) in the post or
+  * DM us the link on [𝕏](https://x.com/radtv__)&#x20;
 
 Verification is not guaranteed and may be revoked at any time, without prior notice, if creators fail to adhere to Rad TV’s [Terms of Service](https://business.rad.live/terms), or if actions are taken that compromise the integrity of our platform. In such cases, creators may lose the ability to distribute and monetize their content, have their accounts permanently banned from the platform, and, if warranted, be subject to legal action.&#x20;
 
