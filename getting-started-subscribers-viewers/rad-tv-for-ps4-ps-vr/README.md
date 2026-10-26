@@ -1,3 +1,9 @@
+---
+description: >-
+  Play your own videos on PS4 and PS VR with Rad TV, from a USB drive or your
+  home media server.
+---
+
 # Rad TV for PS4 / PS VR
 
 ## How to Install

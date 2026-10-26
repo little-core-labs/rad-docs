@@ -1,14 +1,20 @@
-# Sideloading
+---
+description: >-
+  Copy video files to a USB drive and play them in PS VR2 on PS5 with Rad TV,
+  including 3D, 180 and 360 VR formats.
+---
+
+# Sideload Videos on PS5 and PS VR2
 
 {% hint style="info" %}
-Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](./#video-formats-supported).
+Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](./#video-viewing-formats-supported).
 {% endhint %}
 
 {% hint style="info" %}
 Again, although most video encodings are supported, make sure we support the video encoding of the content you're interested in [here](video-encoding.md).&#x20;
 {% endhint %}
 
-The Rad TV app's VR version [supports the playback of many types of videos](./#video-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.&#x20;
+The Rad TV app's VR version [supports the playback of many types of videos](./#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.&#x20;
 
 ## Rad TV Sideloading Tutorial
 
@@ -21,18 +27,21 @@ The Rad TV app's VR version [supports the playback of many types of videos](./#v
    * [Guide on how to format for Windows](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
    * [Guide on how to format for MacOS](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
    * [More about what is formatting](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
-2.  Once formatted, create a folder named "rad" at the root (top-level directory) of the drive.
+2.  Once formatted, create a folder named "rad" at the root (top-level directory) of the drive. The app can only see videos inside this folder.
 
     * For example, while you have your drive inserted in your Windows machine, it will have the file path: `D:/rad`, `E:/Rad`, or `Z:/RAD`. **Notice the drive letter does not matter and the folder name is case-insensitive**.
-    * Next, create another folder named whatever you prefer for your organization "Videos" > all videos need to be placed in this folder or they will not be able to be read by the app.
-    * The app supports nested folders inside of the top-level folder, so you can have something like `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`.
-    * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](sideloading.md#psvrsideloadinstructions-en-filenamingconventions).
+    * Put your videos directly in the "rad" folder, or organize them into subfolders such as `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`. Nested folders are supported.
+    * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](file-naming-conventions.md).
 
     <figure><img src="../../.gitbook/assets/PS5 Test Kit-20240426-0062.png" alt="" width="375"><figcaption><p>View of the media player settings' pop out submenu.</p></figcaption></figure>
+3. Plug the drive into your PS5, turn on your PS VR2 headset, open Rad TV and choose the VR version, then open Library, Sideloading. You can connect more than one drive; each appears in the Sideloading menu.
+
+{% hint style="success" %}
+Want the short version? See the [USB sideloading guide for PS VR2](https://rad.live/features/usb-sideloading-psvr2/) on rad.live.
+{% endhint %}
 
 ## Known Issues <a href="#psvrsideloadinstructions-en-knownissues" id="psvrsideloadinstructions-en-knownissues"></a>
 
-* Multiple drives can cause video reading issues so it is recommended to only use a single drive.
-* Videos should not contain "sbs," "ou," or any of the other phrases above unless they are intended to let the player know which type of video it should try and render.
+* Videos should not contain "sbs," "ou," or any of the other [naming convention](file-naming-conventions.md) tags unless they are intended to let the player know which type of video it should try and render.
 * If you are formatting your drive on macOS, you will need to enable Master Boot Record (MBR), otherwise, your videos may not show up.
-* Sometimes formatting your drive on macOS can cause duplicate files on the application, this is a hidden metafile generated by macOS that ends up being recognized by the PS4. One of these is the actual video and can be played back where the other is not and will not load.
+* Sometimes formatting your drive on macOS can cause duplicate files on the application, this is a hidden metafile generated by macOS that ends up being recognized by the app. One of these is the actual video and can be played back where the other is not and will not load.

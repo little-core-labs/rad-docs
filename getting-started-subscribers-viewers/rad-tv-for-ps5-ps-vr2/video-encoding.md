@@ -1,4 +1,10 @@
-# Video Encoding
+---
+description: >-
+  Which video formats, codecs and resolutions Rad TV plays on PS5 and PS VR2,
+  and how to encode files for smooth playback.
+---
+
+# PS5 and PS VR2 Video Formats and Encoding
 
 ## Encoding Quick Tips
 
