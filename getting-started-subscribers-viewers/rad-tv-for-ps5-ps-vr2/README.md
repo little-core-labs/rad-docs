@@ -1,9 +1,25 @@
+---
+description: >-
+  Play your own videos on PS5 and PS VR2. Sideload files from USB or stream from
+  a DLNA/UPnP media server like Plex or Jellyfin, including 3D, 180 and 360 VR
+  video.
+---
+
 # Rad TV for PS5 / PS VR2
 
 {% hint style="info" %}
 Rad TV for PlayStation 5 and PS VR2 is actually two applications in one: a standard version and a VR version. The standard version on the PS5 is a 2D experience while the VR version has support for the PS VR2 and stereoscopic (3D) content.
 
-Learn how to select a specific application version [here](./#how-to-choose-which-application-version).
+Learn how to select a specific application version [here](./#how-to-select-a-specific-application-version).
+{% endhint %}
+
+{% hint style="success" %}
+New to Rad TV on PS VR2? These quick guides on rad.live cover setup, plans and common questions:
+
+* [PS VR2 video player](https://rad.live/features/psvr2-video-player/)
+* [Jellyfin on PS5 and PS VR2](https://rad.live/features/jellyfin-on-ps5/)
+* [Plex and DLNA on PS5 and PS VR2](https://rad.live/features/plex-dlna-on-ps5/)
+* [USB sideloading on PS VR2](https://rad.live/features/usb-sideloading-psvr2/)
 {% endhint %}
 
 ## How to Install
@@ -31,9 +47,9 @@ Sony Interactive Entertainment removed streaming apps from its web-based store. 
 
 <div><figure><img src="../../.gitbook/assets/PS5 Test Kit-20240820-0115.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/PS5 Test Kit-20240820-0113.png" alt=""><figcaption></figcaption></figure></div>
 
-{% hint style="info" %}
-We are working on adding a button on each version's sidebar that will allow you to easily switch between application versions.
-{% endhint %}
+*   ### From the Standard Version's Sideloading or DLNA/UPnP Screen
+
+    Sideloading and DLNA/UPnP are in the VR version. Their screens in the standard version have a button that opens the VR version. Turn on your PS VR2 headset first.
 
 ## Features Supported
 

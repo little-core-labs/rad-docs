@@ -1,7 +1,17 @@
-# DLNA/UPnP
+---
+description: >-
+  Stream videos from a DLNA/UPnP media server such as Plex or Jellyfin to Rad TV
+  in PS VR2 on PS5. How to set up your server and connect, step by step.
+---
+
+# PS5 DLNA / UPnP Media Server Setup
 
 {% hint style="info" %}
 Plex was used while implementing and Jellyfin was used as an additional test point. These should be the most reliable media servers and have sufficient documentation on how to connect with Rad TV for PS5 / PS VR2.
+{% endhint %}
+
+{% hint style="success" %}
+Want the short version? See the quick guides on rad.live: [Jellyfin on PS5 and PS VR2](https://rad.live/features/jellyfin-on-ps5/) and [Plex and DLNA on PS5 and PS VR2](https://rad.live/features/plex-dlna-on-ps5/).
 {% endhint %}
 
 ## DLNA vs. UPnP

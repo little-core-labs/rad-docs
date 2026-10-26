@@ -1,4 +1,8 @@
-# Sideloading
+---
+description: Copy video files to a USB drive and play them on PS4 or PS VR with Rad TV.
+---
+
+# Sideload Videos on PS4 and PS VR
 
 The Rad TV app supports the playback of 2D/mono, 3D/stereo, 360°, and 180° videos via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read through the instructions below and reach out if you have any questions.&#x20;
 
