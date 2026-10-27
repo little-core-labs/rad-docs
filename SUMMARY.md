@@ -43,7 +43,6 @@
 * [Premium Subscriptions](premium-subscriptions/README.md)
   * [Cancel a Subscription](premium-subscriptions/cancel-a-subscription.md)
   * [Unlock Rad TV Premium with a Stream Pass NFT](premium-subscriptions/unlock-rad-tv-premium-with-a-stream-pass-nft.md)
-  * [Unlock Rad TV Premium with $ARA](premium-subscriptions/unlock-rad-tv-premium-with-usdara.md)
 * [Rad TV Developer API](rad-tv-developer-api/README.md)
   * [Introduction](rad-tv-developer-api/introduction.md)
   * [Bearer Tokens](rad-tv-developer-api/bearer-tokens.md)
