@@ -11,4 +11,4 @@
 5. If the feed you added on your Rad TV account parsed correctly it will show up as a folder (or folder thumbnail).
 
 > [!NOTE]
-> If the feed is listed on your [RSS Feeds page](https://rad.live/editaccount/?activeTab=rssfeeds) but does not show up in the application, it's likely that the application failed to parse the feed. Please check to make sure the feed follows our standards [here](../../getting-started-creators-studios-publishers/publish-rss-from-outside-server.md).
+> If the feed is listed on your [RSS Feeds page](https://rad.live/edit-account/?activeTab=rssfeeds) but does not show up in the application, it's likely that the application failed to parse the feed. Please check to make sure the feed follows our standards [here](../../getting-started-creators-studios-publishers/publish-rss-from-outside-server.md).

@@ -1,5 +1,7 @@
 # Rad TV for Web
 
+<a id="visit-radtv.com-and-start-watching-now"></a>
+
 ## Visit [rad.live](https://rad.live/) and start watching now!
 
 ## Features Supported

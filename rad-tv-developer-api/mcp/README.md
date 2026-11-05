@@ -19,17 +19,25 @@ The Rad TV API exposes a **Model Context Protocol (MCP)** server so IDEs and cod
 
 ## Protocol
 
+<a id="initialize"></a>
+
 ### Step 1: Initialize
 
 Send an `initialize` JSON-RPC request first (required).
+
+<a id="list-tools"></a>
 
 ### Step 2: List tools
 
 Use `tools/list` to get all tools and their schemas.
 
+<a id="call-tools"></a>
+
 ### Step 3: Call tools
 
 Use `tools/call` with `name` and `arguments`.
+
+<a id="resources"></a>
 
 ### Step 4: Resources
 

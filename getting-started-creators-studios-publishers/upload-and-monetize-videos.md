@@ -112,4 +112,6 @@ You will be redirected to the content on Rad TV
 
 https://discord.gg/radtv
 
+<a id="ready-to-monetize-lets-go"></a>
+
 ## Ready to monetize? Let's Go! 👇

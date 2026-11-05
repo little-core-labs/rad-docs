@@ -44,6 +44,8 @@ Search "Rad TV" on the PlayStation store.
 
 ![](../../assets/PS5%20Test%20Kit-20240820-0115.webp)![](../../assets/PS5%20Test%20Kit-20240820-0113.webp)
 
+<a id="from-the-standard-versions-sideloading-or-dlna-upnp-screen"></a>
+
 *   ### From the Standard Version's Sideloading or DLNA/UPnP Screen
 
     Sideloading and DLNA/UPnP are in the VR version. Their screens in the standard version have a button that opens the VR version. Turn on your PS VR2 headset first.

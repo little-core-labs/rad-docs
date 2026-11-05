@@ -8,7 +8,7 @@ description: Learn how to earn premium subscription credits by referring new pre
 
 We believe that sharing is caring! If you're already enjoying the perks of being a Premium subscriber, why not let your friends in on the fun? Here’s how you can share the Rad TV experience and earn rewards:
 
-1. Find Your [Unique Referral Code](https://rad.live/editaccount/) by navigating to [your account page](https://rad.live/editaccount/) on the Rad TV platform.
+1. Find Your [Unique Referral Code](https://rad.live/edit-account/) by navigating to [your account page](https://rad.live/edit-account/) on the Rad TV platform.
 
 ![](assets/1%20Head%20to%20Account%20Page.webp)
 

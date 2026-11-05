@@ -12,6 +12,8 @@ description: >-
 > [!TIP]
 > Want the short version? See the quick guides on rad.live: [Jellyfin on PS5 and PS VR2](https://rad.live/features/jellyfin-on-ps5/) and [Plex and DLNA on PS5 and PS VR2](https://rad.live/features/plex-dlna-on-ps5/).
 
+<a id="dlna-vs.-upnp"></a>
+
 ## DLNA vs. UPnP
 
 What is the difference between DLNA (Digital Living Network Alliance) and UPnP (Universal Plug and Play)? Well not much. Think of DLNA as a car and UPnP is the engine of said car. DLNA uses and extends the functionality of UPnP.
@@ -100,6 +102,8 @@ Go to Account Settings > {Server Name} > DLNA then check the "Enable the DLNA se
 "[Jellyfin ](https://jellyfin.org/)is the volunteer-built media solution that puts _you_ in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way."
 
 Jellyfin can be download for install [here](https://jellyfin.org/downloads).
+
+<a id="installing-and-configuring-dlna-plugin"></a>
 
 ### Installing & Configuring DLNA Plugin
 

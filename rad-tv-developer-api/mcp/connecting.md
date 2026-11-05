@@ -2,6 +2,8 @@
 
 Use Streamable HTTP: send JSON-RPC requests to `POST /mcp` with Bearer auth. Replace `YOUR_API_KEY` with a key from `POST /internal/v0/generate-api-key`.
 
+<a id="initialize-required-first"></a>
+
 ### Step 1: Initialize (required first)
 
 ```bash
@@ -12,6 +14,8 @@ curl -X POST http://localhost:3000/mcp \
   -H "MCP-Protocol-Version: 2025-11-25" \
   -d '{"jsonrpc":"2.0","id":1,"method":"initialize","params":{"protocolVersion":"2025-11-25","capabilities":{},"clientInfo":{"name":"curl","version":"1.0"}}}'
 ```
+
+<a id="list-tools"></a>
 
 ### Step 2: List tools
 
@@ -24,6 +28,8 @@ curl -X POST http://localhost:3000/mcp \
   -d '{"jsonrpc":"2.0","id":2,"method":"tools/list"}'
 ```
 
+<a id="call-a-tool-e.g.-get_me"></a>
+
 ### Step 3: Call a tool (e.g. get\_me)
 
 ```bash
@@ -35,6 +41,8 @@ curl -X POST http://localhost:3000/mcp \
   -d '{"jsonrpc":"2.0","id":3,"method":"tools/call","params":{"name":"get_me","arguments":{}}}'
 ```
 
+<a id="production"></a>
+
 ### Step 4: Production
 
 Use the production base URL and your real API key:
@@ -42,6 +50,8 @@ Use the production base URL and your real API key:
 ```
 https://api.rad.live/mcp
 ```
+
+<a id="ide-integration"></a>
 
 ### Step 5: IDE integration
 

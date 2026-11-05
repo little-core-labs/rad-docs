@@ -1,5 +1,7 @@
 # Changelog for VR Version
 
+<a id="letterboxing-and-trick-play-support-v1.4.24-01-31-2025"></a>
+
 ## Letterboxing and Trick Play Support (`v1.4.24`) \[01/31/2025]
 
 Please tell us what you think about this update!
@@ -47,6 +49,8 @@ Lastly, we are aware of an issue impacting RSS Feeds. Users have reported that l
 ### ⚠️ Known Issues
 
 * Trick Play does not work if the video is paused. We will further investigate this issue.
+
+<a id="home-menu-overhaul-redesigns-and-loading-v1.4.2-01-14-2025"></a>
 
 ## Home Menu Overhaul, Redesigns and Loading (`v1.4.2`) \[01/14/2025]
 
@@ -102,11 +106,15 @@ We’ve also introduced a fresh look for several menus. The redesign features up
 
 * Removed Christmas themed skyboxes.
 
+<a id="emergency-hot-patch-library-menu-visibility-v1.3.25-12-17-2024"></a>
+
 ## Emergency Hot Patch - Library Menu Visibility (`v1.3.25`) \[12/17/2024]
 
 ### 🐛 Bug Fixes
 
 * Fixed visibility issues with the Library Menu and its submenus based on user subscription or license.
+
+<a id="initial-load-improvements-v1.3.24-12-17-2024"></a>
 
 ## Initial Load Improvements (`v1.3.24`) \[12/17/2024]
 
@@ -123,6 +131,8 @@ We’ve also introduced a fresh look for several menus. The redesign features up
 
 * Ongoing investigation into long initial loading times.
 
+<a id="emergency-hot-patch-removing-hdr-support-v1.3.21-12-13-2024"></a>
+
 ## Emergency Hot Patch - Removing HDR Support (`v1.3.21`) \[12/13/2024]
 
 HDR10 support was fixed, but it also made everything render using HDR, including the UI and most importantly SDR content. So we're disabling HDR for now until we can figure how to handle HDR for SDR content.
@@ -130,6 +140,8 @@ HDR10 support was fixed, but it also made everything render using HDR, including
 ### 🐛 Bug Fixes
 
 * Temporarily disabling HDR.
+
+<a id="hdr-navigation-improvements-and-ps-vr2-controllers-fix-v1.3.20-12-13-2024"></a>
 
 ## HDR, Navigation Improvements & PS VR2 Controllers Fix (`v1.3.20`) \[12/13/2024]
 
@@ -151,6 +163,8 @@ We’d love to hear your thoughts on these HDR changes. Feedback from users with
 
 * The PS VR2 was not correctly configured to receive HDR10 color data.
 * Fixed an issue where PS VR2 Sense controllers sometimes wouldn't work or would register a single navigation twice.
+
+<a id="purchased-content-support-and-major-bug-fixes-v1.3.17-12-11-2024"></a>
 
 ## Purchased Content Support & Major Bug Fixes (`v1.3.17`) \[12/11/2024]
 
@@ -180,6 +194,8 @@ We’d love to hear your thoughts on these HDR changes. Feedback from users with
 
 * The PS VR2 Sense controllers may experience double inputs or no input when using the joysticks for navigation. Until this issue is resolved, we recommend using the DualSense Gamepad or the Media Remote instead.
 
+<a id="rss-and-sideloading-fixes-v1.3.5-11-22-2024"></a>
+
 ## RSS and Sideloading Fixes (`v1.3.5`) \[11/22/2024]
 
 RSS has finally been fixed and upgraded to the new look of the sideloading and DLNA/UPnP menus.
@@ -208,6 +224,8 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
 ### Known Issues
 
 * The sideloading menu scrolling fix noted above is fixed, however, if you navigate to the sidebar and navigate up, it also scrolls the scrolling window up. The scrolling window should only be adjusted when the content tiles are selected, not the sidebar's buttons.
+
+<a id="dlna-upnp-support-v1.3.0-11-20-2024"></a>
 
 ## DLNA/UPnP Support (`v1.3.0`) \[11/20/2024]
 
@@ -244,6 +262,8 @@ Yes, you read that right, DLNA/UPnP support is finally here. These are early day
 * Toast notifications sometimes do not show. For example, if a DLNA/UPnP server connection is lost it should show a Toast notification but it has not during in testing.
 * UPnP containers that act as options are rather buggy, however, they're still possible to use.
 * Turning off a media server while browsing can be buggy, we do not recommend doing that at this moment.
+
+<a id="minor-improvements-and-bug-fixes-v1.2.32-11-11-2024"></a>
 
 ## Minor Improvements & Bug Fixes (`v1.2.32`) \[11/11/2024]
 
@@ -304,9 +324,13 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 
 * The green eye bug is still present in the app. We are working on it, however, we believe the bug to only be occurring on 10-bit videos, not standard 8-bit videos. If you have an 8-bit video where this is happening please report it in Discord or our support email (`support@radtv.com`). Also we believe that if you correctly [name the file using the proper tags](file-naming-conventions.md) it **sometimes** plays correctly.
 
+<a id="bug-fix-v1.2.9-10-25-2024"></a>
+
 ## Bug Fix (`v1.2.9`) \[10/25/2024]
 
 * The opaque background did not get disable when playing a video causing it to obscure the video.
+
+<a id="minor-improvement-and-bug-fixes-v1.2.8-10-25-2024"></a>
 
 ## Minor Improvement & Bug Fixes (`v1.2.8`) \[10/25/2024]
 
@@ -319,6 +343,8 @@ Finally, we have altered the settings slightly with the addition of camera rotat
   * The step size is now 0.25 deg/s
 * Added opaque background image to help readability of text
   * The opacity can be adjusted in the settings if the user prefers a partial or fully transparent background
+
+<a id="halloween-vr-home-skyboxes-hdr10-and-more-v1.2.3-10-25-2024"></a>
 
 ## Halloween, VR Home, Skyboxes, HDR10 and More (`v1.2.3`) \[10/25/2024]
 
@@ -404,6 +430,8 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
 * The player controls pop out settings menu has two icons flipped. The Top-Bottom icon actually corresponds to viewing as Side-by-Side and the Side-by-Side icon actually corresponds to viewing as Top-Bottom. So for example if you want to watch a Side-by-Side video and you did not use our file naming conventions then select the Top-Bottom icon instead off the Side-by-Side icon. We are working on an immediate fix for this.
 * There is a memory leak in the video player cleanup. As a result we have found that after watching many videos at some point trying to watch another will immediately boot you out of the video and the app will throw an error. In testing it took watching 60-75 high resolution videos before this happened. Please restart the app if you experience this issue. We are working on an immediate fix.
 
+<a id="navigation-improvements-and-additional-settings-options-v1.1.23-09-30-2024"></a>
+
 ## Navigation Improvements & Additional Settings Options (`v1.1.23`) \[09/30/2024]
 
 This update focused on navigation improvements and additional playback settings within the video player.
@@ -428,6 +456,8 @@ We also released [HandBrake presets for 8K](video-encoding.md#presets) and creat
 ### **Known Issues**
 
 * Some 2dff and 3dff videos can suddenly have margins added to the bottom and right side of the viewing area. This is especially apparent in 3dff content and causes the left image to have part of the right image.
+
+<a id="settings-menu-and-minor-ui-improvements-v1.1.12-09-20-2024"></a>
 
 ## Settings Menu & Minor UI Improvements (`v1.1.12`) \[09/20/2024]
 
@@ -479,6 +509,8 @@ Please report bugs and improvements you'd like to see!
 * There may be a problem with high bitrate videos, in particular when testing a high bitrate 8K video the player froze a few times. I was able to seek past the problematic area but it did happen another time or two on the same video. Could be a problem with the video itself or the video player's demux buffer size is not large enough for high bitrate 8K videos. Needs more testing but we should be adding an option to increase the demux buffer size regardless this in the next patch.
 * The player controls popout settings menu only shows every other time you open the controls. Should also be fixed in next patch.
 
+<a id="bug-fixes-v1.1.1-09-13-2024"></a>
+
 ## Bug Fixes (`v1.1.1`) \[09/13/2024]
 
 Just a single bug fix this time. More fixes and improvements coming soon.
@@ -486,6 +518,8 @@ Just a single bug fix this time. More fixes and improvements coming soon.
 ### **Bug Fixes**
 
 * Discomfort caused by viewing player controls GUI while watching a stereoscopic video has been resolved. The video now switches to monoscopic while the player controls GUI is shown then switches back to stereoscopic after it's hidden. This is the same solution to this "Depth Conflict" problem we used on PS4 / PS VR. May try a potentially better solution in the future.
+
+<a id="the-sideloading-update-v1.1.0-09-06-2024"></a>
 
 ## The Sideloading Update (`v1.1.0`) \[09/06/2024]
 
@@ -529,6 +563,8 @@ This update brings an upgrade to the player controls UI as well as some major in
 * Subscription and License status now correctly show in account menu
 * Current time and video duration now correctly get formatted over an hour or a day. Should be able to correctly display a video duration of 365 days or longer
 * When closing a video all renderers no longer try and free their textures just the active renderers
+
+<a id="initial-release-v1.0.45-09-02-2024"></a>
 
 ## Initial Release (`v1.0.45`) \[09/02/2024]
 

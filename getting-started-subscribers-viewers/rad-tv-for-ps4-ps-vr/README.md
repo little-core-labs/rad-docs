@@ -28,6 +28,8 @@ Search "Rad TV" on the PlayStation store. Available for PS4 and PS5 consoles, PS
 > [!NOTE]
 > ¹ Requires a [Premium subscription](../premium-and-free-on-demand-video-and-free-tv.md).
 
+<a id="video-and-photo-formats-supported"></a>
+
 ## Video & Photo Formats Supported
 
 |  | Spherical 360° | Spherical 180° | Fixed Frame (ff) |
@@ -44,4 +46,4 @@ Search "Rad TV" on the PlayStation store. Available for PS4 and PS5 consoles, PS
 5. If the feed you added on your Rad TV account parsed correctly it will show up as a folder (or folder thumbnail).
 
 > [!NOTE]
-> If the feed is listed on your [RSS Feeds page](https://rad.live/editaccount/?activeTab=rssfeeds) but does not show up in the application, it's likely that the application failed to parse the feed. Please check to make sure the feed follows our standards.
+> If the feed is listed on your [RSS Feeds page](https://rad.live/edit-account/?activeTab=rssfeeds) but does not show up in the application, it's likely that the application failed to parse the feed. Please check to make sure the feed follows our standards.

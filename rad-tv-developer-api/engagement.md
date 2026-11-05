@@ -14,6 +14,8 @@ Content and catalog types (Feature, Episode, Stream, Serie, Season, Miniseries) 
 > [!NOTE]
 > `likes` is never null; when unauthenticated or on error, `count` is `0` and `isLiked` is `false`.
 
+<a id="like-unlike-by-did"></a>
+
 ### Like / unlike (by DID)
 
 GraphQL:
@@ -71,7 +73,11 @@ MCP: `create_comment` with `contentId` and `body`.
 
 The authenticated user is set as the comment author. Comments are stored and queried via the User API (12core).
 
+<a id="channel-follow-unfollow"></a>
+
 ## Channel follow / unfollow
+
+<a id="follow-unfollow"></a>
 
 ### Follow / unfollow
 

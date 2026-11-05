@@ -80,6 +80,8 @@ Content and channel metadata can include **categories** for filtering. Query all
 
 Categories have `id` (DID), and metadata (name, summary, shortSummary). Use them in filters and UI.
 
+<a id="follow-unfollow"></a>
+
 ## Follow / unfollow
 
 * **GraphQL:** `followChannel(channel: DID!)`, `unfollowChannel(channel: DID!)`
