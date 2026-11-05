@@ -27,25 +27,17 @@ Description: Guide to create content, create content asset, then upload file via
 
 Summary:
 
-{% stepper %}
-{% step %}
-### Create content
+### Step 1: Create content
 
 Call `create_content` with title/summary/type.
-{% endstep %}
 
-{% step %}
-### Create content asset
+### Step 2: Create content asset
 
 Call `create_content_asset` with the returned content id, filename, and size.
-{% endstep %}
 
-{% step %}
-### Upload file
+### Step 3: Upload file
 
 POST the file to the returned endpoint with the header `Authorization: Bearer <api-key>` and `Content-Type: multipart/form-data`.
-{% endstep %}
-{% endstepper %}
 
 ***
 

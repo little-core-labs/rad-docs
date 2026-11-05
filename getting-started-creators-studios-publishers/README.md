@@ -2,7 +2,7 @@
 
 **Overview:**
 
-Rad TV is a streaming platform for creators and studios to distribute video globally, across devices, and directly to fans.&#x20;
+Rad TV is a streaming platform for creators and studios to distribute video globally, across devices, and directly to fans.
 
 Rad TV has apps on, and distribution to, major streaming devices like Apple TV, iPhone, iPad, Android Mobile & TV, PlayStation, Amazon Fire, Meta Quest, Chromecast, & Web. Search for Rad TV wherever you get your apps or on your PlayStation Console (not in PS store). 🤙
 
@@ -19,11 +19,11 @@ Rad TV has apps on, and distribution to, major streaming devices like Apple TV, 
 * Distribute globally to major streaming devices, including VR
 * Almost no restrictions on your storytelling
 
-Rad TV's Creator Studio provides creators and studios access to add content to the Rad TV Premium Subscription, publish free videos, view earnings and analytics, and manage their business.&#x20;
+Rad TV's Creator Studio provides creators and studios access to add content to the Rad TV Premium Subscription, publish free videos, view earnings and analytics, and manage their business.
 
 Creators can upload nearly any type of video file and monetize their content through our traditional Premium and Premium+ subscriptions.
 
-**Multiple Ways to Sell or Publish Free Content:**&#x20;
+**Multiple Ways to Sell or Publish Free Content:**
 
 * Include in the Rad TV Premium Subscription
 * Distribute FAST (Free Ad Supported TV) Channels

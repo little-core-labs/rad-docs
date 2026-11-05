@@ -58,15 +58,13 @@ query {
 
 ### Playlist image upload
 
-{% stepper %}
-{% step %}
-Call `createPlaylistAsset(id, input)` (GraphQL) or `create_playlist_asset` (MCP) with playlist DID, filename, and optional size.
-{% endstep %}
+### Step 1
 
-{% step %}
+Call `createPlaylistAsset(id, input)` (GraphQL) or `create_playlist_asset` (MCP) with playlist DID, filename, and optional size.
+
+### Step 2
+
 POST the image to the returned `endpoint` with Bearer auth and multipart/form-data.
-{% endstep %}
-{% endstepper %}
 
 ### Playlist fields
 

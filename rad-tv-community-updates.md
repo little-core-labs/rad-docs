@@ -6,4 +6,4 @@ hidden: true
 
 ### We post updates every other Friday in our discord announcements channel.
 
-{% embed url="https://discord.gg/radtv" %}
+https://discord.gg/radtv

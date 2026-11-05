@@ -19,6 +19,5 @@
 | Trick Play Forward / Seek Forward Far  | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/PlayStation_button_R2.svg/20px-PlayStation_button_R2.svg.png)             | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/PlayStation_button_R2.svg/20px-PlayStation_button_R2.svg.png)             |                   |
 | Rotate Camera (Spherical Videos Only)  | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/PlayStation_button_analog_R.svg/20px-PlayStation_button_analog_R.svg.png) | ![](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/PlayStation_button_analog_R.svg/20px-PlayStation_button_analog_R.svg.png) |                   |
 
-{% hint style="info" %}
-The [PlayStation icons](https://commons.wikimedia.org/wiki/Category:PlayStation_controller_buttons) were made by [VictorPines](https://commons.wikimedia.org/wiki/User:VictorPines) and are licensed under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license.
-{% endhint %}
+> [!NOTE]
+> The [PlayStation icons](https://commons.wikimedia.org/wiki/Category:PlayStation_controller_buttons) were made by [VictorPines](https://commons.wikimedia.org/wiki/User:VictorPines) and are licensed under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/deed.en) license.

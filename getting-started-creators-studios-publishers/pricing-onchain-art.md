@@ -23,7 +23,7 @@ Pricing art for onchain marketplaces requires a delicate balance. As a creator, 
 * **1 of 1 Artworks:** These are your most exclusive creations. Price them higher to reflect their unique nature. Collectors seeking originality and exclusivity often perceive 1 of 1 pieces to have a higher value.
 * **Limited Editions:** With a set number of pieces available, you can balance accessibility and exclusivity. Price limited editions lower than 1 of 1s but high enough to reflect their scarcity.
 * **Timed Editions:** These are open to anyone who buys within a set time frame. Pricing should be accessible but not so low that it dilutes the perceived value. Consider aligning the price with your audience size and anticipated demand to create a sense of urgency.
-* **Tip:** If you are creating a limited edition piece, consider what you would charge for that same piece if you were making it available as a 1-of-1. Divide that price by the number of editions you plan to make available. eg: If you would charge $100 for the 1-of-1 and you intend make 10 editions available—you can charge $10 per edition and create the same $100 earning potential.&#x20;
+* **Tip:** If you are creating a limited edition piece, consider what you would charge for that same piece if you were making it available as a 1-of-1. Divide that price by the number of editions you plan to make available. eg: If you would charge $100 for the 1-of-1 and you intend make 10 editions available—you can charge $10 per edition and create the same $100 earning potential.
 
 **Factor in ETH Price Volatility**
 

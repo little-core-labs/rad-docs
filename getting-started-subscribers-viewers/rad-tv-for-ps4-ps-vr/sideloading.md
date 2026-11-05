@@ -4,19 +4,21 @@ description: Copy video files to a USB drive and play them on PS4 or PS VR with 
 
 # Sideload Videos on PS4 and PS VR
 
-The Rad TV app supports the playback of 2D/mono, 3D/stereo, 360°, and 180° videos via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read through the instructions below and reach out if you have any questions.&#x20;
+The Rad TV app supports the playback of 2D/mono, 3D/stereo, 360°, and 180° videos via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read through the instructions below and reach out if you have any questions.
 
 Sideloaded videos can also be viewed in [Offline Mode](https://littlstar.zendesk.com/hc/en-us/articles/360028883451).
 
 ### Rad TV Sideloading Tutorial
 
-{% embed url="https://rad.live/watch/feature/1cd684ba-1041-4cf7-8949-271d39a26144/" %}
+https://rad.live/watch/feature/1cd684ba-1041-4cf7-8949-271d39a26144/
+
 Sideloading Tutoral on Rad TV
-{% endembed %}
 
-{% embed url="https://www.youtube.com/watch?v=-a-kZZkK-9c" %}
+https://www.youtube.com/watch?v=-a-kZZkK-9c
 
-## External Drive Setup (PlayStation) <a href="#psvrsideloadinstructions-en-externaldrivesetup" id="psvrsideloadinstructions-en-externaldrivesetup"></a>
+<a id="psvrsideloadinstructions-en-externaldrivesetup"></a>
+
+## External Drive Setup (PlayStation)
 
 1. Format your drive as exFAT or FAT32. **NOTE: This will erase all files on the drive! Ensure you've backed up all important data on your drive before performing this step.**
 2. Once formatted, create a folder named "Rad" at the root (top-level directory) of the drive.<br>
@@ -26,32 +28,46 @@ Sideloading Tutoral on Rad TV
    * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the type inside the application before playing the video \[see: [Metadata Settings](https://littlstar.zendesk.com/hc/en-us/articles/360028563652)] or you will need to name your file with the following naming conventions.
    * Folders named "Littlstar" and "Littlestar" should still work, however there have been some reports that some hard drives no longer show up with these names. We recommend changing the folder name to "Rad".
 
-## File naming conventions <a href="#psvrsideloadinstructions-en-filenamingconventions" id="psvrsideloadinstructions-en-filenamingconventions"></a>
+<a id="psvrsideloadinstructions-en-filenamingconventions"></a>
+
+## File naming conventions
 
 There are specific naming conventions to which videos must adhere for the app to automatically recognize the type of video it needs to render. By default, the Rad TV player will attempt to render a **fixed-frame** video. Therefore it is not necessary to explicitly add "ff" to the file name unless it's 3D, in which case "3dff" should be appended to the file name.
 
-### 180° Videos <a href="#psvrsideloadinstructions-en-180videos" id="psvrsideloadinstructions-en-180videos"></a>
+<a id="psvrsideloadinstructions-en-180videos"></a>
+
+### 180° Videos
 
 * file name needs to contain "180"
 
-### 360° Videos <a href="#psvrsideloadinstructions-en-360videos" id="psvrsideloadinstructions-en-360videos"></a>
+<a id="psvrsideloadinstructions-en-360videos"></a>
+
+### 360° Videos
 
 * file name needs to contain "360"
 
-### Fixed Frame Videos <a href="#psvrsideloadinstructions-en-fixedframevideos" id="psvrsideloadinstructions-en-fixedframevideos"></a>
+<a id="psvrsideloadinstructions-en-fixedframevideos"></a>
+
+### Fixed Frame Videos
 
 * file name needs to contain either "3dff" if 3D fixed frame video
 * for 3D videos, if each sub-frame is the full resolution, file name needs to contain "FR". (Note: most videos are packed into the frame to be half resolution, so this extension isn't usually needed.)
 
-### OverUnder/TopBottom Videos <a href="#psvrsideloadinstructions-en-overunder-topbottomvideos" id="psvrsideloadinstructions-en-overunder-topbottomvideos"></a>
+<a id="psvrsideloadinstructions-en-overunder-topbottomvideos"></a>
+
+### OverUnder/TopBottom Videos
 
 * file name needs to contain either "ou", "tb", or "bt"
 
-### SideBySide/LeftRight Videos <a href="#psvrsideloadinstructions-en-sidebyside-leftrightvideos" id="psvrsideloadinstructions-en-sidebyside-leftrightvideos"></a>
+<a id="psvrsideloadinstructions-en-sidebyside-leftrightvideos"></a>
+
+### SideBySide/LeftRight Videos
 
 * file name needs to contain either "sbs", "lr" or "rl"
 
-### Examples: <a href="#psvrsideloadinstructions-en-examples" id="psvrsideloadinstructions-en-examples"></a>
+<a id="psvrsideloadinstructions-en-examples"></a>
+
+### Examples:
 
 * myvideo.mp4
 * myvideo\_180.mp4
@@ -75,7 +91,9 @@ There are specific naming conventions to which videos must adhere for the app to
 * myvideo\_3dff\_lr.mp4
 * myvideo\_3dff\_rl.mp4
 
-## Thumbnails and Metadata <a href="#psvrsideloadinstructions-en-thumbnailsandmetadata" id="psvrsideloadinstructions-en-thumbnailsandmetadata"></a>
+<a id="psvrsideloadinstructions-en-thumbnailsandmetadata"></a>
+
+## Thumbnails and Metadata
 
 As of version 1.20, you can add a thumbnail, title, and description information by setting the metadata of the Mp4 file. We utilize the MPEG4 standard for metadata.
 
@@ -83,7 +101,7 @@ In order to add a thumbnail, you must have an existing png or jpg you wish to ad
 
 **Setting thumbnails with iTunes**
 
-There are many tools for editing media file metadata. iTunes is a popular tool for this.&#x20;
+There are many tools for editing media file metadata. iTunes is a popular tool for this.
 
 1. Open iTunes
 2. File → Add Folder to Library
@@ -104,15 +122,18 @@ There are many tools for editing media file metadata. iTunes is a popular tool f
 6. Import cover from file → Ok
 7. Format string for image filename → %\_filename%.jpg → Ok
 
-{% hint style="info" %}
-Mp3tag will remux the mp4 when embedding the jpg image. This can take a while depending on the file size of the mp4.
-{% endhint %}
+> [!NOTE]
+> Mp3tag will remux the mp4 when embedding the jpg image. This can take a while depending on the file size of the mp4.
 
-## Recommended Settings <a href="#psvrsideloadinstructions-en-recommendedsettings" id="psvrsideloadinstructions-en-recommendedsettings"></a>
+<a id="psvrsideloadinstructions-en-recommendedsettings"></a>
+
+## Recommended Settings
 
 To ensure proper playback and to be able to support as many videos as possible, we recommend following our encoding guidelines found here: [Media Encoding Guidelines](https://littlstar.zendesk.com/hc/en-us/articles/360030455112)
 
-## Known Issues <a href="#psvrsideloadinstructions-en-knownissues" id="psvrsideloadinstructions-en-knownissues"></a>
+<a id="psvrsideloadinstructions-en-knownissues"></a>
+
+## Known Issues
 
 * Video files will not load if the video's format extension is not lowercase (IE ".mp4", not ".MP4").
 * Multiple USB sticks can cause video reading issues so it is recommended to only use a single drive that has been inserted **before** the application starts.

@@ -22,9 +22,8 @@ All queries are executed via `POST /graphql` with a JSON body. Most require `Aut
 | `youtubeVideos(pageToken, limit)`            | yes    | User's YouTube videos (requires connected account)                                                           |
 | `youtubePublishJob(id)`                      | yes    | Status of a YouTube publish job                                                                              |
 
-{% hint style="info" %}
-Pagination: List queries accept `limit` and `start` (e.g. `channels(limit: 20, start: 0)`). There is no cursor-based pagination in the schema; use `start` as an offset for the next page.
-{% endhint %}
+> [!NOTE]
+> Pagination: List queries accept `limit` and `start` (e.g. `channels(limit: 20, start: 0)`). There is no cursor-based pagination in the schema; use `start` as an offset for the next page.
 
 ## Single-entity queries
 

@@ -17,7 +17,7 @@ The AI Subtitle Generation process is part of the pre-processing of the video, s
 
 **Additional considerations for Subtitle Generation:**
 
-* \~100 languages are supported, including some of the most widely spoken like English, Spanish, French, German, Japanese, Korean, Chinese, Arabic, Dutch, Italian, and Portuguese.&#x20;
+* \~100 languages are supported, including some of the most widely spoken like English, Spanish, French, German, Japanese, Korean, Chinese, Arabic, Dutch, Italian, and Portuguese.
 * You can currently only have one language in the subtitle track. You can't have 3 different subtitle tracks in English, Spanish, and Japanese for example.
 * Subtitles can be generated from the same language that's in the audio. For example, if the audio is in Italian, the subtitles can be generated in Italian (or English, see below).
 * Subtitles can be translated from any language audio to English. Subtitles cannot be translated to any other language except English at the moment. For example, if you have language in the audio that is German, you cannot create subtitles that are in Italian. You can only translate to English.

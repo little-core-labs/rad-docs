@@ -22,9 +22,8 @@ JWTs are issued by the platform when a user logs in (e.g. via Rad web or mobile)
 
 * GraphQL requests as the logged-in user
 
-{% hint style="warning" %}
-Do not use JWTs for long-lived scripts or MCP from IDEs; use an API key instead.
-{% endhint %}
+> [!WARNING]
+> Do not use JWTs for long-lived scripts or MCP from IDEs; use an API key instead.
 
 ## API keys
 
@@ -34,9 +33,8 @@ API keys are long-lived tokens generated from a JWT. Use them for:
 * Scripts and automated clients
 * `POST /ingestion/:id` uploads
 
-{% hint style="info" %}
-API keys are intended for programmatic/long-lived use; JWTs are for interactive user sessions.
-{% endhint %}
+> [!NOTE]
+> API keys are intended for programmatic/long-lived use; JWTs are for interactive user sessions.
 
 ## Invalid or missing token
 

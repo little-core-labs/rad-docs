@@ -10,4 +10,4 @@ Check out this [how-to video](https://rad.live/watch/feature/ff02e32a-80c5-4dfb-
 
 After you have uploaded content to your Rad TV channel you can easily access the embed code by navigating to your Creator Studio > Clicking My Videos > from here you can see the embed code for each video you have uploaded. A simple click will copy the embed code to your clipboard.
 
-You can also head to the contents playback page on Rad TV and click the share icon > choose embed > copy the code in 1 click > paste and you are done!&#x20;
+You can also head to the contents playback page on Rad TV and click the share icon > choose embed > copy the code in 1 click > paste and you are done!

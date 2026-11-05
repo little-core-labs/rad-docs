@@ -4,6 +4,6 @@ For the fastest support, join our Discord and tag our team—or DM us directly o
 
 Join the Discord here! 👇
 
-{% embed url="https://discord.gg/radtv" %}
+https://discord.gg/radtv
 
 DM us on 𝕏  👉  [https://x.com/RadTV\_\_](https://x.com/RadTV__)

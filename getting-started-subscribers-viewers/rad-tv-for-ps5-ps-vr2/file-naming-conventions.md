@@ -8,7 +8,9 @@ description: >-
 
 There are specific naming conventions to which videos must adhere for the app to automatically recognize the type of video it needs to render. By default, the app will attempt to render a **Rectangle** with a **Monoscopic** projection, therefore, it is not necessary to explicitly append any tags to the file name.
 
-## Content Type <a href="#psvrsideloadinstructions-en-fixedframevideos" id="psvrsideloadinstructions-en-fixedframevideos"></a>
+<a id="psvrsideloadinstructions-en-fixedframevideos"></a>
+
+## Content Type
 
 * #### Rectangle
   * This refers to the 'Rectangle' content type setting in the video player settings submenu.

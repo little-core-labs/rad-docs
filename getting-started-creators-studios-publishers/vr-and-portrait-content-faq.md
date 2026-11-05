@@ -6,7 +6,7 @@ description: >-
 
 # VR and Portrait Content FAQ
 
-**Creators can now distribute and monetize VR and Portait videos with Rad TV!**&#x20;
+**Creators can now distribute and monetize VR and Portait videos with Rad TV!**
 
 In order for VR and Portrait videos to render correctly creators must assign the appropriate ‘hint’ in the video details. This hint tells us how your content is encoded and ensures that the content is displayed correctly during playback.
 
@@ -15,33 +15,33 @@ Follow these instructions to set the hint for your content:
 1. Upload your content ([Learn about uploading content](customizing-your-rad-tv-channel.md))
 2. Head to the video details page by clicking the pencil icon associated with your video in your [creator dashboard](https://rad.live/channel/).
 
-<figure><img src="../.gitbook/assets/0 VR Hint - Click the pencil icon on the video you want to set a hint for.jpeg" alt=""><figcaption><p>Navigate to the Video Details Page</p></figcaption></figure>
+![](../assets/0%20VR%20Hint%20-%20Click%20the%20pencil%20icon%20on%20the%20video%20you%20want%20to%20set%20a%20hint%20for.webp "Navigate to the Video Details Page")
 
 3. You will be taken to the Video Details page where you can edit metadata and hints.
 
-<figure><img src="../.gitbook/assets/1 VR Hints - Head to Video Details Page.png" alt=""><figcaption><p>Video Details Page</p></figcaption></figure>
+![](../assets/1%20VR%20Hints%20-%20Head%20to%20Video%20Details%20Page.webp "Video Details Page")
 
 4. Enable the VR or Portrait Video hints by clicking on the toggle button pictured below 👇
 
-<figure><img src="../.gitbook/assets/2 VR Hint - Click the VR or Portrait Mode Toggle (1).jpeg" alt=""><figcaption><p>Click the VR or Portrait Toggle Button</p></figcaption></figure>
+![](../assets/2%20VR%20Hint%20-%20Click%20the%20VR%20or%20Portrait%20Mode%20Toggle%20%281%29.webp "Click the VR or Portrait Toggle Button")
 
 5. Once enabled a dropdown box will appear. Click the dropdown box to view hints.
 
-<figure><img src="../.gitbook/assets/3 VR Hint - Click Video Hints dropdown box (1).jpeg" alt=""><figcaption></figcaption></figure>
+![](../assets/3%20VR%20Hint%20-%20Click%20Video%20Hints%20dropdown%20box%20%281%29.webp)
 
 6. A list of options will appear. Select the hint that aligns with the content type.
 
-<figure><img src="../.gitbook/assets/4 VR hint - Select Appropriate Hint (1).jpeg" alt=""><figcaption><p>Select the Video Hint</p></figcaption></figure>
+![](../assets/4%20VR%20hint%20-%20Select%20Appropriate%20Hint%20%281%29.webp "Select the Video Hint")
 
 7. Once selected you'll see your selection has populated the box for Video hints.
 
-<figure><img src="../.gitbook/assets/5 VR Hints - Selected Hint populates dropdown box.jpeg" alt=""><figcaption></figcaption></figure>
+![](../assets/5%20VR%20Hints%20-%20Selected%20Hint%20populates%20dropdown%20box.webp)
 
 8. When everything looks good click the save button.
 
-<figure><img src="../.gitbook/assets/6 VR hint - Click the save button.jpeg" alt=""><figcaption><p>Save your changes</p></figcaption></figure>
+![](../assets/6%20VR%20hint%20-%20Click%20the%20save%20button.webp "Save your changes")
 
-You’re all set! Now check the playback on your favorite device to ensure you selected the correct hint. If you are unsure which hint is best or if the content is not displaying correctly try selecting a different hint.&#x20;
+You’re all set! Now check the playback on your favorite device to ensure you selected the correct hint. If you are unsure which hint is best or if the content is not displaying correctly try selecting a different hint.
 
 If you continue to experience issues with your content playback after trying all available hints feel free to contact us at support@rad.live.
 
