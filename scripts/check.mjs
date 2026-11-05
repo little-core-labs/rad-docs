@@ -105,7 +105,7 @@ function main() {
     if (entry && page.h1 && entry.label !== page.h1) error(file, `H1 "${page.h1}" differs from SUMMARY label "${entry.label}"`);
     if (!page.data.description) warn(file, "no description in frontmatter");
     if (/\{%|\.gitbook\//.test(page.raw)) error(file, "GitBook markup or .gitbook/ path left over");
-    if (/—/.test(page.raw)) warn(file, "contains an em dash");
+    if (page.raw.includes(String.fromCharCode(8212))) warn(file, "contains an em dash");
 
     for (const { url, line } of page.links) {
       if (/^(https?:|mailto:|tel:)/.test(url)) continue;
