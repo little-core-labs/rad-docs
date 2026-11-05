@@ -1,5 +1,7 @@
 # Resources and Prompts
 
+<a id="resource-rad-api-capabilities"></a>
+
 ## Resource: rad://api/capabilities
 
 The MCP server exposes one resource: **`rad://api/capabilities`**.
@@ -27,25 +29,23 @@ Description: Guide to create content, create content asset, then upload file via
 
 Summary:
 
-{% stepper %}
-{% step %}
-### Create content
+<a id="create-content"></a>
+
+### Step 1: Create content
 
 Call `create_content` with title/summary/type.
-{% endstep %}
 
-{% step %}
-### Create content asset
+<a id="create-content-asset"></a>
+
+### Step 2: Create content asset
 
 Call `create_content_asset` with the returned content id, filename, and size.
-{% endstep %}
 
-{% step %}
-### Upload file
+<a id="upload-file"></a>
+
+### Step 3: Upload file
 
 POST the file to the returned endpoint with the header `Authorization: Bearer <api-key>` and `Content-Type: multipart/form-data`.
-{% endstep %}
-{% endstepper %}
 
 ***
 
@@ -58,6 +58,8 @@ Summary:
 Use the `follow_channel` tool with the channel DID (e.g. `did:rad.live:channel/<uuid>`). Get channel DIDs from `list_followed_channels` or from the API.
 
 ***
+
+<a id="llms.txt"></a>
 
 ## llms.txt
 

@@ -1,5 +1,7 @@
 # Changelog for VR Version
 
+<a id="letterboxing-and-trick-play-support-v1.4.24-01-31-2025"></a>
+
 ## Letterboxing and Trick Play Support (`v1.4.24`) \[01/31/2025]
 
 Please tell us what you think about this update!
@@ -14,9 +16,9 @@ Lastly, we are aware of an issue impacting RSS Feeds. Users have reported that l
 
 * Added letterbox support, meaning videos are no longer forced to a 16:9 aspect ratio.
 
-<figure><img src="../../.gitbook/assets/letterboxing_portrait_support.png" alt="" width="375"><figcaption><p>Letterboxing Portrait Support</p></figcaption></figure>
+![](../../assets/letterboxing_portrait_support.webp "Letterboxing Portrait Support")
 
-<div><figure><img src="../../.gitbook/assets/letterboxing_overriding_aspect_ratio.png" alt=""><figcaption><p>Letterboxing Using Wrong Aspect Ratio</p></figcaption></figure> <figure><img src="../../.gitbook/assets/letterboxing_wrong_aspect_ratio.png" alt=""><figcaption><p>Letterboxing Overriding Wrong Aspect Ratio</p></figcaption></figure></div>
+![](../../assets/letterboxing_overriding_aspect_ratio.webp "Letterboxing Using Wrong Aspect Ratio")![](../../assets/letterboxing_wrong_aspect_ratio.webp "Letterboxing Overriding Wrong Aspect Ratio")
 
 * Player Controls GUI
   * Improved navigation
@@ -47,6 +49,8 @@ Lastly, we are aware of an issue impacting RSS Feeds. Users have reported that l
 ### ⚠️ Known Issues
 
 * Trick Play does not work if the video is paused. We will further investigate this issue.
+
+<a id="home-menu-overhaul-redesigns-and-loading-v1.4.2-01-14-2025"></a>
 
 ## Home Menu Overhaul, Redesigns and Loading (`v1.4.2`) \[01/14/2025]
 
@@ -102,11 +106,15 @@ We’ve also introduced a fresh look for several menus. The redesign features up
 
 * Removed Christmas themed skyboxes.
 
+<a id="emergency-hot-patch-library-menu-visibility-v1.3.25-12-17-2024"></a>
+
 ## Emergency Hot Patch - Library Menu Visibility (`v1.3.25`) \[12/17/2024]
 
 ### 🐛 Bug Fixes
 
 * Fixed visibility issues with the Library Menu and its submenus based on user subscription or license.
+
+<a id="initial-load-improvements-v1.3.24-12-17-2024"></a>
 
 ## Initial Load Improvements (`v1.3.24`) \[12/17/2024]
 
@@ -123,6 +131,8 @@ We’ve also introduced a fresh look for several menus. The redesign features up
 
 * Ongoing investigation into long initial loading times.
 
+<a id="emergency-hot-patch-removing-hdr-support-v1.3.21-12-13-2024"></a>
+
 ## Emergency Hot Patch - Removing HDR Support (`v1.3.21`) \[12/13/2024]
 
 HDR10 support was fixed, but it also made everything render using HDR, including the UI and most importantly SDR content. So we're disabling HDR for now until we can figure how to handle HDR for SDR content.
@@ -130,6 +140,8 @@ HDR10 support was fixed, but it also made everything render using HDR, including
 ### 🐛 Bug Fixes
 
 * Temporarily disabling HDR.
+
+<a id="hdr-navigation-improvements-and-ps-vr2-controllers-fix-v1.3.20-12-13-2024"></a>
 
 ## HDR, Navigation Improvements & PS VR2 Controllers Fix (`v1.3.20`) \[12/13/2024]
 
@@ -151,6 +163,8 @@ We’d love to hear your thoughts on these HDR changes. Feedback from users with
 
 * The PS VR2 was not correctly configured to receive HDR10 color data.
 * Fixed an issue where PS VR2 Sense controllers sometimes wouldn't work or would register a single navigation twice.
+
+<a id="purchased-content-support-and-major-bug-fixes-v1.3.17-12-11-2024"></a>
 
 ## Purchased Content Support & Major Bug Fixes (`v1.3.17`) \[12/11/2024]
 
@@ -180,6 +194,8 @@ We’d love to hear your thoughts on these HDR changes. Feedback from users with
 
 * The PS VR2 Sense controllers may experience double inputs or no input when using the joysticks for navigation. Until this issue is resolved, we recommend using the DualSense Gamepad or the Media Remote instead.
 
+<a id="rss-and-sideloading-fixes-v1.3.5-11-22-2024"></a>
+
 ## RSS and Sideloading Fixes (`v1.3.5`) \[11/22/2024]
 
 RSS has finally been fixed and upgraded to the new look of the sideloading and DLNA/UPnP menus.
@@ -190,9 +206,9 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
   * Now using look of Sideloading and DLNA/UPnP menus
   * Thumbnail support added
 
-<div><figure><img src="../../.gitbook/assets/rss_1.jpg" alt=""><figcaption><p>RSS Feeds Example 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/rss_2.jpg" alt=""><figcaption><p>RSS Feeds Example 2</p></figcaption></figure></div>
+![](../../assets/rss_1.webp "RSS Feeds Example 1")![](../../assets/rss_2.webp "RSS Feeds Example 2")
 
-<div><figure><img src="../../.gitbook/assets/rss_3.jpg" alt=""><figcaption><p>RSS Feeds Example 3</p></figcaption></figure> <figure><img src="../../.gitbook/assets/rss_4.jpg" alt=""><figcaption><p>RSS Feeds Example 4</p></figcaption></figure></div>
+![](../../assets/rss_3.webp "RSS Feeds Example 3")![](../../assets/rss_4.webp "RSS Feeds Example 4")
 
 ### Bug Fixes
 
@@ -209,17 +225,19 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
 
 * The sideloading menu scrolling fix noted above is fixed, however, if you navigate to the sidebar and navigate up, it also scrolls the scrolling window up. The scrolling window should only be adjusted when the content tiles are selected, not the sidebar's buttons.
 
+<a id="dlna-upnp-support-v1.3.0-11-20-2024"></a>
+
 ## DLNA/UPnP Support (`v1.3.0`) \[11/20/2024]
 
-Yes, you read that right, DLNA/UPnP support is finally here. These are early days so there will be issues due to the amount of different media server applications all having their own quirks and sheer complexity of DLNA/UPnP. Plex and Jellyfin should be the most reliable as those are what were tested on the most. Please read the [docs](https://docs.rad.live/rad/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/dlna-upnp) for more info on DLNA/UPnP, especially if using Jellyfin as that requires special configuration to work.
+Yes, you read that right, DLNA/UPnP support is finally here. These are early days so there will be issues due to the amount of different media server applications all having their own quirks and sheer complexity of DLNA/UPnP. Plex and Jellyfin should be the most reliable as those are what were tested on the most. Please read the [docs](dlna-upnp.md) for more info on DLNA/UPnP, especially if using Jellyfin as that requires special configuration to work.
 
-<figure><img src="../../.gitbook/assets/dnla_devices.png" alt="" width="375"><figcaption><p>DLNA Devices Example</p></figcaption></figure>
+![](../../assets/dnla_devices.webp "DLNA Devices Example")
 
-<figure><img src="../../.gitbook/assets/dnla_jellyfin_items.png" alt="" width="375"><figcaption><p>DLNA Jellyfin Items Example</p></figcaption></figure>
+![](../../assets/dnla_jellyfin_items.webp "DLNA Jellyfin Items Example")
 
-<div><figure><img src="../../.gitbook/assets/dlna_plex_items.png" alt=""><figcaption><p>DLNA Plex Items Example</p></figcaption></figure> <figure><img src="../../.gitbook/assets/dlna_plex_items_unsupported.png" alt=""><figcaption><p>DLNA Plex Items Unsupported Example</p></figcaption></figure></div>
+![](../../assets/dlna_plex_items.webp "DLNA Plex Items Example")![](../../assets/dlna_plex_items_unsupported.webp "DLNA Plex Items Unsupported Example")
 
-<div><figure><img src="../../.gitbook/assets/dnla_video_preview.png" alt=""><figcaption><p>DLNA Video Preview Example</p></figcaption></figure> <figure><img src="../../.gitbook/assets/dlna_video_playback.png" alt=""><figcaption><p>DLNA Video Playback Example</p></figcaption></figure></div>
+![](../../assets/dnla_video_preview.webp "DLNA Video Preview Example")![](../../assets/dlna_video_playback.webp "DLNA Video Playback Example")
 
 ### New Features & Improvements
 
@@ -245,31 +263,33 @@ Yes, you read that right, DLNA/UPnP support is finally here. These are early day
 * UPnP containers that act as options are rather buggy, however, they're still possible to use.
 * Turning off a media server while browsing can be buggy, we do not recommend doing that at this moment.
 
+<a id="minor-improvements-and-bug-fixes-v1.2.32-11-11-2024"></a>
+
 ## Minor Improvements & Bug Fixes (`v1.2.32`) \[11/11/2024]
 
 We definitely missed the mark on the player controls with the last patch. After some feedback and bug reports (thank you all!), the controls have been improved and are fully functioning.  We added the ability to pause/play using just the X button. The bug that affected hiding player controls using thumbsticks has also been fixed.
 
 One of the biggest improvements is that you can now rotate the camera using the right joystick on 180° and 360° videos. Technically, as you may notice, this feature actually rotates the sphere or semi-sphere the video plays on, however, referring to this as "camera rotation" is more easily understood. The reason we do not actually rotate the camera is because it keeps the player controls center. If you recenter your PSVR2 it will always be right there front and center not behind you or out of sight.
 
-Finally, we have altered the settings slightly with the addition of camera rotation on spherical videos. Here is the [new controls docs page](https://docs.rad.live/rad/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/controls-for-vr-version) and this will be updated if/when we alter anything in the future.
+Finally, we have altered the settings slightly with the addition of camera rotation on spherical videos. Here is the [new controls docs page](controls-for-vr-version.md) and this will be updated if/when we alter anything in the future.
 
 ### New Features & Improvements
 
 * Added UI scaling in settings
 
-<div><figure><img src="../../.gitbook/assets/ui_scaling_30_degrees.png" alt=""><figcaption><p>UI Scaling 30 degrees</p></figcaption></figure> <figure><img src="../../.gitbook/assets/ui_scaling_60_degrees.png" alt=""><figcaption><p>UI Scaling 60 degrees</p></figcaption></figure> <figure><img src="../../.gitbook/assets/ui_scaling_90_degrees.png" alt=""><figcaption><p>UI Scaling 90 degrees</p></figcaption></figure></div>
+![](../../assets/ui_scaling_30_degrees.webp "UI Scaling 30 degrees")![](../../assets/ui_scaling_60_degrees.webp "UI Scaling 60 degrees")![](../../assets/ui_scaling_90_degrees.webp "UI Scaling 90 degrees")
 
-<div><figure><img src="../../.gitbook/assets/ui_scaling_45_degrees.png" alt=""><figcaption><p>UI Scaling 45 degrees</p></figcaption></figure> <figure><img src="../../.gitbook/assets/ui_scaling_75_degrees.png" alt=""><figcaption><p>UI Scaling 75 degrees</p></figcaption></figure></div>
+![](../../assets/ui_scaling_45_degrees.webp "UI Scaling 45 degrees")![](../../assets/ui_scaling_75_degrees.webp "UI Scaling 75 degrees")
 
 * Within the player controls area we moved the environment settings to its own pop-out window
 
-<div><figure><img src="../../.gitbook/assets/player_controls (1).png" alt=""><figcaption><p>Player Controls</p></figcaption></figure> <figure><img src="../../.gitbook/assets/player_controls_environment_settings.png" alt=""><figcaption><p>Player Controls Environment Settings</p></figcaption></figure></div>
+![](../../assets/player_controls%20%281%29.webp "Player Controls")![](../../assets/player_controls_environment_settings.webp "Player Controls Environment Settings")
 
 * Added ability to rotate camera for 180° and 360° videos
   * Uses the right joystick
   * Added setting in player controls
 
-<figure><img src="../../.gitbook/assets/player_controls_settings.png" alt="" width="375"><figcaption><p>Player Controls Settings</p></figcaption></figure>
+![](../../assets/player_controls_settings.webp "Player Controls Settings")
 
 * Now the submit button plays/pauses the video if the player controls are not shown
 * We have reworked how/when the player controls show:
@@ -282,7 +302,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
     * Using new fallback thumbnail
     * Minor layout changes
 
-    <figure><img src="../../.gitbook/assets/video_info_menu.jpg" alt="" width="375"><figcaption><p>Video Info Menu</p></figcaption></figure>
+    ![](../../assets/video_info_menu.webp "Video Info Menu")
 * Added dead-zone of 0.125 to regular PS5 controller so it's easier to navigate
 * Added auto-pause/play
   * If you dismount the VR headset playback automatically pauses
@@ -290,7 +310,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
   * Can enable/disable this feature on the settings menu under the Media Player settings
 * Replaced Halloween themed Skyboxes with Fall and Winter themes
 
-<div><figure><img src="../../.gitbook/assets/skybox_fall.png" alt=""><figcaption><p>Skybox Fall</p></figcaption></figure> <figure><img src="../../.gitbook/assets/skybox_winter.png" alt=""><figcaption><p>Skybox Winter</p></figcaption></figure></div>
+![](../../assets/skybox_fall.webp "Skybox Fall")![](../../assets/skybox_winter.webp "Skybox Winter")
 
 ### Bug Fixes
 
@@ -302,11 +322,15 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 
 ### Known Issues
 
-* The green eye bug is still present in the app. We are working on it, however, we believe the bug to only be occurring on 10-bit videos, not standard 8-bit videos. If you have an 8-bit video where this is happening please report it in Discord or our support email (`support@radtv.com`). Also we believe that if you correctly [name the file using the proper tags](https://docs.rad.live/rad/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/file-naming-conventions) it **sometimes** plays correctly.
+* The green eye bug is still present in the app. We are working on it, however, we believe the bug to only be occurring on 10-bit videos, not standard 8-bit videos. If you have an 8-bit video where this is happening please report it in Discord or our support email (`support@radtv.com`). Also we believe that if you correctly [name the file using the proper tags](file-naming-conventions.md) it **sometimes** plays correctly.
+
+<a id="bug-fix-v1.2.9-10-25-2024"></a>
 
 ## Bug Fix (`v1.2.9`) \[10/25/2024]
 
 * The opaque background did not get disable when playing a video causing it to obscure the video.
+
+<a id="minor-improvement-and-bug-fixes-v1.2.8-10-25-2024"></a>
 
 ## Minor Improvement & Bug Fixes (`v1.2.8`) \[10/25/2024]
 
@@ -320,21 +344,21 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 * Added opaque background image to help readability of text
   * The opacity can be adjusted in the settings if the user prefers a partial or fully transparent background
 
+<a id="halloween-vr-home-skyboxes-hdr10-and-more-v1.2.3-10-25-2024"></a>
+
 ## Halloween, VR Home, Skyboxes, HDR10 and More (`v1.2.3`) \[10/25/2024]
 
-{% hint style="warning" %}
-There is a memory leak in the video player cleanup. As a result we have found that after watching many videos at some point trying to watch another will immediately boot you out of the video and the app will throw an error. In testing it took watching 60-75 high resolution videos before this happened. Please restart the app if you experience this issue. We are working on an immediate fix.
-{% endhint %}
+> [!WARNING]
+> There is a memory leak in the video player cleanup. As a result we have found that after watching many videos at some point trying to watch another will immediately boot you out of the video and the app will throw an error. In testing it took watching 60-75 high resolution videos before this happened. Please restart the app if you experience this issue. We are working on an immediate fix.
 
-{% hint style="warning" %}
-10-bit HDR (HDR10) videos play and are perfectly watchable, however, the colors looked washed out. The PS5 video player has a bug causing colors to display improperly that we are working with Sony Interactive Entertainment to squash. We hope to have a fix soon.&#x20;
-
-UPDATE: We got an updated shader script from Sony. The colors are looking better, but they still look washed out.
-{% endhint %}
+> [!WARNING]
+> 10-bit HDR (HDR10) videos play and are perfectly watchable, however, the colors looked washed out. The PS5 video player has a bug causing colors to display improperly that we are working with Sony Interactive Entertainment to squash. We hope to have a fix soon.
+>
+> UPDATE: We got an updated shader script from Sony. The colors are looking better, but they still look washed out.
 
 Happy Halloween from the Rad TV team! Get ready for a spooky new update featuring eerie new skyboxes that will chill your bones. Watch your favorite Halloween movie via sideloading in terrifying detail with our new HDR10\* support. Or dive into horror like never before on the all-new VR Home menu, where you can experience creepy VR videos up close!
 
-<div><figure><img src="../../.gitbook/assets/halloween_1.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/halloween_2.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/halloween_3.jpg" alt=""><figcaption></figcaption></figure></div>
+![](../../assets/halloween_1.webp)![](../../assets/halloween_2.webp)![](../../assets/halloween_3.webp)
 
 ### New Features & Improvements
 
@@ -342,7 +366,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
   * Added menu to sidebar
   * Includes just VR content
 
-<figure><img src="../../.gitbook/assets/vr_home.jpg" alt="" width="375"><figcaption></figcaption></figure>
+![](../../assets/vr_home.webp)
 
 * Skybox
   * Skybox added to the app environment
@@ -353,15 +377,14 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
     * Change Rotation Speed (maybe do not crank it up all the way on a full stomach)
   * Added a handful of skyboxes including some Halloween themes
 
-<div><figure><img src="../../.gitbook/assets/skybox_1.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/skybox_2.jpg" alt=""><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/skybox_3.jpg" alt=""><figcaption></figcaption></figure></div>
+![](../../assets/skybox_1.webp)![](../../assets/skybox_2.webp)![](../../assets/skybox_3.webp)
 
 * Added support for 10-bit HDR\* content
 
-{% hint style="warning" %}
-10-bit HDR (HDR10) videos play and are perfectly watchable, however, the colors look washed out. The PS5 video player has a bug causing colors to display improperly that we are working with Sony Interactive Entertainment to squash. We hope to have a fix soon.&#x20;
-
-UPDATE: We got an updated shader script from Sony. The colors are looking better, but they still look washed out.
-{% endhint %}
+> [!WARNING]
+> 10-bit HDR (HDR10) videos play and are perfectly watchable, however, the colors look washed out. The PS5 video player has a bug causing colors to display improperly that we are working with Sony Interactive Entertainment to squash. We hope to have a fix soon.
+>
+> UPDATE: We got an updated shader script from Sony. The colors are looking better, but they still look washed out.
 
 * Also while we have not tested this, 12-bit videos may also be unofficially supported and also maybe some other color primaries other than HDR10. Again, this may not be the case, but there is a chance. Maybe give it a try! Please share any feedback about your experience.
 * Player controls
@@ -369,7 +392,7 @@ UPDATE: We got an updated shader script from Sony. The colors are looking better
   * Back button now hides the player controls
   * Updated pop-out settings window icons
 
-<figure><img src="../../.gitbook/assets/player_controls.png" alt="" width="375"><figcaption></figcaption></figure>
+![](../../assets/player_controls.webp)
 
 * Settings
   * Removed the max resolution, video demux buffer size, and number of buffer frames settings
@@ -379,7 +402,7 @@ UPDATE: We got an updated shader script from Sony. The colors are looking better
     * 6 frame buffers is now the standard instead of 3
   * New settings menu options widgets are closer to how most games display settings as opposed to a dropdown list
 
-<figure><img src="../../.gitbook/assets/settings.jpg" alt="" width="375"><figcaption></figcaption></figure>
+![](../../assets/settings.webp)
 
 * Updated app name to `Rad TV for PS5`
 * Updated app icon
@@ -407,11 +430,13 @@ UPDATE: We got an updated shader script from Sony. The colors are looking better
 * The player controls pop out settings menu has two icons flipped. The Top-Bottom icon actually corresponds to viewing as Side-by-Side and the Side-by-Side icon actually corresponds to viewing as Top-Bottom. So for example if you want to watch a Side-by-Side video and you did not use our file naming conventions then select the Top-Bottom icon instead off the Side-by-Side icon. We are working on an immediate fix for this.
 * There is a memory leak in the video player cleanup. As a result we have found that after watching many videos at some point trying to watch another will immediately boot you out of the video and the app will throw an error. In testing it took watching 60-75 high resolution videos before this happened. Please restart the app if you experience this issue. We are working on an immediate fix.
 
+<a id="navigation-improvements-and-additional-settings-options-v1.1.23-09-30-2024"></a>
+
 ## Navigation Improvements & Additional Settings Options (`v1.1.23`) \[09/30/2024]
 
 This update focused on navigation improvements and additional playback settings within the video player.
 
-We also released [HandBrake presets for 8K](https://docs.rad.live/rad/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding#presets) and created a [public GitHub repository](https://github.com/little-core-labs/handbrake-presets?tab=readme-ov-file) where users can [post Issues for improvements or suggestions](https://github.com/little-core-labs/handbrake-presets/issues). Users more familiar with video encoding and GitHub can even make additions or modifications by submitting a [pull request](https://github.com/little-core-labs/handbrake-presets/pulls) to have them officially added to our set of presets for PS VR2 or other platforms like PS4, iOS, etc.
+We also released [HandBrake presets for 8K](video-encoding.md#presets) and created a [public GitHub repository](https://github.com/little-core-labs/handbrake-presets?tab=readme-ov-file) where users can [post Issues for improvements or suggestions](https://github.com/little-core-labs/handbrake-presets/issues). Users more familiar with video encoding and GitHub can even make additions or modifications by submitting a [pull request](https://github.com/little-core-labs/handbrake-presets/pulls) to have them officially added to our set of presets for PS VR2 or other platforms like PS4, iOS, etc.
 
 ### New Features & Improvements
 
@@ -420,7 +445,7 @@ We also released [HandBrake presets for 8K](https://docs.rad.live/rad/getting-st
   * Select demux video buffer size (10 MiB to 128 MiB (default 96 MiB)). Selecting a higher buffer size will result in greater memory usage but will help the video player handle higher bitrate videos more efficiently. This should make video playback smoother overall.
   * Set number of frame buffers (3 or 6 (default 3)). Frame buffer is how many frames of a video will be prepared for presentation prior to viewing. Selecting a higher frame buffer also results in higher memory usage and also contributes to smoother playback.
 
-<figure><img src="../../.gitbook/assets/settings_menu_additions.png" alt="" width="375"><figcaption></figcaption></figure>
+![](../../assets/settings_menu_additions.png)
 
 ### **Bug Fixes**
 
@@ -431,6 +456,8 @@ We also released [HandBrake presets for 8K](https://docs.rad.live/rad/getting-st
 ### **Known Issues**
 
 * Some 2dff and 3dff videos can suddenly have margins added to the bottom and right side of the viewing area. This is especially apparent in 3dff content and causes the left image to have part of the right image.
+
+<a id="settings-menu-and-minor-ui-improvements-v1.1.12-09-20-2024"></a>
 
 ## Settings Menu & Minor UI Improvements (`v1.1.12`) \[09/20/2024]
 
@@ -448,25 +475,25 @@ Please report bugs and improvements you'd like to see!
   * Made opaque to help with eye discomfort on stereoscopic videos
   * Rounded edges of background panels
 
-<div><figure><img src="../../.gitbook/assets/player_controls_gui_redesign_0.png" alt=""><figcaption><p>Player Control GUI Redesign 1</p></figcaption></figure> <figure><img src="../../.gitbook/assets/player_controls_gui_redesign_1.png" alt=""><figcaption><p>Player Control GUI Redesign 2</p></figcaption></figure> <figure><img src="../../.gitbook/assets/player_controls_gui_redesign_2.png" alt=""><figcaption><p>Player Control GUI Redesign 3</p></figcaption></figure></div>
+![](../../assets/player_controls_gui_redesign_0.webp "Player Control GUI Redesign 1")![](../../assets/player_controls_gui_redesign_1.webp "Player Control GUI Redesign 2")![](../../assets/player_controls_gui_redesign_2.webp "Player Control GUI Redesign 3")
 
 * Sidebar Menu additions and improvements
   * Replaced icons
   * Added new Settings option
   * Added application version
 
-<figure><img src="../../.gitbook/assets/sidebar_menu_redesign.png" alt="" width="375"><figcaption><p>Sidebar Menu Redesign</p></figcaption></figure>
+![](../../assets/sidebar_menu_redesign.webp "Sidebar Menu Redesign")
 
 * Library Menu Improvements
   * Swapped to new Sideloading Menu look
 
-<figure><img src="../../.gitbook/assets/library_menu_redesign.png" alt="" width="375"><figcaption><p>Library Menu Redesign</p></figcaption></figure>
+![](../../assets/library_menu_redesign.png "Library Menu Redesign")
 
 * Settings menu added
   * Added option to opt-in to increase the max supported resolution. We have not done much 8K video testing so it's going to be opt-in for right now.
   * Added option to opt-in to forcing stereoscopic videos to be displayed monoscopically while the player controls are shown for eye comfort. The video presentation switches back to stereoscopic once the player controls are hidden. Some people liked this change others dislike it so that is why it is opt-in now.
 
-<figure><img src="../../.gitbook/assets/settings_menu.png" alt="" width="375"><figcaption><p>New Settings Menu</p></figcaption></figure>
+![](../../assets/settings_menu.png "New Settings Menu")
 
 * Minor navigation improvements
 
@@ -482,6 +509,8 @@ Please report bugs and improvements you'd like to see!
 * There may be a problem with high bitrate videos, in particular when testing a high bitrate 8K video the player froze a few times. I was able to seek past the problematic area but it did happen another time or two on the same video. Could be a problem with the video itself or the video player's demux buffer size is not large enough for high bitrate 8K videos. Needs more testing but we should be adding an option to increase the demux buffer size regardless this in the next patch.
 * The player controls popout settings menu only shows every other time you open the controls. Should also be fixed in next patch.
 
+<a id="bug-fixes-v1.1.1-09-13-2024"></a>
+
 ## Bug Fixes (`v1.1.1`) \[09/13/2024]
 
 Just a single bug fix this time. More fixes and improvements coming soon.
@@ -490,11 +519,12 @@ Just a single bug fix this time. More fixes and improvements coming soon.
 
 * Discomfort caused by viewing player controls GUI while watching a stereoscopic video has been resolved. The video now switches to monoscopic while the player controls GUI is shown then switches back to stereoscopic after it's hidden. This is the same solution to this "Depth Conflict" problem we used on PS4 / PS VR. May try a potentially better solution in the future.
 
+<a id="the-sideloading-update-v1.1.0-09-06-2024"></a>
+
 ## The Sideloading Update (`v1.1.0`) \[09/06/2024]
 
-{% hint style="info" %}
-Known issue added with this update: when sideloading from a folder with many videos if you start a video sometimes when you go back to the file view it will have a video selected that is off screen. Select the sidebar and navigate back to the videos grid to get the selection back on screen. Here is a [video for reference](https://files.gitbook.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6ZioINj2Z1FBpLjZIigo%2Fuploads%2Fk0kIb3B4WaYC34dMFnuj%2Fselection_bug.mp4?alt=media\&token=7ea8f7e7-b727-499c-9e5d-a54b97773ce4) and to how to see the selection again.
-{% endhint %}
+> [!NOTE]
+> Known issue added with this update: when sideloading from a folder with many videos if you start a video sometimes when you go back to the file view it will have a video selected that is off screen. Select the sidebar and navigate back to the videos grid to get the selection back on screen. Here is a [video for reference](../../assets/selection_bug.mp4) and to how to see the selection again.
 
 This update brings an upgrade to the player controls UI as well as some major internal upgrades regarding the menu system.
 
@@ -508,16 +538,16 @@ This update brings an upgrade to the player controls UI as well as some major in
   * Added file view settings menu
   * Hot-plugging and hot-unplugging now better supported
 
-<div><figure><img src="../../.gitbook/assets/sideloading_menu_redesign_1.png" alt=""><figcaption><p>Sideloading Home View</p></figcaption></figure> <figure><img src="../../.gitbook/assets/sideloading_menu_redesign_2.png" alt=""><figcaption><p>Sideloading Folder View</p></figcaption></figure> <figure><img src="../../.gitbook/assets/sideloading_menu_redesign_3.png" alt=""><figcaption><p>Sideloading Subfolder View</p></figcaption></figure></div>
+![](../../assets/sideloading_menu_redesign_1.webp "Sideloading Home View")![](../../assets/sideloading_menu_redesign_2.webp "Sideloading Folder View")![](../../assets/sideloading_menu_redesign_3.webp "Sideloading Subfolder View")
 
-<figure><img src="../../.gitbook/assets/file_view_settings_menu_wip.png" alt="" width="375"><figcaption><p>Sideloading File View Settings</p></figcaption></figure>
+![](../../assets/file_view_settings_menu_wip.webp "Sideloading File View Settings")
 
 * Upgrading the player controls GUI
   * Better navigation
   * Redesign of pop-out settings window for video settings
     * Simpler and better looking
 
-<figure><img src="../../.gitbook/assets/player_controls_gui_redesign.png" alt="" width="375"><figcaption></figcaption></figure>
+![](../../assets/player_controls_gui_redesign.webp)
 
 * Added 3D stereoscopic flat/rectangle support
 
@@ -533,6 +563,8 @@ This update brings an upgrade to the player controls UI as well as some major in
 * Subscription and License status now correctly show in account menu
 * Current time and video duration now correctly get formatted over an hour or a day. Should be able to correctly display a video duration of 365 days or longer
 * When closing a video all renderers no longer try and free their textures just the active renderers
+
+<a id="initial-release-v1.0.45-09-02-2024"></a>
 
 ## Initial Release (`v1.0.45`) \[09/02/2024]
 

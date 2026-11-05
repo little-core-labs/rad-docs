@@ -1,0 +1,26 @@
+name: publish
+
+# A merge to master is a publish. rad.live compiles this repo into its build,
+# so publishing means asking Amplify to rebuild the site. The webhook URL is a
+# repo secret created from the Amplify console (App settings, Build settings,
+# Incoming webhooks). If the secret is missing the step says so and succeeds;
+# the next rad.live deploy picks the change up anyway.
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger the rad.live build
+        env:
+          WEBHOOK: ${{ secrets.AMPLIFY_WEBHOOK_URL }}
+        run: |
+          if [ -z "$WEBHOOK" ]; then
+            echo "AMPLIFY_WEBHOOK_URL is not set; rad.live will pick this up on its next build."
+            exit 0
+          fi
+          curl -fsS -X POST -H "Content-Type: application/json" -d '{}' "$WEBHOOK"
+          echo "rad.live rebuild requested"

@@ -8,9 +8,8 @@ The Rad TV API exposes a **Model Context Protocol (MCP)** server so IDEs and cod
 * **Auth:** Required. Send `Authorization: Bearer <api-key>`. Use an API key from `POST /internal/v0/generate-api-key` (see [API keys](../api-keys.md)).
 * Production: `https://api.rad.live/mcp`.
 
-{% hint style="info" %}
-Protocol version header: `MCP-Protocol-Version: 2025-11-25`.
-{% endhint %}
+> [!NOTE]
+> Protocol version header: `MCP-Protocol-Version: 2025-11-25`.
 
 ## What MCP provides
 
@@ -20,31 +19,29 @@ Protocol version header: `MCP-Protocol-Version: 2025-11-25`.
 
 ## Protocol
 
-{% stepper %}
-{% step %}
-### Initialize
+<a id="initialize"></a>
+
+### Step 1: Initialize
 
 Send an `initialize` JSON-RPC request first (required).
-{% endstep %}
 
-{% step %}
-### List tools
+<a id="list-tools"></a>
+
+### Step 2: List tools
 
 Use `tools/list` to get all tools and their schemas.
-{% endstep %}
 
-{% step %}
-### Call tools
+<a id="call-tools"></a>
+
+### Step 3: Call tools
 
 Use `tools/call` with `name` and `arguments`.
-{% endstep %}
 
-{% step %}
-### Resources
+<a id="resources"></a>
+
+### Step 4: Resources
 
 Read `rad://api/capabilities` for a summary of capabilities.
-{% endstep %}
-{% endstepper %}
 
 ## When to use MCP vs GraphQL
 

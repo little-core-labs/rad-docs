@@ -1,10 +1,9 @@
 # Mutations
 
-{% hint style="info" %}
-All mutations are executed via `POST /graphql` with a JSON body. All require the header:
-
-`Authorization: Bearer <token>`
-{% endhint %}
+> [!NOTE]
+> All mutations are executed via `POST /graphql` with a JSON body. All require the header:
+>
+> `Authorization: Bearer <token>`
 
 ## GraphQL mutations
 
@@ -30,37 +29,35 @@ All mutations are executed via `POST /graphql` with a JSON body. All require the
 
 ### Content and ingestion flow
 
-{% stepper %}
-{% step %}
-### Create content
+<a id="create-content"></a>
+
+### Step 1: Create content
 
 Call `createContent` — Create a content item (optional channel).
-{% endstep %}
 
-{% step %}
-### Create ingestion session
+<a id="create-ingestion-session"></a>
+
+### Step 2: Create ingestion session
 
 Call `createContentAsset` — Get an ingestion session (TUS endpoint).
-{% endstep %}
 
-{% step %}
-### Upload file
+<a id="upload-file"></a>
+
+### Step 3: Upload file
 
 Upload the file to the session endpoint (see [Content and uploads](../content-and-uploads.md)).
-{% endstep %}
 
-{% step %}
-### Submit for processing
+<a id="submit-for-processing"></a>
+
+### Step 4: Submit for processing
 
 Call `submitContentForProcessing` — Submit for transcoding.
-{% endstep %}
 
-{% step %}
-### Publish (optional)
+<a id="publish-optional"></a>
+
+### Step 5: Publish (optional)
 
 Optionally call `publishContent` to make it public.
-{% endstep %}
-{% endstepper %}
 
 ### Idempotent mutations
 

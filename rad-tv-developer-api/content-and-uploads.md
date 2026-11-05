@@ -1,8 +1,8 @@
 # Content and Uploads
 
-{% stepper %}
-{% step %}
-### Create content
+<a id="create-content"></a>
+
+### Step 1: Create content
 
 Create a content item (optionally tied to a channel).
 
@@ -28,10 +28,10 @@ mutation {
 **MCP:** Use the `create_content` tool with `title`, `summary`, and `type` (e.g. FEATURE). The response includes the content `id` (DID).
 
 Save the returned `id` (e.g. `did:rad.live:content/feature/<id>`); you need it for the next steps.
-{% endstep %}
 
-{% step %}
-### Create an ingestion session (TUS)
+<a id="create-an-ingestion-session-tus"></a>
+
+### Step 2: Create an ingestion session (TUS)
 
 Request a resumable upload session for the content. You get an **endpoint** to POST the file to.
 
@@ -57,10 +57,10 @@ mutation {
 **MCP:** Use `create_content_asset` with `contentId` (the content DID), `filename`, `size`, and optional `hint` (e.g. NONE, PORTRAIT, EQUIRECTANGULAR).
 
 The response includes `endpoint` (e.g. `https://api.rad.live/ingestion/<session-id>` or your TUS upload URL).
-{% endstep %}
 
-{% step %}
-### Upload the file
+<a id="upload-the-file"></a>
+
+### Step 3: Upload the file
 
 POST the file to the **endpoint** from step 2:
 
@@ -68,10 +68,10 @@ POST the file to the **endpoint** from step 2:
 * **Body:** The file (multipart/form-data)
 
 Resumable uploads use the TUS protocol; the ingestion endpoint may point to a TUS server. Follow the session instructions returned by `createContentAsset` / `create_content_asset`.
-{% endstep %}
 
-{% step %}
-### Submit for processing
+<a id="submit-for-processing"></a>
+
+### Step 4: Submit for processing
 
 After the file is uploaded, submit the content for transcoding. Use the **same filename** you passed to `createContentAsset` as `assetName`.
 
@@ -96,10 +96,10 @@ mutation {
 **MCP:** Use `submit_content_for_processing` with `contentId`, `assetName`, and optional `layout`, `encoder`, `enhance`.
 
 You get a **TranscodeJob** with `id`, `status`, and `progress`. Poll the content’s `transcodeJob` (or the job id) until the job is complete.
-{% endstep %}
 
-{% step %}
-### Output assets
+<a id="output-assets"></a>
+
+### Step 5: Output assets
 
 When transcoding is complete, the content’s `outputAssets` field is populated. Query it via GraphQL:
 
@@ -132,10 +132,10 @@ query {
 * **subtitles** — `srt` and `vtt` URLs (null for MediaConvert; present for Rad Encoder).
 
 See [Schema reference — Output assets and thumbnails](graphql/schema-reference.md#output-assets-and-thumbnails) for details.
-{% endstep %}
 
-{% step %}
-### Publish (optional)
+<a id="publish-optional"></a>
+
+### Step 6: Publish (optional)
 
 To make the content public:
 
@@ -143,5 +143,3 @@ To make the content public:
 **MCP:** `publish_content` with `id` (content DID).
 
 To revert to protected: `unpublishContent` / `unpublish_content`.
-{% endstep %}
-{% endstepper %}

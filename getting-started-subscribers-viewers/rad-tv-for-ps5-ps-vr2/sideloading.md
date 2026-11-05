@@ -6,21 +6,21 @@ description: >-
 
 # Sideload Videos on PS5 and PS VR2
 
-{% hint style="info" %}
-Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](./#video-viewing-formats-supported).
-{% endhint %}
+> [!NOTE]
+> Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](README.md#video-viewing-formats-supported).
 
-{% hint style="info" %}
-Again, although most video encodings are supported, make sure we support the video encoding of the content you're interested in [here](video-encoding.md).&#x20;
-{% endhint %}
+> [!NOTE]
+> Again, although most video encodings are supported, make sure we support the video encoding of the content you're interested in [here](video-encoding.md).
 
-The Rad TV app's VR version [supports the playback of many types of videos](./#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.&#x20;
+The Rad TV app's VR version [supports the playback of many types of videos](README.md#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.
 
 ## Rad TV Sideloading Tutorial
 
-{% embed url="https://www.youtube.com/watch?v=-a-kZZkK-9c" %}
+https://www.youtube.com/watch?v=-a-kZZkK-9c
 
-## External Drive Setup <a href="#psvrsideloadinstructions-en-externaldrivesetup" id="psvrsideloadinstructions-en-externaldrivesetup"></a>
+<a id="psvrsideloadinstructions-en-externaldrivesetup"></a>
+
+## External Drive Setup
 
 1. If your drive is **not already**, format your drive as **exFAT** or **FAT32**, other formats will not work. **NOTE: This will erase all files on the drive! Ensure you've backed up all important data on your drive before performing this step.**
    * [How to check a drive's format for Windows](https://www.minitool.com/news/see-drive-file-system-win-10.html)
@@ -33,14 +33,15 @@ The Rad TV app's VR version [supports the playback of many types of videos](./#v
     * Put your videos directly in the "rad" folder, or organize them into subfolders such as `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`. Nested folders are supported.
     * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](file-naming-conventions.md).
 
-    <figure><img src="../../.gitbook/assets/PS5 Test Kit-20240426-0062.png" alt="" width="375"><figcaption><p>View of the media player settings' pop out submenu.</p></figcaption></figure>
+    ![](../../assets/PS5%20Test%20Kit-20240426-0062.webp "View of the media player settings' pop out submenu.")
 3. Plug the drive into your PS5, turn on your PS VR2 headset, open Rad TV and choose the VR version, then open Library, Sideloading. You can connect more than one drive; each appears in the Sideloading menu.
 
-{% hint style="success" %}
-Want the short version? See the [USB sideloading guide for PS VR2](https://rad.live/features/usb-sideloading-psvr2/) on rad.live.
-{% endhint %}
+> [!TIP]
+> Want the short version? See the [USB sideloading guide for PS VR2](https://rad.live/features/usb-sideloading-psvr2/) on rad.live.
 
-## Known Issues <a href="#psvrsideloadinstructions-en-knownissues" id="psvrsideloadinstructions-en-knownissues"></a>
+<a id="psvrsideloadinstructions-en-knownissues"></a>
+
+## Known Issues
 
 * Videos should not contain "sbs," "ou," or any of the other [naming convention](file-naming-conventions.md) tags unless they are intended to let the player know which type of video it should try and render.
 * If you are formatting your drive on macOS, you will need to enable Master Boot Record (MBR), otherwise, your videos may not show up.

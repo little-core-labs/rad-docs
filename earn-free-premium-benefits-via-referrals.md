@@ -4,17 +4,17 @@ description: Learn how to earn premium subscription credits by referring new pre
 
 # Earn Free Premium Benefits via Referrals
 
-**Refer a Friend and Enjoy a Free Month of Premium Benefits!**&#x20;
+**Refer a Friend and Enjoy a Free Month of Premium Benefits!**
 
 We believe that sharing is caring! If you're already enjoying the perks of being a Premium subscriber, why not let your friends in on the fun? Here’s how you can share the Rad TV experience and earn rewards:
 
-1. Find Your [Unique Referral Code](https://rad.live/editaccount/) by navigating to [your account page](https://rad.live/editaccount/) on the Rad TV platform.
+1. Find Your [Unique Referral Code](https://rad.live/edit-account/) by navigating to [your account page](https://rad.live/edit-account/) on the Rad TV platform.
 
-<figure><img src=".gitbook/assets/1 Head to Account Page.png" alt=""><figcaption></figcaption></figure>
+![](assets/1%20Head%20to%20Account%20Page.webp)
 
 Once you are on your account page, scroll down to locate your unique referral code at the bottom of the page.
 
-<figure><img src=".gitbook/assets/2 Copy and Paste Referral Link.png" alt=""><figcaption><p>Referral Code and Share Options</p></figcaption></figure>
+![](assets/2%20Copy%20and%20Paste%20Referral%20Link.webp "Referral Code and Share Options")
 
 2. **Share your code with friends!** Simply copy your referral code and send it to your friends or use our convenient social media sharing buttons to spread the word faster.
 3. **Enjoy the Benefits!** When a friend signs up using your referral code and purchases a Premium subscription, we will waive the charge for your next monthly billing cycle.

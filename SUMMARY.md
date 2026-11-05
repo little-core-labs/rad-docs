@@ -67,7 +67,3 @@
 * [Rad TV Blockchain Integrations](rad-tv-blockchain-integrations.md)
 * [Rad TV Community Updates](rad-tv-community-updates.md)
 * [Rad TV Technical Support](rad-tv-technical-support.md)
-
-## Rad TV Developer API
-
-* [Page 1](rad-tv-developer-api-1/page-1.md)

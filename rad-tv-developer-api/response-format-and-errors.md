@@ -71,6 +71,8 @@ For non-GraphQL JSON endpoints (e.g. generate-api-key, youtube disconnect):
 }
 ```
 
+<a id="error-4xx-5xx"></a>
+
 ### Error (4xx / 5xx)
 
 * Body shape: `{ "errors": [ { "message": string, "code"?: string } ] }`.

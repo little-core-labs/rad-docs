@@ -92,6 +92,8 @@ query {
 }
 ```
 
+<a id="content-output-assets-via-me.channel"></a>
+
 ## Content output assets (via me.channel)
 
 ```graphql
@@ -131,6 +133,8 @@ mutation {
 }
 ```
 
+<a id="follow-unfollow-channel"></a>
+
 ## Follow / unfollow channel
 
 ```graphql
@@ -146,6 +150,8 @@ mutation {
   }
 }
 ```
+
+<a id="like-unlike-content"></a>
 
 ## Like / unlike content
 

@@ -11,9 +11,10 @@ Content and catalog types (Feature, Episode, Stream, Serie, Season, Miniseries) 
 * **count** — Total like count
 * **isLiked** — Whether the current authenticated user has liked the entity
 
-{% hint style="info" %}
-`likes` is never null; when unauthenticated or on error, `count` is `0` and `isLiked` is `false`.
-{% endhint %}
+> [!NOTE]
+> `likes` is never null; when unauthenticated or on error, `count` is `0` and `isLiked` is `false`.
+
+<a id="like-unlike-by-did"></a>
 
 ### Like / unlike (by DID)
 
@@ -37,9 +38,8 @@ mutation {
 
 MCP: `like_content`, `unlike_content` with `id` (content DID).
 
-{% hint style="info" %}
-Both mutations are idempotent: calling `likeContent` multiple times does not change the result; calling `unlikeContent` on unliked content has no effect.
-{% endhint %}
+> [!NOTE]
+> Both mutations are idempotent: calling `likeContent` multiple times does not change the result; calling `unlikeContent` on unliked content has no effect.
 
 ## Comments
 
@@ -73,7 +73,11 @@ MCP: `create_comment` with `contentId` and `body`.
 
 The authenticated user is set as the comment author. Comments are stored and queried via the User API (12core).
 
+<a id="channel-follow-unfollow"></a>
+
 ## Channel follow / unfollow
+
+<a id="follow-unfollow"></a>
 
 ### Follow / unfollow
 
@@ -91,9 +95,8 @@ mutation {
 
 MCP: `follow_channel`, `unfollow_channel` with `channel` (channel DID).
 
-{% hint style="info" %}
-Follow/unfollow are idempotent. Channels expose `followersCount` and `isFollowed` (whether the current user follows).
-{% endhint %}
+> [!NOTE]
+> Follow/unfollow are idempotent. Channels expose `followersCount` and `isFollowed` (whether the current user follows).
 
 ### Followed channels
 

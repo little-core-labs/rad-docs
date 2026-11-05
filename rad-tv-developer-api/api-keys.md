@@ -18,8 +18,7 @@ Use the same key for:
 
 ## Security
 
-{% hint style="danger" %}
-* Do not commit API keys to source control or expose them in client-side code.
-* Prefer API keys over JWTs for long-lived or automated access.
-* Rotate keys if they may have been compromised; generate a new key and stop using the old one.
-{% endhint %}
+> [!CAUTION]
+> * Do not commit API keys to source control or expose them in client-side code.
+> * Prefer API keys over JWTs for long-lived or automated access.
+> * Rotate keys if they may have been compromised; generate a new key and stop using the old one.

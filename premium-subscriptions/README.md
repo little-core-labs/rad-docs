@@ -8,7 +8,19 @@ Premium subscriptions to Rad TV give viewers access to exclusive content with no
 
 ### Which plan is right for you?
 
-<table><thead><tr><th width="200">Features</th><th width="144.3817138671875" align="center">Basic</th><th width="189.015625" align="center">Premium</th><th width="204.1502685546875" align="center" valign="middle">Premium+</th></tr></thead><tbody><tr><td>Free Live TV</td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>Free On Demand</td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>Cross Platform Support</td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>Premium Live TV</td><td align="center"></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>Premium On Demand</td><td align="center"></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>*Sideload your own Content</td><td align="center"></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>*Custom RSS Feed Support (Videos &#x26; Volumetric)</td><td align="center"></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>*UPnP Media Renderer/Casting</td><td align="center"></td><td align="center"><img src="../.gitbook/assets/black check for chart.png" alt=""></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>AI Generation Credits<sup>1</sup></td><td align="center"></td><td align="center">400</td><td align="center" valign="middle">800</td></tr><tr><td>Private Uploads (150GB of Storage + 900 minutes of transcoding)<sup><sub>1</sub></sup></td><td align="center"></td><td align="center"></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr><tr><td>API Access</td><td align="center"></td><td align="center"></td><td align="center" valign="middle"><img src="../.gitbook/assets/black check for chart.png" alt=""></td></tr></tbody></table>
+| Features | Basic | Premium | Premium+ |
+| --- | --- | --- | --- |
+| Free Live TV | Yes | Yes | Yes |
+| Free On Demand | Yes | Yes | Yes |
+| Cross Platform Support | Yes | Yes | Yes |
+| Premium Live TV | No | Yes | Yes |
+| Premium On Demand | No | Yes | Yes |
+| *Sideload your own Content | No | Yes | Yes |
+| *Custom RSS Feed Support (Videos & Volumetric) | No | Yes | Yes |
+| *UPnP Media Renderer/Casting | No | Yes | Yes |
+| AI Generation Credits<sup>1</sup> | No | 400 | 800 |
+| Private Uploads (150GB of Storage + 900 minutes of transcoding)<sup>1</sup> | No | No | Yes |
+| API Access | No | No | Yes |
 
 \*USB/Hard Drive Sideloading is available on PlayStation PS4, PlayStation VR, and PlayStation VR2. On PS5, sideloading is in the VR version of Rad TV, so it needs the PS VR2 headset. See [Rad TV for PS5 / PS VR2](../getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README.md).
 
@@ -32,4 +44,4 @@ For a limited time we offered a sideloading license for a flat fee. This option 
 
 Questions? Need help? Join us in discord and our team will be happy to help.
 
-{% embed url="https://discord.gg/radtv" %}
+https://discord.gg/radtv

@@ -64,34 +64,32 @@ All tools require `Authorization: Bearer <api-key>`. Optional arguments can be o
 
 ## File upload flow (content)
 
-{% stepper %}
-{% step %}
-### Call `create_content`
+<a id="call-create_content"></a>
+
+### Step 1: Call `create_content`
 
 Call `create_content` → get content `id` (DID).
-{% endstep %}
 
-{% step %}
-### Call `create_content_asset`
+<a id="call-create_content_asset"></a>
+
+### Step 2: Call `create_content_asset`
 
 Call `create_content_asset` with `contentId`, `filename`, `size` → get `endpoint`.
-{% endstep %}
 
-{% step %}
-### POST the file to the endpoint
+<a id="post-the-file-to-the-endpoint"></a>
+
+### Step 3: POST the file to the endpoint
 
 POST the file to `endpoint` with `Authorization: Bearer <api-key>` and `Content-Type: multipart/form-data`.
-{% endstep %}
 
-{% step %}
-### Call `submit_content_for_processing`
+<a id="call-submit_content_for_processing"></a>
+
+### Step 4: Call `submit_content_for_processing`
 
 Call `submit_content_for_processing` with `contentId` and `assetName` (filename used in step 2).
-{% endstep %}
 
-{% step %}
-### Optionally publish
+<a id="optionally-publish"></a>
+
+### Step 5: Optionally publish
 
 Optionally call `publish_content` with the content `id`.
-{% endstep %}
-{% endstepper %}

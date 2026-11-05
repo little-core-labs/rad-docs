@@ -19,8 +19,7 @@ The Upmixing process is part of the pre-processing of the video, so the resultin
 
 * Any time Enhance is selected, 3 audio tracks will exist in the resulting file. Stereo, 5.1, and 7.1 surround.
 * We try to leave the surround mixes in tact and pass the originals through, so if the input audio is a Dolby 5.1 variant for example, we will try to pass through the Dolby 5.1 variant for the 5.1 track, and create a stereo and 7.1 version from that 5.1 version.
-* If the input file has only a 5.1 surround mix, selecting Enhance will create a Stereo and 7.1 mix, and will try to pass through the 5.1 mix.&#x20;
-* If the input file has only a 7.1 mix or above, selecting Enhance will create a Stereo, 5.1, and will try to pass through the 7.1 mix.&#x20;
+* If the input file has only a 5.1 surround mix, selecting Enhance will create a Stereo and 7.1 mix, and will try to pass through the 5.1 mix.
+* If the input file has only a 7.1 mix or above, selecting Enhance will create a Stereo, 5.1, and will try to pass through the 7.1 mix.
 
 _Bonus: Videos that are uploaded that have a surround mix will get a stereo downmix by default, even if Enhance isn't selected or the option isn't available. This ensures compatibility for web playback, since most web players don't support surround sound._
-

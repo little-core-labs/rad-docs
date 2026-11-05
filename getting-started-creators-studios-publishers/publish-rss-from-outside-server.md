@@ -2,9 +2,9 @@
 
 Publishers, Content Owners, Studios, and Creators can easily create On Demand TV channels, Live TV, Movie Channels, FAST syndication, OTT channels, and any type of video or streaming channel in no time using Rad TV's RSS / MRSS feed support. No need to build and maintain your own apps on PlayStation, Android TV, Apple TV, iOS, Apple Vision Pro, Android Mobile, Android TV, Amazon Fire, or Meta Quest. You can even run your own ads through these channels.
 
-Simply generate the XML with your web servers, have the XML elements point to your hosted videos and metadata, and give your users the link to add to their Rad TV Premium account. Create a channel using video hosted remotely on your own servers by creating an RSS feed using [Rad TV's specs below](publish-rss-from-outside-server.md#rssfeeds-en-elements).&#x20;
+Simply generate the XML with your web servers, have the XML elements point to your hosted videos and metadata, and give your users the link to add to their Rad TV Premium account. Create a channel using video hosted remotely on your own servers by creating an RSS feed using [Rad TV's specs below](publish-rss-from-outside-server.md#rssfeeds-en-elements).
 
-Rad TV's RSS integration allows publishers to launch a streaming channel on Smart TVs, Mobile, PlayStation and VR in a matter of minutes. You only need video hosting and metadata for their video content and it can be made available instantly to Rad TV's apps without the publisher needing to build and maintain apps across devices, saving millions of dollars in overhead.&#x20;
+Rad TV's RSS integration allows publishers to launch a streaming channel on Smart TVs, Mobile, PlayStation and VR in a matter of minutes. You only need video hosting and metadata for their video content and it can be made available instantly to Rad TV's apps without the publisher needing to build and maintain apps across devices, saving millions of dollars in overhead.
 
 Publishers using Rad TV's RSS integration can deliver nearly any kind of content or subject matter, and your users can simply add that feed to their account for viewing on Rad's apps.
 
@@ -12,7 +12,9 @@ Rad TV has extended RSS 2.0 with a Littlstar namespace, as documented below. Whi
 
 If you are a content provider and wish to support the Littlstar namespace, follow the guidelines below. If you wish to add additional support for premium feeds that require authentication, please contact [content@rad.live](mailto:content@rad.live)
 
-## Elements <a href="#rssfeeds-en-elements" id="rssfeeds-en-elements"></a>
+<a id="rssfeeds-en-elements"></a>
+
+## Elements
 
 * \<title> (The name of the channel)
 * \<link> (The link to the website corresponding to the channel)
@@ -89,7 +91,9 @@ If you are a content provider and wish to support the Littlstar namespace, follo
 </rss>
 ```
 
-## **Supported Video Extensions** <a href="#rssfeeds-en-supportedvideoextensions" id="rssfeeds-en-supportedvideoextensions"></a>
+<a id="rssfeeds-en-supportedvideoextensions"></a>
+
+## Supported Video Extensions
 
 Links must be direct to the video url and include one of the following extensions:
 

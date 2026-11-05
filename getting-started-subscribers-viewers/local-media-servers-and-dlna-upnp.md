@@ -1,8 +1,7 @@
 # Local Media Servers and DLNA/UPnP
 
-{% hint style="info" %}
-UPnP Media Renderer/Casting is currently available for PlayStation 4 and PlayStation VR, PlayStation VR2, iOS, Apple TV, Android TV, Chromecast, and Meta Quest.
-{% endhint %}
+> [!NOTE]
+> UPnP Media Renderer/Casting is currently available for PlayStation 4 and PlayStation VR, PlayStation VR2, iOS, Apple TV, Android TV, Chromecast, and Meta Quest.
 
 Rad TV Premium Subscribers can integrate with locally hosted streaming servers like Jellyfin, Kodi, Plex, Emby, and more.
 

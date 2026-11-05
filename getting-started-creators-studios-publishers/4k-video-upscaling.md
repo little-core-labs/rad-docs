@@ -10,7 +10,7 @@ _Note: This is not available for the Private Uploads feature currently. It is on
 
 Here is an example of an upscale going from 480p to 2160p. The image on the left is 2160p upscaled by Rad TV, and the image on the right is the 480p original. You'll notice the Rad TV upscaled version is sharper and a much cleaner image even with the massive increase in pixels.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-09-30 142014.png" alt="4K upscaled video by Rad TV. Image on the left is 2160p upscaled, and the image on the right is 480p original."><figcaption></figcaption></figure>
+![4K upscaled video by Rad TV. Image on the left is 2160p upscaled, and the image on the right is 480p original.](../assets/Screenshot%202025-09-30%20142014.webp)
 
 **Upscaling on Rad TV is a straightforward process:**
 
