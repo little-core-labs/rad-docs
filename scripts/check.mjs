@@ -2,11 +2,12 @@
 // .github/workflows/check.yml) and locally with `npm run check`.
 //
 // Errors fail the check: a page missing from SUMMARY.md that is not hidden, a
-// SUMMARY entry whose file does not exist, an H1 that differs from its SUMMARY
-// label, a relative link or anchor that does not resolve, an image that does
-// not exist or is too large, leftover GitBook markup, or a renamed page without
-// a redirect. Warnings are printed but do not fail: a missing description, an
-// em dash.
+// SUMMARY entry whose file does not exist, a page title that differs from its
+// SUMMARY label, a page with no title or with two (a `title` in the frontmatter
+// and an H1 in the body), a relative link or anchor that does not resolve, an
+// image that does not exist or is too large, leftover GitBook markup, or a
+// renamed page without a redirect. Warnings are printed but do not fail: a
+// missing description, an em dash.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -84,7 +85,10 @@ function analyse(file) {
     if (node.type === "link" || node.type === "definition") links.push({ url: node.url, line: node.position?.start.line });
     if (node.type === "image") images.push({ url: node.url, line: node.position?.start.line });
   });
-  return { raw, data: parsed.data, h1, anchors, links, images };
+  // The title is the frontmatter `title` (pages saved by the editor) or the
+  // first H1 (pages written by hand). Never both.
+  const fmTitle = typeof parsed.data.title === "string" ? parsed.data.title.trim() : null;
+  return { raw, data: parsed.data, h1, title: fmTitle || h1, fmTitle, anchors, links, images };
 }
 
 function main() {
@@ -101,8 +105,9 @@ function main() {
   for (const [file, page] of info) {
     const entry = listed.get(file);
     if (!entry && !page.data.hidden) error(file, "not in SUMMARY.md and not hidden: true");
-    if (!page.h1) error(file, "no H1");
-    if (entry && page.h1 && entry.label !== page.h1) error(file, `H1 "${page.h1}" differs from SUMMARY label "${entry.label}"`);
+    if (page.fmTitle && page.h1) error(file, `has both a frontmatter title and an H1 ("${page.h1}"); keep one`);
+    if (!page.title) error(file, "no title: add a `title` to the frontmatter or an H1");
+    if (entry && page.title && entry.label !== page.title) error(file, `title "${page.title}" differs from SUMMARY label "${entry.label}"`);
     if (!page.data.description) warn(file, "no description in frontmatter");
     if (/\{%|\.gitbook\//.test(page.raw)) error(file, "GitBook markup or .gitbook/ path left over");
     if (page.raw.includes(String.fromCharCode(8212))) warn(file, "contains an em dash");
@@ -131,7 +136,12 @@ function main() {
         warn(file, `line ${line}: remote image ${url}`);
         continue;
       }
-      const target = path.resolve(path.dirname(file), decodeURIComponent(url));
+      // "/assets/x.webp" (what the editor inserts) is relative to the repo
+      // root; anything else is relative to the page.
+      const decoded = decodeURIComponent(url);
+      const target = decoded.startsWith("/assets/")
+        ? path.join(ROOT, decoded.slice(1))
+        : path.resolve(path.dirname(file), decoded);
       if (!fs.existsSync(target)) {
         error(file, `line ${line}: image does not exist: ${url}`);
         continue;

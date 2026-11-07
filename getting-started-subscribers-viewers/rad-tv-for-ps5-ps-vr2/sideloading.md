@@ -1,10 +1,9 @@
 ---
+title: Sideload Videos on PS5 and PS VR2
 description: >-
   Copy video files to a USB drive and play them in PS VR2 on PS5 with Rad TV,
   including 3D, 180 and 360 VR formats.
 ---
-
-# Sideload Videos on PS5 and PS VR2
 
 > [!NOTE]
 > Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](README.md#video-viewing-formats-supported).
