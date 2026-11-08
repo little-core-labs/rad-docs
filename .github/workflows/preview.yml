@@ -1,0 +1,35 @@
+name: preview
+
+# The "Preview" link on a draft in the docs editor (rad.live/docs-edit/). The
+# editor saves each draft to a cms/<collection>/<page> branch; on every push
+# there this posts a commit status whose link renders that exact commit on
+# rad.live (/docs-preview/<sha>/, employees only). The editor finds it by the
+# status name `deploy/preview` (backend.preview_context in its config).
+#
+# The host is the repository variable DOCS_PREVIEW_HOST, staging until the
+# editor moves to production.
+
+on:
+  push:
+    branches: ["cms/**"]
+
+permissions:
+  statuses: write
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Post the preview link
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.sha }}
+          HOST: ${{ vars.DOCS_PREVIEW_HOST || 'https://next-staging.rad.live' }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/statuses/${SHA}" \
+            -f state=success \
+            -f context=deploy/preview \
+            -f target_url="${HOST}/docs-preview/${SHA}/" \
+            -f description="Preview this draft on rad.live" >/dev/null
+          echo "Preview: ${HOST}/docs-preview/${SHA}/"
