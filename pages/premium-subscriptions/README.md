@@ -1,6 +1,6 @@
 ---
 title: Premium Subscriptions
-description: Details about Rad TV's Premium Subscriptions
+description: Details about Rad TV's Premium Subscriptions Test edit.
 ---
 
 Premium subscriptions to Rad TV give viewers access to exclusive content with no ads, along with advanced features like sideloading, support for media servers via UPnP (including Plex, Kodi, Jellyfin, and Emby), RSS feeds, Live TV channels, ad-supported and ad-free movie channels, private uploads, storage, and AI generation credits.
