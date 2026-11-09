@@ -113,6 +113,27 @@ function main() {
     if (page.raw.includes(String.fromCharCode(8212))) warn(file, "contains an em dash");
 
     for (const { url, line } of page.links) {
+      // A link to a docs page by its address on the site, "/docs/a/b/" or
+      // "https://rad.live/docs/a/b/" (what the editor's users paste from the
+      // browser). It must name a page that exists, and its anchor if any.
+      const site = /^(?:https:\/\/(?:www\.)?rad\.live)?\/docs(\/[^#?]*)?(?:\?[^#]*)?(#.*)?$/.exec(url);
+      if (site) {
+        const p = (site[1] || "/").replace(/^\/+|\/+$/g, "");
+        const candidates = p ? [`${p}.md`, `${p}/README.md`] : ["README.md"];
+        const targetFile = candidates.map(c => path.join(ROOT, c)).find(f => info.has(f));
+        if (!targetFile) {
+          error(file, `line ${line}: no docs page at ${url}`);
+          continue;
+        }
+        let hash = site[2] ? site[2].slice(1) : "";
+        try {
+          hash = decodeURIComponent(hash);
+        } catch {
+          /* checked as written */
+        }
+        if (hash && !info.get(targetFile).anchors.has(hash)) error(file, `line ${line}: anchor #${hash} not found in ${rel(targetFile)}`);
+        continue;
+      }
       if (/^(https?:|mailto:|tel:)/.test(url)) continue;
       const [target, hash] = url.split("#");
       let targetFile = file;
