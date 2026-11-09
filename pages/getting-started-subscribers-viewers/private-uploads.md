@@ -1,8 +1,7 @@
 ---
+title: Private Uploads
 description: Your content - everywhere!
 ---
-
-# Private Uploads
 
 [Private Uploads](https://rad.live/watch/feature/808c6871-eb67-4d8a-b272-36269d9b4e70/?source=nft) on Rad TV give you powerful control over your content.
 
@@ -40,10 +39,10 @@ https://rad.live/library/
 
 Users must have an active [Premium+ subscription](https://rad.live/premium-plus/) to access Private Uploads.
 
-Access Private Uploads on web by clicking here 👉 [https://rad.live/library/](https://rad.live/library/).
+Access Private Uploads on web by clicking here 👉 <https://rad.live/library/>.
 
-To access your Private Uploads in Rad TV apps including [iOS](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media\&utm_medium=everywhere\&utm_campaign=2024), [Apple TV](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media\&utm_medium=everywhere\&utm_campaign=2024), [Apple Vision Pro](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media\&utm_medium=everywhere\&utm_campaign=2024), [Android TV](https://play.google.com/store/apps/details?id=com.littlstar.android\&hl=en_US), [Android Mobile](https://play.google.com/store/apps/details?id=com.littlstar.android\&hl=en_US), [Amazon Fire](https://www.amazon.com/Rad-TV-Live-Videos/dp/B0D7N19D4V/ref=sr_1_1?crid=2IP2D154F3IYT\&dib=eyJ2IjoiMSJ9.qHIsepshJivRpPVq2I0b_A.WC2_ySh2B3hDqakSW6kFzmXejVZ4S3RtUnED1CWSOe8\&dib_tag=se\&keywords=Rad+TV\&qid=1725918411\&s=mobile-apps\&sprefix=rad+tv%2Cmobile-apps%2C94\&sr=1-1\&utm_source=brevo\&utm_campaign=New%20editor%20Rad_PSVR2Update_copy\&utm_medium=email), [Chromecast](https://www.amazon.com/Rad-TV-Live-Videos/dp/B0D7N19D4V/ref=sr_1_1?crid=2IP2D154F3IYT\&dib=eyJ2IjoiMSJ9.qHIsepshJivRpPVq2I0b_A.WC2_ySh2B3hDqakSW6kFzmXejVZ4S3RtUnED1CWSOe8\&dib_tag=se\&keywords=Rad+TV\&qid=1725918411\&s=mobile-apps\&sprefix=rad+tv%2Cmobile-apps%2C94\&sr=1-1\&utm_source=brevo\&utm_campaign=New%20editor%20Rad_PSVR2Update_copy\&utm_medium=email), PlayStation PS5, PlayStation VR, and PSVR2 users will navigate to the 'Library' section and click on RSS Feeds.
+To access your Private Uploads in Rad TV apps including [iOS](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media&utm_medium=everywhere&utm_campaign=2024), [Apple TV](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media&utm_medium=everywhere&utm_campaign=2024), [Apple Vision Pro](https://apps.apple.com/us/app/rad-tv/id964433932?utm_source=Social+Media&utm_medium=everywhere&utm_campaign=2024), [Android TV](https://play.google.com/store/apps/details?id=com.littlstar.android&hl=en_US), [Android Mobile](https://play.google.com/store/apps/details?id=com.littlstar.android&hl=en_US), [Amazon Fire](https://www.amazon.com/Rad-TV-Live-Videos/dp/B0D7N19D4V/ref=sr_1_1?crid=2IP2D154F3IYT&dib=eyJ2IjoiMSJ9.qHIsepshJivRpPVq2I0b_A.WC2_ySh2B3hDqakSW6kFzmXejVZ4S3RtUnED1CWSOe8&dib_tag=se&keywords=Rad+TV&qid=1725918411&s=mobile-apps&sprefix=rad+tv%2Cmobile-apps%2C94&sr=1-1&utm_source=brevo&utm_campaign=New%20editor%20Rad_PSVR2Update_copy&utm_medium=email), [Chromecast](https://www.amazon.com/Rad-TV-Live-Videos/dp/B0D7N19D4V/ref=sr_1_1?crid=2IP2D154F3IYT&dib=eyJ2IjoiMSJ9.qHIsepshJivRpPVq2I0b_A.WC2_ySh2B3hDqakSW6kFzmXejVZ4S3RtUnED1CWSOe8&dib_tag=se&keywords=Rad+TV&qid=1725918411&s=mobile-apps&sprefix=rad+tv%2Cmobile-apps%2C94&sr=1-1&utm_source=brevo&utm_campaign=New%20editor%20Rad_PSVR2Update_copy&utm_medium=email), PlayStation PS5, PlayStation VR, and PSVR2 users will navigate to the 'Library' section and click on RSS Feeds.
 
-For PS4 and [Quest](https://www.meta.com/experiences/rad-tv/5046491592044459/?utm_source=brevo\&utm_campaign=New%20editor%20Rad_PSVR2Update_copy\&utm_medium=email) the link will be formatted as: https://content.mhq......
+For PS4 and [Quest](https://www.meta.com/experiences/rad-tv/5046491592044459/?utm_source=brevo&utm_campaign=New%20editor%20Rad_PSVR2Update_copy&utm_medium=email) the link will be formatted as: https://content.mhq......
 
 For questions, comments, or support please join our [Discord](https://discord.gg/radtv) or reach out via [DM on 𝕏](https://x.com/radtv__).

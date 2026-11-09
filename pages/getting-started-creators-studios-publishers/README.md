@@ -1,4 +1,6 @@
-# Getting Started - Creators, Studios, Publishers
+---
+title: Getting Started - Creators, Studios, Publishers
+---
 
 **Overview:**
 

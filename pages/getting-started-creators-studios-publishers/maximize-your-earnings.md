@@ -1,8 +1,7 @@
 ---
+title: Maximize Your Earnings
 description: Tips and Tricks to maximize earnings on Rad TV
 ---
-
-# Maximize Your Earnings
 
 The Rad TV team is working hard to get your content in front of as many consumers as possible.
 
@@ -38,7 +37,7 @@ The freemium model works. Getting viewers in the door and showing them your awes
 
 Whether it’s through posts on 𝕏, reels, stories or through an email newsletter - reaching out to your fan base, friends, and family directly is the best way to spread the word about your creations. Try sharing the story behind the creation. What does this piece mean to you? Why did you create it? What do you want viewers to feel?
 
-'_Everything_ that needs to be _said has already_ been _said_. But since no one was listening, _everything_ must be _said_ again.' - Andre Gide
+'*Everything* that needs to be *said has already* been *said*. But since no one was listening, *everything* must be *said* again.' - Andre Gide
 
 **PROMOTE! PROMOTE! PROMOTE!**
 

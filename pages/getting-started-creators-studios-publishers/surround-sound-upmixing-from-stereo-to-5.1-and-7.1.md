@@ -1,8 +1,7 @@
 ---
+title: Surround Sound Upmixing from Stereo to 5.1 and 7.1
 description: How to upmix your stereo audio to include 5.1 and 7.1 surround mixes.
 ---
-
-# Surround Sound Upmixing from Stereo to 5.1 and 7.1
 
 Creators who are [Creator+](https://rad.live/payment/?plan=f3145a1a-312f-47c7-8d32-51a3abf527d9) subscribers can now upmix their videos from stereo to surround sound.
 
@@ -22,4 +21,4 @@ The Upmixing process is part of the pre-processing of the video, so the resultin
 * If the input file has only a 5.1 surround mix, selecting Enhance will create a Stereo and 7.1 mix, and will try to pass through the 5.1 mix.
 * If the input file has only a 7.1 mix or above, selecting Enhance will create a Stereo, 5.1, and will try to pass through the 7.1 mix.
 
-_Bonus: Videos that are uploaded that have a surround mix will get a stereo downmix by default, even if Enhance isn't selected or the option isn't available. This ensures compatibility for web playback, since most web players don't support surround sound._
+*Bonus: Videos that are uploaded that have a surround mix will get a stereo downmix by default, even if Enhance isn't selected or the option isn't available. This ensures compatibility for web playback, since most web players don't support surround sound.*

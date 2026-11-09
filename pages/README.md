@@ -1,11 +1,10 @@
 ---
+title: Rad TV Creator and Streaming Docs
 description: >-
   The documentation portal is your guide to creating and distributing video
   content on RadTV.com and across devices. Rad TV embraces the future of
   streaming video, VR, AI and beyond.
 ---
-
-# Rad TV Creator and Streaming Docs
 
 In these docs, you will learn how to:
 

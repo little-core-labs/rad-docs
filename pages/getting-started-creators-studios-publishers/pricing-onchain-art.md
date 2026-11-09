@@ -1,9 +1,8 @@
 ---
+title: Pricing Onchain Art
 description: Balancing Market Appeal and True Value
 hidden: true
 ---
-
-# Pricing Onchain Art
 
 Pricing art for onchain marketplaces requires a delicate balance. As a creator, you want to ensure your pieces are accessible enough to sell while reflecting their true value and your efforts. Here’s a guide to help you set the right price for your digital creations:
 

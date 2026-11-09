@@ -1,11 +1,10 @@
 ---
+title: Account Management
 description: >-
   Welcome to your Rad TV account dashboard! This guide will walk you through all
   the settings and features available to help you manage your profile,
   subscription, content, and security.
 ---
-
-# Account Management
 
 ### General Account Settings
 
@@ -21,7 +20,7 @@ The `General` tab is where you manage your core profile information.
 * **Save Changes**: After making any changes on this page, be sure to click this button to save them.
 * **Delete Account**: This button will permanently delete your Rad TV account and all associated data. This action cannot be undone.
 
-***
+- - -
 
 ### Subscription
 
@@ -71,7 +70,7 @@ If there has been an issue with charging your payment method you will see an err
 
 After a new payment method has been entered and confirmed your subscription will be reactivated and that new payment method will be charged going forward.
 
-***
+- - -
 
 ### RSS Feeds
 
@@ -83,7 +82,7 @@ This powerful feature allows you to add your own content to Rad TV via RSS feeds
 * **Feed List**: Below the input box, you will see a list of all the RSS feeds you have successfully added.
 * **Delete**: To remove a feed, check the box next to it and click the **Delete** button.
 
-***
+- - -
 
 ### Referrals
 
@@ -95,7 +94,7 @@ Earn rewards by sharing Rad TV with your friends.
 * **Copy Referral Link**: Click this button to copy your unique referral link to your clipboard.
 * **Share Your Link**: Use the social media icons (e.g., X, Telegram, WhatsApp) to quickly share your link directly with friends.
 
-***
+- - -
 
 ### Developers
 
@@ -106,7 +105,7 @@ For technically-inclined users who want to build applications using Rad TV's API
 * **API Key**: An API (Application Programming Interface) key allows other applications to interact with Rad TV's services securely. If you are a developer, you can generate a key here to use in your projects.
 * **Generate Developer API Key**: If you don't have a key, click this button to create one.
 
-***
+- - -
 
 ### Security Settings
 

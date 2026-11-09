@@ -1,4 +1,6 @@
-# Examples
+---
+title: Examples
+---
 
 All examples assume `Authorization: Bearer <token>` unless the operation is public.
 

@@ -1,8 +1,7 @@
 ---
+title: Earn Free Premium Benefits via Referrals
 description: Learn how to earn premium subscription credits by referring new premium users
 ---
-
-# Earn Free Premium Benefits via Referrals
 
 **Refer a Friend and Enjoy a Free Month of Premium Benefits!**
 

@@ -1,4 +1,6 @@
-# API Keys
+---
+title: API Keys
+---
 
 API keys are used for programmatic access and for the MCP server (e.g. from Cursor or Claude). They are generated from a user's JWT.
 

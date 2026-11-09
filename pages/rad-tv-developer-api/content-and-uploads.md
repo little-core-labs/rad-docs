@@ -1,4 +1,6 @@
-# Content and Uploads
+---
+title: Content and Uploads
+---
 
 <a id="create-content"></a>
 

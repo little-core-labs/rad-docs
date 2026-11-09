@@ -1,10 +1,9 @@
 ---
+title: PS5 and PS VR2 Video Formats and Encoding
 description: >-
   Which video formats, codecs and resolutions Rad TV plays on PS5 and PS VR2,
   and how to encode files for smooth playback.
 ---
-
-# PS5 and PS VR2 Video Formats and Encoding
 
 ## Encoding Quick Tips
 
@@ -69,15 +68,15 @@ HandBrake Presets for Rad TV for PS VR2
 If you are new to this and are unsure what is safe to change, we go you covered. All you have to do is change a few settings on the Video Settings tab.
 
 * Encoder Preset: This changes the amount of compression it will try and perform. This also directly affects how long the encoding will take to complete.
-*   Quality Subsection
+* Quality Subsection
 
-    * Constant Quality: This determines the quality. This can also increase render time but not as much as the encoder preset. This setting also affects the file size.
+  * Constant Quality: This determines the quality. This can also increase render time but not as much as the encoder preset. This setting also affects the file size.
 
-    Constant quality determines a level of quality it will try to encode to. Higher quality results in a larger file. Encoder presets determine how hard it will try to fit more data in the same amount of allotted space. A very fast encoder preset and a lower (higher quality) constant quality could potentially create a video that is larger than its source and then the compression rate would be in the negatives.
+  Constant quality determines a level of quality it will try to encode to. Higher quality results in a larger file. Encoder presets determine how hard it will try to fit more data in the same amount of allotted space. A very fast encoder preset and a lower (higher quality) constant quality could potentially create a video that is larger than its source and then the compression rate would be in the negatives.
 
-    * Avg Bitrate (kbps): This is an alternative to Constant Quality. This allows you to have more control over the final file size of the encoded video. Constant Quality tries to maintain a certain quality regardless of how much space it will take. Average bitrate measured in Kilobits (kb) per second which is similar to Megabytes (MB) per second. 1 MB is equal to 8000 kb. If you have a 30 second video and you want the file size to be around 30 MB you would set the desired average bitrate to be 8000 kbps. You can also use an online unit conversion tool or simply Google [`1MB to kb`](https://www.google.com/search?q=1+MB+to+Kb\&sca_esv=fd83c4a36cb7ae3c\&sca_upv=1\&ei=HF_PZq7SIfzcp84PwNWH2Q4\&ved=0ahUKEwiu0KXom5iIAxV87skDHcDqIesQ4dUDCBA\&uact=5\&oq=1+MB+to+Kb\&gs_lp=Egxnd3Mtd2l6LXNlcnAiCjEgTUIgdG8gS2IyERAAGIAEGJECGLEDGIMBGIoFMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSIsKUJwIWKsJcAF4AZABAJgBUaABUaoBATG4AQPIAQD4AQGYAgKgAlfCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHATKgB88E\&sclient=gws-wiz-serp) if you do not want to do the math yourself.
-    * Multi-Pass Encoding: This causes an encoder to make two passes over the video when you have Avg Bitrate enabled instead of Constant Quality. This will make the final file size closer to the desired average bitrate. Average bitrate with a single pass tries its best to maintain a certain average bitrate but this is difficult to do on the fly and requires a certain amount of hindsight to do well - multi-pass encoding provides this hindsight. One major point to note is that multi-pass encoding can significantly increase the time it takes to encode.
-    * Turbo analysis pass: This speeds up the initial pass if you want the final file size to be closer to the desired average bitrate but do not want to wait as long. It will result in a loss of accuracy maintaining the desired average bitrate but is still better than no multi pass encoding at all. Turn this on if you want to save significant time but want a more accurately maintained bitrate.
+  * Avg Bitrate (kbps): This is an alternative to Constant Quality. This allows you to have more control over the final file size of the encoded video. Constant Quality tries to maintain a certain quality regardless of how much space it will take. Average bitrate measured in Kilobits (kb) per second which is similar to Megabytes (MB) per second. 1 MB is equal to 8000 kb. If you have a 30 second video and you want the file size to be around 30 MB you would set the desired average bitrate to be 8000 kbps. You can also use an online unit conversion tool or simply Google [`1MB to kb`](https://www.google.com/search?q=1+MB+to+Kb&sca_esv=fd83c4a36cb7ae3c&sca_upv=1&ei=HF_PZq7SIfzcp84PwNWH2Q4&ved=0ahUKEwiu0KXom5iIAxV87skDHcDqIesQ4dUDCBA&uact=5&oq=1+MB+to+Kb&gs_lp=Egxnd3Mtd2l6LXNlcnAiCjEgTUIgdG8gS2IyERAAGIAEGJECGLEDGIMBGIoFMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeMgYQABgHGB4yBhAAGAcYHjIGEAAYBxgeSIsKUJwIWKsJcAF4AZABAJgBUaABUaoBATG4AQPIAQD4AQGYAgKgAlfCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBZgDAIgGAZAGCpIHATKgB88E&sclient=gws-wiz-serp) if you do not want to do the math yourself.
+  * Multi-Pass Encoding: This causes an encoder to make two passes over the video when you have Avg Bitrate enabled instead of Constant Quality. This will make the final file size closer to the desired average bitrate. Average bitrate with a single pass tries its best to maintain a certain average bitrate but this is difficult to do on the fly and requires a certain amount of hindsight to do well - multi-pass encoding provides this hindsight. One major point to note is that multi-pass encoding can significantly increase the time it takes to encode.
+  * Turbo analysis pass: This speeds up the initial pass if you want the final file size to be closer to the desired average bitrate but do not want to wait as long. It will result in a loss of accuracy maintaining the desired average bitrate but is still better than no multi pass encoding at all. Turn this on if you want to save significant time but want a more accurately maintained bitrate.
 
 ![](/assets/Screenshot%202024-08-28%20112828.png "Settings Safe to Alter Highlighted")
 

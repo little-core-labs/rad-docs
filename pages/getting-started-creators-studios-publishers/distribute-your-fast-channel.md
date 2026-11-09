@@ -1,4 +1,6 @@
-# Distribute Your FAST Channel
+---
+title: Distribute Your FAST Channel
+---
 
 **Rad TV has 55+ FAST channels live today with some of the best FAST channel partners in the world.**
 
@@ -46,8 +48,8 @@ At any time you can click on the channel and update metadata or change its statu
 
 If your channel is live you can find it in the [Live TV section](https://rad.live/?tab=live-tv) on the main discovery page or in all Rad TV apps that support Live TV.
 
-And that’s it — your FAST Channel is now distributed to over 6 billion devices worldwide. Yes, _billion_ with a B!
+And that’s it — your FAST Channel is now distributed to over 6 billion devices worldwide. Yes, *billion* with a B!
 
-_\*Note: It is important not confuse your Creator Channel with your Live TV channels. A Creator Channel which you will need to create in order to access the Live TV functionality._
+*\*Note: It is important not confuse your Creator Channel with your Live TV channels. A Creator Channel which you will need to create in order to access the Live TV functionality.*
 
 Have questions? Reach out via [Discord](https://discord.gg/radtv) or DM us on [𝕏](https://x.com/radnftv).

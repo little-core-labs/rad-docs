@@ -1,26 +1,25 @@
 ---
+title: Premium Subscriptions
 description: Details about Rad TV's Premium Subscriptions
 ---
-
-# Premium Subscriptions
 
 Premium subscriptions to Rad TV give viewers access to exclusive content with no ads, along with advanced features like sideloading, support for media servers via UPnP (including Plex, Kodi, Jellyfin, and Emby), RSS feeds, Live TV channels, ad-supported and ad-free movie channels, private uploads, storage, and AI generation credits.
 
 ### Which plan is right for you?
 
-| Features | Basic | Premium | Premium+ |
-| --- | --- | --- | --- |
-| Free Live TV | Yes | Yes | Yes |
-| Free On Demand | Yes | Yes | Yes |
-| Cross Platform Support | Yes | Yes | Yes |
-| Premium Live TV | No | Yes | Yes |
-| Premium On Demand | No | Yes | Yes |
-| *Sideload your own Content | No | Yes | Yes |
-| *Custom RSS Feed Support (Videos & Volumetric) | No | Yes | Yes |
-| *UPnP Media Renderer/Casting | No | Yes | Yes |
-| AI Generation Credits<sup>1</sup> | No | 400 | 800 |
-| Private Uploads (150GB of Storage + 900 minutes of transcoding)<sup>1</sup> | No | No | Yes |
-| API Access | No | No | Yes |
+| Features                                                                    | Basic | Premium | Premium+ |
+| --------------------------------------------------------------------------- | ----- | ------- | -------- |
+| Free Live TV                                                                | Yes   | Yes     | Yes      |
+| Free On Demand                                                              | Yes   | Yes     | Yes      |
+| Cross Platform Support                                                      | Yes   | Yes     | Yes      |
+| Premium Live TV                                                             | No    | Yes     | Yes      |
+| Premium On Demand                                                           | No    | Yes     | Yes      |
+| \*Sideload your own Content                                                 | No    | Yes     | Yes      |
+| \*Custom RSS Feed Support (Videos & Volumetric)                             | No    | Yes     | Yes      |
+| \*UPnP Media Renderer/Casting                                               | No    | Yes     | Yes      |
+| AI Generation Credits<sup>1</sup>                                           | No    | 400     | 800      |
+| Private Uploads (150GB of Storage + 900 minutes of transcoding)<sup>1</sup> | No    | No      | Yes      |
+| API Access                                                                  | No    | No      | Yes      |
 
 \*USB/Hard Drive Sideloading is available on PlayStation PS4, PlayStation VR, and PlayStation VR2. On PS5, sideloading is in the VR version of Rad TV, so it needs the PS VR2 headset. See [Rad TV for PS5 / PS VR2](../getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README.md).
 

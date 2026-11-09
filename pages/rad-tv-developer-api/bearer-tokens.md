@@ -1,4 +1,6 @@
-# Bearer Tokens
+---
+title: Bearer Tokens
+---
 
 All protected Rad TV API requests use the same header:
 

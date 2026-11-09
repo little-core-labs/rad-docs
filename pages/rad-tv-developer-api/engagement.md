@@ -1,4 +1,6 @@
-# Engagement
+---
+title: Engagement
+---
 
 The API supports likes, comments, and channel follow/unfollow. Catalog types (Feature, Episode, Stream, etc.) and Content implement like and comment interfaces.
 

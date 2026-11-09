@@ -1,4 +1,6 @@
-# Premium and Free On-Demand Video, and Free TV
+---
+title: Premium and Free On-Demand Video, and Free TV
+---
 
 Rad TV supports a wide range of content, from Free Ad-Supported Streaming Television (FAST), to On Demand content from your favorite creators and studios, to VR video in 360 degrees.
 

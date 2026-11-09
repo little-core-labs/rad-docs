@@ -1,8 +1,7 @@
 ---
+title: Cancel a Subscription
 description: Step by Step Guide to Cancel a Subscription
 ---
-
-# Cancel a Subscription
 
 Your subscription state and status can always be viewed from your account page.
 

@@ -1,8 +1,7 @@
 ---
+title: Upload and Monetize Videos
 description: A guide to uploading and monetizing content on Rad TV
 ---
-
-# Upload and Monetize Videos
 
 [Click here to watch a video tutorial.](https://rad.live/watch/feature/4bb56bbd-59f2-48b6-addb-c6bb32ab0dbe/)
 

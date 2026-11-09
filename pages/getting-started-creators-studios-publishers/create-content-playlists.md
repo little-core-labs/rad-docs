@@ -1,8 +1,7 @@
 ---
+title: Create Content Playlists
 description: Learn how to create playlists to organize content on your channel.
 ---
-
-# Create Content Playlists
 
 1. Sign in to your Rad TV account and head to your creator studio by clicking on your profile picture in the upper right hand corner then clicking on Creator Studio.
 

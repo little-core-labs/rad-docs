@@ -1,4 +1,6 @@
-# Embed Video from Rad TV
+---
+title: Embed Video from Rad TV
+---
 
 Rad TV supports video embeds, allowing you to showcase your content anywhere on the web. Whether you're building a landing page, running a newsletter, or sharing a project update, embedding your videos lets you extend your reach beyond the platform.
 

@@ -1,4 +1,6 @@
-# Channels and Playlists
+---
+title: Channels and Playlists
+---
 
 Channels are creator spaces that hold catalog content (features, series, episodes, streams) and playlists. This guide covers how the API exposes them.
 

@@ -1,4 +1,6 @@
-# Mutations
+---
+title: Mutations
+---
 
 > [!NOTE]
 > All mutations are executed via `POST /graphql` with a JSON body. All require the header:

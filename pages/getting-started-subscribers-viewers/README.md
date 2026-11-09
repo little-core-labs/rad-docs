@@ -1,4 +1,6 @@
-# Getting Started - Subscribers, Viewers
+---
+title: Getting Started - Subscribers, Viewers
+---
 
 There are numerous ways to watch content on Rad TV.
 

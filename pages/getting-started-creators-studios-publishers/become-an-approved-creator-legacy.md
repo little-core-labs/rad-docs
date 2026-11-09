@@ -1,12 +1,11 @@
 ---
+title: Become an Approved Creator (Legacy)
 description: >-
   Certain capabilities related to content being featured across devices require
   being an Approved Creator. Becoming an Approved Creator on Rad TV is easy and
   comes with multiple benefits.
 hidden: true
 ---
-
-# Become an Approved Creator (Legacy)
 
 There are two types of **Creators** on Rad TV.
 
@@ -20,7 +19,7 @@ There are two types of **Creators** on Rad TV.
 * Prioritized Feature Placement Across Apps
 * Rad TV Sponsorship Consideration\
   \
-  _Note: Inclusion in Rad TV's Premium Subscription requires providing Rad with your business and/or banking details in order to process fiat, non-cryptocurrency, payouts._ [sell-subscription-video.md](sell-subscription-video.md "mention")
+  *Note: Inclusion in Rad TV's Premium Subscription requires providing Rad with your business and/or banking details in order to process fiat, non-cryptocurrency, payouts.* [sell-subscription-video.md](sell-subscription-video.md "mention")
 
 **Requirements** to become an approved creator on Rad TV**:**
 
@@ -34,7 +33,7 @@ Once the requirements above have been met you are eligible to apply.
 
 * Email [content@rad.live](mailto:content@rad.live) to request approval, and send your account name on Rad TV, examples of your work, and a bit about yourself and your company. \
   \
-  _Note: Soon you will be able to do this on the website by adding the appropriate information._
+  *Note: Soon you will be able to do this on the website by adding the appropriate information.*
 
 **Private Creators** can still upload and sell **Individual Videos**, but this content will be hidden from the app discovery across devices and will not be included in the Rad TV Premium Subscription. We don't want to stifle creativity, but want to ensure a good user experience first and foremost.
 
@@ -46,7 +45,7 @@ The reasons for this limitation are obvious, particularly given the incorporatio
 * This type of content could also violate the device terms of service where Rad TV's apps live. Devices like PlayStation, Android, or iOS. This would include substantially NSFW content, or worse.
 * Someone might upload copyrighted content that needs to be addressed.
 
-***
+- - -
 
 **A note on the types of Creators Launching an Externally Hosted RSS Channel on Rad TV**
 
@@ -56,7 +55,7 @@ This means that an external host or channel creator, like a digital magazine, vl
 
 Read more about Launching an RSS Based Channel on Rad TV Here: [adding-external-rss-feeds-to-your-library.md](../getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library.md "mention")
 
-***
+- - -
 
 Becoming an approved creator is a simple process, and will soon be fully automated on the website during account creation or updating.
 

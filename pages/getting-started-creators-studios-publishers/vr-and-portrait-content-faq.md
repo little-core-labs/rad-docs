@@ -1,10 +1,9 @@
 ---
+title: VR and Portrait Content FAQ
 description: >-
   This page contains information about setup for Immersive videos (360/180) and
   Portrait mode content through our Creator Studio.
 ---
-
-# VR and Portrait Content FAQ
 
 **Creators can now distribute and monetize VR and Portait videos with Rad TV!**
 

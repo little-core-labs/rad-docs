@@ -1,4 +1,6 @@
-# Introduction
+---
+title: Introduction
+---
 
 The Rad TV API uses a multi-layered authentication system. Almost all operations require a valid Bearer token.
 

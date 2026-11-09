@@ -1,10 +1,9 @@
 ---
+title: Sell Subscription Video
 description: >-
   Add Your Content to Rad TV's Premium Subscription to Reach an Existing
   Audience
 ---
-
-# Sell Subscription Video
 
 [Approved Creators](get-approved-for-subscription-payments.md) have the option to monetize content through Rad TV's Premium Subscription.[ ](become-an-approved-creator-legacy.md)
 

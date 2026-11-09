@@ -1,10 +1,9 @@
 ---
+title: Rad TV for PS4 / PS VR
 description: >-
   Play your own videos on PS4 and PS VR with Rad TV, from a USB drive or your
   home media server.
 ---
-
-# Rad TV for PS4 / PS VR
 
 ## How to Install
 
@@ -15,15 +14,15 @@ Search "Rad TV" on the PlayStation store. Available for PS4 and PS5 consoles, PS
 
 ## Supported Features
 
-|  |  |
-| --- | --- |
-| Free Live TV² | Yes |
-| Free On Demand | Yes |
-| Premium Live TV¹ | Yes |
+|                    |     |
+| ------------------ | --- |
+| Free Live TV²      | Yes |
+| Free On Demand     | Yes |
+| Premium Live TV¹   | Yes |
 | Premium On Demand¹ | Yes |
-| Sideloading¹ | Yes |
-| DLNA/UPnP¹ | Yes |
-| RSS Feeds¹ | Yes |
+| Sideloading¹       | Yes |
+| DLNA/UPnP¹         | Yes |
+| RSS Feeds¹         | Yes |
 
 > [!NOTE]
 > ¹ Requires a [Premium subscription](../premium-and-free-on-demand-video-and-free-tv.md).
@@ -32,10 +31,10 @@ Search "Rad TV" on the PlayStation store. Available for PS4 and PS5 consoles, PS
 
 ## Video & Photo Formats Supported
 
-|  | Spherical 360° | Spherical 180° | Fixed Frame (ff) |
-| --- | --- | --- | --- |
-| Video | Yes | Yes | Yes |
-| Photo | Yes | No | No |
+|       | Spherical 360° | Spherical 180° | Fixed Frame (ff) |
+| ----- | -------------- | -------------- | ---------------- |
+| Video | Yes            | Yes            | Yes              |
+| Photo | Yes            | No             | No               |
 
 ## How to View RSS Feeds
 

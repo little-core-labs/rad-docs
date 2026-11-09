@@ -1,4 +1,6 @@
-# Connecting
+---
+title: Connecting
+---
 
 Use Streamable HTTP: send JSON-RPC requests to `POST /mcp` with Bearer auth. Replace `YOUR_API_KEY` with a key from `POST /internal/v0/generate-api-key`.
 
@@ -30,7 +32,7 @@ curl -X POST http://localhost:3000/mcp \
 
 <a id="call-a-tool-e.g.-get_me"></a>
 
-### Step 3: Call a tool (e.g. get\_me)
+### Step 3: Call a tool (e.g. get_me)
 
 ```bash
 curl -X POST http://localhost:3000/mcp \

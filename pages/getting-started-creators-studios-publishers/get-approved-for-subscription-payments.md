@@ -1,9 +1,8 @@
 ---
+title: Get Approved for Subscription Payments
 description: How-to become an Approved Creator on Rad TV
 hidden: true
 ---
-
-# Get Approved for Subscription Payments
 
 Approved Creators are a step above Verified creators, and meet the necessary criteria to [monetize content by putting it behind the Rad TV Premium Subscription](sell-subscription-video.md)—This allows creators to monetize content on per minutes watched basis.
 

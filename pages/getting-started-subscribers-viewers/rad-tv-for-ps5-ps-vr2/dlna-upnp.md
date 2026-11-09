@@ -1,10 +1,9 @@
 ---
+title: PS5 DLNA / UPnP Media Server Setup
 description: >-
   Stream videos from a DLNA/UPnP media server such as Plex or Jellyfin to Rad TV
   in PS VR2 on PS5. How to set up your server and connect, step by step.
 ---
-
-# PS5 DLNA / UPnP Media Server Setup
 
 > [!NOTE]
 > Plex was used while implementing and Jellyfin was used as an additional test point. These should be the most reliable media servers and have sufficient documentation on how to connect with Rad TV for PS5 / PS VR2.
@@ -76,10 +75,10 @@ Usually this setting can be found under one of these places: DLNA/UPnP settings,
 > [!WARNING]
 > We have noticed that Plex misidentifies WEBM videos as MKV. We do not support MKV videos at the moment, so the app erroneously flags WEBM videos as not being supported. We are looking at options to amend this. If you have WEBM videos re-encode them as MP4 videos for now.
 
-**"Paradise is a** [**Plex Media Server**](https://www.plex.tv/personal-media-server/)**.**\
+**"Paradise is a** **[Plex Media Server](https://www.plex.tv/personal-media-server/).**\
 Don’t just store your movies and music—experience it like never before. Plex personal media server magically scans and organizes your files, sorting your media intuitively and beautifully."
 
-Plex Media Server can be downloaded and installed from [here](https://www.plex.tv/media-server-downloads/?cat=computer\&plat=windows#plex-media-server).
+Plex Media Server can be downloaded and installed from [here](https://www.plex.tv/media-server-downloads/?cat=computer&plat=windows#plex-media-server).
 
 ### Enabling DLNA
 
@@ -99,7 +98,7 @@ Go to Account Settings > {Server Name} > DLNA then check the "Enable the DLNA se
 > [!WARNING]
 > When Jellyfin's DLNA plugin is updated to a new major version (e.g., 5.x.x.x → 6.x.x.x), it unfortunately does **not** copy or reuse the previous version's `profile` folder. As a result, you will need to redo step 3 and onward.
 
-"[Jellyfin ](https://jellyfin.org/)is the volunteer-built media solution that puts _you_ in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way."
+"[Jellyfin ](https://jellyfin.org/)is the volunteer-built media solution that puts *you* in control of your media. Stream to any device from your own server, with no strings attached. Your media, your server, your way."
 
 Jellyfin can be download for install [here](https://jellyfin.org/downloads).
 

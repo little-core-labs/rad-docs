@@ -1,4 +1,6 @@
-# Rad TV for iOS / Apple TV
+---
+title: Rad TV for iOS / Apple TV
+---
 
 ## How to Install
 
@@ -8,15 +10,15 @@ You can also search for "Rad TV" on the Apple App Store
 
 ## Supported Features
 
-|  | iOS | Apple TV |
-| --- | --- | --- |
-| Free Live TV | Yes | Yes |
-| Free On Demand | Yes | Yes |
-| Premium Live TV¹ | Yes | Yes |
-| Premium On Demand¹ | Yes | Yes |
-| Sideloading¹ | Yes | No |
-| DLNA/UPnP¹ | Yes | Yes |
-| RSS Feeds¹ | Yes | Yes |
+|                    | iOS | Apple TV |
+| ------------------ | --- | -------- |
+| Free Live TV       | Yes | Yes      |
+| Free On Demand     | Yes | Yes      |
+| Premium Live TV¹   | Yes | Yes      |
+| Premium On Demand¹ | Yes | Yes      |
+| Sideloading¹       | Yes | No       |
+| DLNA/UPnP¹         | Yes | Yes      |
+| RSS Feeds¹         | Yes | Yes      |
 
 > [!NOTE]
 > ¹ Requires a [Premium subscription](premium-and-free-on-demand-video-and-free-tv.md).
@@ -25,15 +27,15 @@ You can also search for "Rad TV" on the Apple App Store
 
 ## Video & Photo Formats Supported
 
-| iOS | Spherical 360° | Spherical 180° | Fixed Frame | Augmented Reality |
-| --- | --- | --- | --- | --- |
-| Video | Yes | Yes | Yes | Yes |
-| Photo | Yes | No | No | No |
+| iOS   | Spherical 360° | Spherical 180° | Fixed Frame | Augmented Reality |
+| ----- | -------------- | -------------- | ----------- | ----------------- |
+| Video | Yes            | Yes            | Yes         | Yes               |
+| Photo | Yes            | No             | No          | No                |
 
 | Apple TV | Spherical 360° | Spherical 180° | Fixed Frame | Augmented Reality |
-| --- | --- | --- | --- | --- |
-| Video | Yes | Yes | Yes | No |
-| Photo | No | No | No | No |
+| -------- | -------------- | -------------- | ----------- | ----------------- |
+| Video    | Yes            | Yes            | Yes         | No                |
+| Photo    | No             | No             | No          | No                |
 
 ## How to View RSS Feeds
 

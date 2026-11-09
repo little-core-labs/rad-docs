@@ -1,4 +1,6 @@
-# Best Practices
+---
+title: Best Practices
+---
 
 Short recommendations for integrating with the Rad TV API.
 

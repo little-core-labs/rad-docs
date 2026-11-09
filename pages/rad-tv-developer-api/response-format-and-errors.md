@@ -1,4 +1,6 @@
-# Response Format and Errors
+---
+title: Response Format and Errors
+---
 
 The API uses a consistent envelope so clients can rely on `data` for success and `errors` for failure.
 

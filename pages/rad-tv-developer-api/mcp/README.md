@@ -1,4 +1,6 @@
-# MCP
+---
+title: MCP
+---
 
 The Rad TV API exposes a **Model Context Protocol (MCP)** server so IDEs and coding agents (e.g. Cursor, Claude) can interact with the API using tools with typed inputs.
 

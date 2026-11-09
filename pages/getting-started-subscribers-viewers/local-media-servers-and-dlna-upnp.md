@@ -1,4 +1,6 @@
-# Local Media Servers and DLNA/UPnP
+---
+title: Local Media Servers and DLNA/UPnP
+---
 
 > [!NOTE]
 > UPnP Media Renderer/Casting is currently available for PlayStation 4 and PlayStation VR, PlayStation VR2, iOS, Apple TV, Android TV, Chromecast, and Meta Quest.

@@ -1,4 +1,6 @@
-# Decentralized Identifiers
+---
+title: Decentralized Identifiers
+---
 
 ## DID (Decentralized Identifier)
 

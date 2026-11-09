@@ -1,4 +1,6 @@
-# Schema Reference
+---
+title: Schema Reference
+---
 
 This page summarizes the main GraphQL types, scalars, and conventions. For the full schema, use introspection against `POST /graphql` or open the Altair playground at `/altair` in development.
 
@@ -73,5 +75,5 @@ Many types have a `metadata` field implementing `EntityMetadata`: `name`, `title
 
 * **ContentInput** — `hints`, `metadata` (ContentMetadataInput)
 * **ContentAssetInput** — `filename`, `video` (VideoInput), `image` (ImageInput), `size`
-* **ProcessingInput** — `assetName`, `layout` (LANDSCAPE|PORTRAIT|VR), `encoder` (MEDIA\_CONVERT|RAD\_ENCODER), `enhance`
+* **ProcessingInput** — `assetName`, `layout` (LANDSCAPE|PORTRAIT|VR), `encoder` (MEDIA_CONVERT|RAD_ENCODER), `enhance`
 * **PlaylistInput** — `metadata` (PlaylistMetadataInput)

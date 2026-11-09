@@ -1,8 +1,7 @@
 ---
+title: Sideload Videos on PS4 and PS VR
 description: Copy video files to a USB drive and play them on PS4 or PS VR with Rad TV.
 ---
-
-# Sideload Videos on PS4 and PS VR
 
 The Rad TV app supports the playback of 2D/mono, 3D/stereo, 360°, and 180° videos via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read through the instructions below and reach out if you have any questions.
 
@@ -25,7 +24,7 @@ https://www.youtube.com/watch?v=-a-kZZkK-9c
    * The name of the folder is case-insensitive
    * All videos need to be placed in this folder or they will not be able to be read by the app.
    * The app supports nested folders inside of the top-level folder.
-   * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the type inside the application before playing the video \[see: [Metadata Settings](https://littlstar.zendesk.com/hc/en-us/articles/360028563652)] or you will need to name your file with the following naming conventions.
+   * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the type inside the application before playing the video [see: [Metadata Settings](https://littlstar.zendesk.com/hc/en-us/articles/360028563652)] or you will need to name your file with the following naming conventions.
    * Folders named "Littlstar" and "Littlestar" should still work, however there have been some reports that some hard drives no longer show up with these names. We recommend changing the folder name to "Rad".
 
 <a id="psvrsideloadinstructions-en-filenamingconventions"></a>
@@ -70,26 +69,26 @@ There are specific naming conventions to which videos must adhere for the app to
 ### Examples:
 
 * myvideo.mp4
-* myvideo\_180.mp4
-* myvideo\_180\_ou.mp4
-* myvideo\_180\_tb.mp4
-* myvideo\_180\_bt.mp4
-* myvideo\_180\_sbs.mp4
-* myvideo\_180\_lr.mp4
-* myvideo\_180\_rl.mp4
-* myvideo\_360.mp4
-* myvideo\_360\_ou.mp4
-* myvideo\_360\_tb.mp4
-* myvideo\_360\_bt.mp4
-* myvideo\_360\_sbs.mp4
-* myvideo\_360\_lr.mp4
-* myvideo\_360\_rl.mp4
-* myvideo\_3dff\_ou.mp4
-* myvideo\_3dff\_tb.mp4
-* myvideo\_3dff\_bt.mp4
-* myvideo\_3dff\_sbs.mp4
-* myvideo\_3dff\_lr.mp4
-* myvideo\_3dff\_rl.mp4
+* myvideo_180.mp4
+* myvideo_180_ou.mp4
+* myvideo_180_tb.mp4
+* myvideo_180_bt.mp4
+* myvideo_180_sbs.mp4
+* myvideo_180_lr.mp4
+* myvideo_180_rl.mp4
+* myvideo_360.mp4
+* myvideo_360_ou.mp4
+* myvideo_360_tb.mp4
+* myvideo_360_bt.mp4
+* myvideo_360_sbs.mp4
+* myvideo_360_lr.mp4
+* myvideo_360_rl.mp4
+* myvideo_3dff_ou.mp4
+* myvideo_3dff_tb.mp4
+* myvideo_3dff_bt.mp4
+* myvideo_3dff_sbs.mp4
+* myvideo_3dff_lr.mp4
+* myvideo_3dff_rl.mp4
 
 <a id="psvrsideloadinstructions-en-thumbnailsandmetadata"></a>
 
@@ -120,7 +119,7 @@ There are many tools for editing media file metadata. iTunes is a popular tool f
 4. Edit → Select All Files
 5. Actions (Quick)
 6. Import cover from file → Ok
-7. Format string for image filename → %\_filename%.jpg → Ok
+7. Format string for image filename → %_filename%.jpg → Ok
 
 > [!NOTE]
 > Mp3tag will remux the mp4 when embedding the jpg image. This can take a while depending on the file size of the mp4.

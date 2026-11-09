@@ -1,13 +1,15 @@
-# RSS Feeds
+---
+title: RSS Feeds
+---
 
 ## How to View RSS Feeds
 
 1. Add RSS feeds to your Rad TV account using the instructions [here](../adding-external-rss-feeds-to-your-library.md).
 2. Open the Rad TV app.
 3. Make sure you are logged in and have a [Rad TV Premium Subscription](../../premium-subscriptions/).
-4.  Go to your Library and open the RSS Feeds section.<br>
+4. Go to your Library and open the RSS Feeds section.<br>
 
-    ![](/assets/Image%20Sequence_026_0000.webp "Library Menu")
+   ![](/assets/Image%20Sequence_026_0000.webp "Library Menu")
 5. If the feed you added on your Rad TV account parsed correctly it will show up as a folder (or folder thumbnail).
 
 > [!NOTE]

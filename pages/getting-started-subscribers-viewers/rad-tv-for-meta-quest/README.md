@@ -1,4 +1,6 @@
-# Rad TV for Meta Quest
+---
+title: Rad TV for Meta Quest
+---
 
 ## How to Install
 
@@ -8,15 +10,15 @@ You can also search "Rad TV" on the Quest Store.
 
 ## Features Supported
 
-|  |  |
-| --- | --- |
-| Free Live TV | Yes |
-| Free On Demand | Yes |
-| Premium Live TV¹ | Yes |
+|                    |     |
+| ------------------ | --- |
+| Free Live TV       | Yes |
+| Free On Demand     | Yes |
+| Premium Live TV¹   | Yes |
 | Premium On Demand¹ | Yes |
-| Sideloading¹ | Yes |
-| DLNA/UPnP¹ | Yes |
-| RSS Feeds¹ | Yes |
+| Sideloading¹       | Yes |
+| DLNA/UPnP¹         | Yes |
+| RSS Feeds¹         | Yes |
 
 > [!NOTE]
 > ¹ Requires a [Premium subscription](../premium-and-free-on-demand-video-and-free-tv.md).

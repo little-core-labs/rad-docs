@@ -1,4 +1,6 @@
-# Adding External RSS Feeds to Your Library
+---
+title: Adding External RSS Feeds to Your Library
+---
 
 Rad TV allows users to add external RSS feeds to their profile, which can include content from countless existing external video publishers, magazines, news organizations, and beyond.
 
@@ -12,9 +14,9 @@ RSS on Rad TV enables a private viewing environment and a direct relationship wi
 > RSS Feed URLs must include the proper protocol (http:// or https://)
 
 1. Go the [RSS Feeds page](https://radtv.com/edit-account/?activeTab=rss-feeds) and log into your Rad TV account if you're not already.
-2.  Insert the feed URL into the 'Add New Feed URL' field and click the 'Add' button.
+2. Insert the feed URL into the 'Add New Feed URL' field and click the 'Add' button.
 
-    ![](/assets/Untitled.png "How to add RSS feeds to your Rad TV account")
+   ![](/assets/Untitled.png "How to add RSS feeds to your Rad TV account")
 
 ### **Creating Your Own Feeds**
 

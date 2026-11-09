@@ -1,4 +1,6 @@
-# GraphQL
+---
+title: GraphQL
+---
 
 The Rad TV API exposes a **GraphQL** endpoint for all core operations: identity, channels, catalog, content, playlists, engagement, and YouTube.
 

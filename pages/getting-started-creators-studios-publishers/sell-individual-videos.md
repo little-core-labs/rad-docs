@@ -1,11 +1,10 @@
 ---
+title: Sell Individual Videos
 description: >-
   AI, VR, Web3, and Film3 content distribution via blockchain and smart
   contracts on Rad TV
 hidden: true
 ---
-
-# Sell Individual Videos
 
 **Monetizing Video Content**
 
@@ -39,7 +38,7 @@ What you'll need:
 
 ## Step 1: Get the MetaMask app
 
-On your device, go to [_metamask.io_](https://metamask.io/). From there, click to get MetaMask from your device’s app store or add the browser extension. The app is free, and doesn’t require signing up or entering any personal information.
+On your device, go to *[metamask.io](https://metamask.io/)*. From there, click to get MetaMask from your device’s app store or add the browser extension. The app is free, and doesn’t require signing up or entering any personal information.
 
 ![Metamask.io](/assets/Screen%20Shot%202022-07-30%20at%2010.03.27%20PM.png)
 
@@ -81,7 +80,7 @@ Now that you have ETH in your wallet you are ready to create Open and Limited Ed
 
 **Create Your Video**
 
-Visit [https://radtv.com](https://radtv.com) to create your free channel and get started.
+Visit <https://radtv.com> to create your free channel and get started.
 
 Click [here for a step-by-step guide via docs](customizing-your-rad-tv-channel.md) or click [here for a how-to video](https://rad.live/watch/feature/4bb56bbd-59f2-48b6-addb-c6bb32ab0dbe/)!
 

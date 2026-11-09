@@ -1,4 +1,6 @@
-# Queries
+---
+title: Queries
+---
 
 All queries are executed via `POST /graphql` with a JSON body. Most require `Authorization: Bearer <token>`.
 

@@ -1,4 +1,6 @@
-# Publish RSS From Outside Server
+---
+title: Publish RSS From Outside Server
+---
 
 Publishers, Content Owners, Studios, and Creators can easily create On Demand TV channels, Live TV, Movie Channels, FAST syndication, OTT channels, and any type of video or streaming channel in no time using Rad TV's RSS / MRSS feed support. No need to build and maintain your own apps on PlayStation, Android TV, Apple TV, iOS, Apple Vision Pro, Android Mobile, Android TV, Amazon Fire, or Meta Quest. You can even run your own ads through these channels.
 
@@ -26,30 +28,30 @@ If you are a content provider and wish to support the Littlstar namespace, follo
   * \<link> (The url of the channel’s website. Not currently used but RSS required.)
 * \<item> (The section for a single video)
   * \<title> (The name of the item)
-  * \<link> (The url of the stream. _Important: this should be a direct link to the video, i.e. mp4/mov_.)
+  * \<link> (The url of the stream. *Important: this should be a direct link to the video, i.e. mp4/mov*.)
   * \<description> (The description of the item)
   * \<category> (The category of the item)
   * \<ls:duration> (Total running time of video in seconds)
   * \<ls:image> (The url to a thumbnail for the item. Aspect Ratio should be 16:9 with a width of 720 pixels or less.)
   * \<ls:content-type> (360, 180, ff, ar)
-  * \<ls:content-layout> (2d, ou, sbs, ou\_fr, sbs\_fr, hcap, jpg)
+  * \<ls:content-layout> (2d, ou, sbs, ou_fr, sbs_fr, hcap, jpg)
   * \<ls:feed> (Boolean indicating if the item's url is another RSS feed, i.e. for categorization or folders.)
 
 ## **Content Type**
 
-* _360_: 360 degree video/photo
-* _180_: 180 degree video
-* _ff_: Fixed-frame video
-* _ar:_ Augmented Reality video
+* *360*: 360 degree video/photo
+* *180*: 180 degree video
+* *ff*: Fixed-frame video
+* *ar:* Augmented Reality video
 
 ## **Content Layout**
 
-* _2d_: 2D Video
-* _ou_: Over/Under 3D Video (assumes the sub-images of the video are half-resolution and need to be stretched to fill the frame)
-* _sbs_: Side-by-side 3D Video (assumes the sub-images of the video are half-resolution and need to be stretched to fill the frame)
-* _ou\_fr_: Over/Under 3D Full Resolution (each sub-frame is the full resolution and doesn't need to be stretched/scaled)
-* _sbs\_fr_: Side-by-side 3D Full Resolution (each sub-frame is the full resolution and doesn't need to be stretched/scaled)
-* _hcap:_ Augmented reality holographic capture video
+* *2d*: 2D Video
+* *ou*: Over/Under 3D Video (assumes the sub-images of the video are half-resolution and need to be stretched to fill the frame)
+* *sbs*: Side-by-side 3D Video (assumes the sub-images of the video are half-resolution and need to be stretched to fill the frame)
+* *ou_fr*: Over/Under 3D Full Resolution (each sub-frame is the full resolution and doesn't need to be stretched/scaled)
+* *sbs_fr*: Side-by-side 3D Full Resolution (each sub-frame is the full resolution and doesn't need to be stretched/scaled)
+* *hcap:* Augmented reality holographic capture video
 * jpg: Photo (JPEG)
 
 ## **RSS Feed Example:**

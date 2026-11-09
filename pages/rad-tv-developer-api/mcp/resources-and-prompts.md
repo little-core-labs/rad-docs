@@ -1,4 +1,6 @@
-# Resources and Prompts
+---
+title: Resources and Prompts
+---
 
 <a id="resource-rad-api-capabilities"></a>
 
@@ -17,13 +19,13 @@ Contents (JSON):
 
 Use this resource to discover what the server supports without calling `tools/list`. MIME type: `application/json`.
 
-***
+- - -
 
 ## Prompts
 
 Prompts are predefined message templates that guide the agent through a workflow.
 
-### create\_content\_and\_upload
+### create_content_and_upload
 
 Description: Guide to create content, create content asset, then upload file via TUS.
 
@@ -47,9 +49,9 @@ Call `create_content_asset` with the returned content id, filename, and size.
 
 POST the file to the returned endpoint with the header `Authorization: Bearer <api-key>` and `Content-Type: multipart/form-data`.
 
-***
+- - -
 
-### follow\_a\_channel
+### follow_a_channel
 
 Description: Guide to follow a channel by DID.
 
@@ -57,7 +59,7 @@ Summary:
 
 Use the `follow_channel` tool with the channel DID (e.g. `did:rad.live:channel/<uuid>`). Get channel DIDs from `list_followed_channels` or from the API.
 
-***
+- - -
 
 <a id="llms.txt"></a>
 

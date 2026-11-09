@@ -1,4 +1,6 @@
-# Tools Reference
+---
+title: Tools Reference
+---
 
 All tools require `Authorization: Bearer <api-key>`. Optional arguments can be omitted.
 
@@ -6,8 +8,8 @@ All tools require `Authorization: Bearer <api-key>`. Optional arguments can be o
 
 | Tool                     | Description                                 | Arguments |
 | ------------------------ | ------------------------------------------- | --------- |
-| `get_me`                 | Current user (id, username, email, channel) | _(none)_  |
-| `list_followed_channels` | Channels the authenticated user follows     | _(none)_  |
+| `get_me`                 | Current user (id, username, email, channel) | *(none)*  |
+| `list_followed_channels` | Channels the authenticated user follows     | *(none)*  |
 
 ## Channels
 
@@ -27,13 +29,13 @@ All tools require `Authorization: Bearer <api-key>`. Optional arguments can be o
 
 ## Content and ingestion
 
-| Tool                            | Description                                             | Arguments                                                                                                                                                                                                                          |
-| ------------------------------- | ------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `create_content`                | Create new content; returns content id (DID)            | `title` (string, optional), `summary` (string, optional), `type` (FEATURE, LIVE, SERIES, EPISODE, SHORT; default FEATURE)                                                                                                          |
-| `create_content_asset`          | Create TUS upload session for content; returns endpoint | `contentId` (string), `filename` (string), `size` (number), `hint` (optional: EQUIRECTANGULAR, NONE, PORTRAIT, CUBEMAP, STEREOSCOPIC, OTHER; default NONE)                                                                         |
-| `submit_content_for_processing` | Submit content for transcoding                          | `contentId` (string), `assetName` (string), `layout` (optional: LANDSCAPE, PORTRAIT, VR; default LANDSCAPE), `encoder` (optional: MEDIA\_CONVERT, RAD\_ENCODER; default RAD\_ENCODER), `enhance` (optional boolean; default false) |
-| `publish_content`               | Make content public                                     | `id` (string — content DID)                                                                                                                                                                                                        |
-| `unpublish_content`             | Revert content to protected                             | `id` (string — content DID)                                                                                                                                                                                                        |
+| Tool                            | Description                                             | Arguments                                                                                                                                                                                                                       |
+| ------------------------------- | ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `create_content`                | Create new content; returns content id (DID)            | `title` (string, optional), `summary` (string, optional), `type` (FEATURE, LIVE, SERIES, EPISODE, SHORT; default FEATURE)                                                                                                       |
+| `create_content_asset`          | Create TUS upload session for content; returns endpoint | `contentId` (string), `filename` (string), `size` (number), `hint` (optional: EQUIRECTANGULAR, NONE, PORTRAIT, CUBEMAP, STEREOSCOPIC, OTHER; default NONE)                                                                      |
+| `submit_content_for_processing` | Submit content for transcoding                          | `contentId` (string), `assetName` (string), `layout` (optional: LANDSCAPE, PORTRAIT, VR; default LANDSCAPE), `encoder` (optional: MEDIA_CONVERT, RAD_ENCODER; default RAD_ENCODER), `enhance` (optional boolean; default false) |
+| `publish_content`               | Make content public                                     | `id` (string — content DID)                                                                                                                                                                                                     |
+| `unpublish_content`             | Revert content to protected                             | `id` (string — content DID)                                                                                                                                                                                                     |
 
 ## Playlists
 
@@ -58,7 +60,7 @@ All tools require `Authorization: Bearer <api-key>`. Optional arguments can be o
 | Tool                          | Description                                        | Arguments                                                                                           |
 | ----------------------------- | -------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `list_youtube_videos`         | User's YouTube videos (requires connected account) | `pageToken` (string, optional), `limit` (number, optional)                                          |
-| `get_youtube_publish_job`     | Status of a YouTube publish job                    | `id` (string — job id from publish\_content\_to\_youtube)                                           |
+| `get_youtube_publish_job`     | Status of a YouTube publish job                    | `id` (string — job id from publish_content_to_youtube)                                              |
 | `create_content_from_youtube` | Create content from a YouTube video                | `videoId` (string), `channel` (string, optional)                                                    |
 | `publish_content_to_youtube`  | Publish Rad TV content to YouTube; returns job id  | `id` (string — content DID), `privacyStatus` (optional: PUBLIC, UNLISTED, PRIVATE; default PRIVATE) |
 

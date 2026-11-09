@@ -1,8 +1,7 @@
 ---
+title: Customizing Your Rad TV Channel
 description: A step-by-step guide to setting up your channel on Rad TV
 ---
-
-# Customizing Your Rad TV Channel
 
 **Branding Your Channel and Publishing Video Content**
 
@@ -22,24 +21,24 @@ Fill in the following fields:
 3. Short Summary
 4. Categories
 5. Website/Social Links
-6.  Now it’s time to upload your channel's brand assets
+6. Now it’s time to upload your channel's brand assets
 
-    1. Make sure your asset dimensions are JPG, PNG, GIF, or SVG and a max size of 200MB
-    2. Upload an image for your Channel Banner: This 1920x1080 image is displayed at the top of your channel and will be the first image viewers will see when they land on your channel
+   1. Make sure your asset dimensions are JPG, PNG, GIF, or SVG and a max size of 200MB
+   2. Upload an image for your Channel Banner: This 1920x1080 image is displayed at the top of your channel and will be the first image viewers will see when they land on your channel
 
-    ![](/assets/Screenshot%202025-06-18%20at%2011.30.14%E2%80%AFAM.webp "Channel Banner")
+   ![](/assets/Screenshot%202025-06-18%20at%2011.30.14%E2%80%AFAM.webp "Channel Banner")
 
-    1.  Upload an image for your Channel Thumbnail
+   1. Upload an image for your Channel Thumbnail
 
-        1. This image is displayed across the Rad TV ecosystem to represent your channel and can be the same image as your channel banner but you will need to ensure the dimensions are 350x200
+      1. This image is displayed across the Rad TV ecosystem to represent your channel and can be the same image as your channel banner but you will need to ensure the dimensions are 350x200
 
-        Upload an image for your Channel Avatar
+      Upload an image for your Channel Avatar
 
-        1. This 100x100 image represents your channel on apps and feeds
+      1. This 100x100 image represents your channel on apps and feeds
 
-        ![](/assets/IMG_5801.webp "Channel Avatar")
-    2. Upload a 30x30 image for your Channel Logo
-       1. This image is shown in our iOS app for channel discovery
+      ![](/assets/IMG_5801.webp "Channel Avatar")
+   2. Upload a 30x30 image for your Channel Logo
+      1. This image is shown in our iOS app for channel discovery
 7. Click 'Update Channel' at the bottom of the page 👇
 
 ![](/assets/IMG_5803%20%281%29.webp "Click 'Create Channel'")

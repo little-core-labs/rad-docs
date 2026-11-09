@@ -1,4 +1,6 @@
-# Changelog for VR Version
+---
+title: Changelog for VR Version
+---
 
 <a id="letterboxing-and-trick-play-support-v1.4.24-01-31-2025"></a>
 
@@ -296,13 +298,13 @@ Finally, we have altered the settings slightly with the addition of camera rotat
   * Seeking does not show player controls
   * Navigating up, left, or right show the controls (not down)
 * Unified Home and VR home background banners
-*   Minor improvements to the video info menu
+* Minor improvements to the video info menu
 
-    * Larger titles will now be fully displayed, however, very long titles will still be truncated
-    * Using new fallback thumbnail
-    * Minor layout changes
+  * Larger titles will now be fully displayed, however, very long titles will still be truncated
+  * Using new fallback thumbnail
+  * Minor layout changes
 
-    ![](/assets/video_info_menu.webp "Video Info Menu")
+  ![](/assets/video_info_menu.webp "Video Info Menu")
 * Added dead-zone of 0.125 to regular PS5 controller so it's easier to navigate
 * Added auto-pause/play
   * If you dismount the VR headset playback automatically pauses
@@ -356,7 +358,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 >
 > UPDATE: We got an updated shader script from Sony. The colors are looking better, but they still look washed out.
 
-Happy Halloween from the Rad TV team! Get ready for a spooky new update featuring eerie new skyboxes that will chill your bones. Watch your favorite Halloween movie via sideloading in terrifying detail with our new HDR10\* support. Or dive into horror like never before on the all-new VR Home menu, where you can experience creepy VR videos up close!
+Happy Halloween from the Rad TV team! Get ready for a spooky new update featuring eerie new skyboxes that will chill your bones. Watch your favorite Halloween movie via sideloading in terrifying detail with our new HDR10* support. Or dive into horror like never before on the all-new VR Home menu, where you can experience creepy VR videos up close!
 
 ![](/assets/halloween_1.webp)![](/assets/halloween_2.webp)![](/assets/halloween_3.webp)
 
@@ -379,7 +381,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
 
 ![](/assets/skybox_1.webp)![](/assets/skybox_2.webp)![](/assets/skybox_3.webp)
 
-* Added support for 10-bit HDR\* content
+* Added support for 10-bit HDR* content
 
 > [!WARNING]
 > 10-bit HDR (HDR10) videos play and are perfectly watchable, however, the colors look washed out. The PS5 video player has a bug causing colors to display improperly that we are working with Sony Interactive Entertainment to squash. We hope to have a fix soon.

@@ -1,4 +1,6 @@
-# Controls for VR Version
+---
+title: Controls for VR Version
+---
 
 ## UI
 

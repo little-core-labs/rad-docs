@@ -1,4 +1,6 @@
-# Sideloading
+---
+title: Sideloading
+---
 
 ## Setup
 
