@@ -1,17 +1,15 @@
 ---
 title: Sideload Videos on PS5 and PS VR2
-description: >-
-  Copy video files to a USB drive and play them in PS VR2 on PS5 with Rad TV,
-  including 3D, 180 and 360 VR formats.
+description: Copy video files to a USB drive and play them in PS VR2 on PS5 with
+  Rad TV, including 3D, 180 and 360 VR formats.
 ---
-
 > [!NOTE]
 > Although we support a majority of main stream formats make sure we support the content type and layout you're interested in [here](README.md#video-viewing-formats-supported).
 
 > [!NOTE]
 > Again, although most video encodings are supported, make sure we support the video encoding of the content you're interested in [here](video-encoding.md).
 
-The Rad TV app's VR version [supports the playback of many types of videos](README.md#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.
+The Rad TV app's VR version [supports the playback of many types of videos,](README.md#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.
 
 ## Rad TV Sideloading Tutorial
 
@@ -26,13 +24,13 @@ https://www.youtube.com/watch?v=-a-kZZkK-9c
    * [Guide on how to format for Windows](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
    * [Guide on how to format for MacOS](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
    * [More about what is formatting](https://www.kingston.com/en/blog/personal-storage/how-to-format-a-usb-flash-drive#formatting-drives-in-windows)
-2.  Once formatted, create a folder named "rad" at the root (top-level directory) of the drive. The app can only see videos inside this folder.
+2. Once formatted, create a folder named "rad" at the root (top-level directory) of the drive. The app can only see videos inside this folder.
 
-    * For example, while you have your drive inserted in your Windows machine, it will have the file path: `D:/rad`, `E:/Rad`, or `Z:/RAD`. **Notice the drive letter does not matter and the folder name is case-insensitive**.
-    * Put your videos directly in the "rad" folder, or organize them into subfolders such as `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`. Nested folders are supported.
-    * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](file-naming-conventions.md).
+   * For example, while you have your drive inserted in your Windows machine, it will have the file path: `D:/rad`, `E:/Rad`, or `Z:/RAD`. **Notice the drive letter does not matter and the folder name is case-insensitive**.
+   * Put your videos directly in the "rad" folder, or organize them into subfolders such as `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`. Nested folders are supported.
+   * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](file-naming-conventions.md).
 
-    ![](../../assets/PS5%20Test%20Kit-20240426-0062.webp "View of the media player settings' pop out submenu.")
+   ![](../../assets/PS5%20Test%20Kit-20240426-0062.webp "View of the media player settings' pop out submenu.")
 3. Plug the drive into your PS5, turn on your PS VR2 headset, open Rad TV and choose the VR version, then open Library, Sideloading. You can connect more than one drive; each appears in the Sideloading menu.
 
 > [!TIP]
