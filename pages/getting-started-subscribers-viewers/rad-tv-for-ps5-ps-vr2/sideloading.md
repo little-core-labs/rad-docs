@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=-a-kZZkK-9c
     * Put your videos directly in the "rad" folder, or organize them into subfolders such as `D:/rad/360/` or `D:/rad/360/stereoscopic/sbs/`. Nested folders are supported.
     * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the content type and layout using the media player settings pop out submenu after starting a video **OR** you will need to name your file with the following [naming conventions](file-naming-conventions.md).
 
-    ![](../../assets/PS5%20Test%20Kit-20240426-0062.webp "View of the media player settings' pop out submenu.")
+    ![](/assets/PS5%20Test%20Kit-20240426-0062.webp "View of the media player settings' pop out submenu.")
 3. Plug the drive into your PS5, turn on your PS VR2 headset, open Rad TV and choose the VR version, then open Library, Sideloading. You can connect more than one drive; each appears in the Sideloading menu.
 
 > [!TIP]

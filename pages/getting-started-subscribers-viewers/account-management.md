@@ -9,7 +9,7 @@ description: >-
 
 ### General Account Settings
 
-![](../assets/rad-account-management-1-general.webp)
+![](/assets/rad-account-management-1-general.webp)
 
 The `General` tab is where you manage your core profile information.
 
@@ -29,7 +29,7 @@ The `Subscription` tab is your hub for managing your Rad premium access plan.
 
 #### Your Premium Access
 
-![](../assets/rad-account-management-2-subscription.webp)
+![](/assets/rad-account-management-2-subscription.webp)
 
 If you have an active subscription, this page gives you a summary of its status and features.
 
@@ -41,7 +41,7 @@ If you have an active subscription, this page gives you a summary of its status 
 
 #### Choosing or Changing Your Plan
 
-![](../assets/rad-account-management-2a-subscription-new.webp)
+![](/assets/rad-account-management-2a-subscription-new.webp)
 
 If you don't have a subscription or wish to change your current one, you'll see the plan selection screen.
 
@@ -51,7 +51,7 @@ If you don't have a subscription or wish to change your current one, you'll see 
 
 #### Billing & Payment Method
 
-![](../assets/rad-account-management-2b-subscription-edit.webp)
+![](/assets/rad-account-management-2b-subscription-edit.webp)
 
 By clicking "Edit Subscription," you are taken to a detailed view of your billing information.
 
@@ -63,11 +63,11 @@ By clicking "Edit Subscription," you are taken to a detailed view of your billin
 
 #### Payment Issues
 
-![](../assets/rad-account-management-2c-subscription-issue.webp)
+![](/assets/rad-account-management-2c-subscription-issue.webp)
 
 If there has been an issue with charging your payment method you will see an error message. Clicking on the Reactivate Subscription button will open a window where you can enter a new payment method.
 
-![](../assets/rad-account-management-2d-subscription-reactivate.png)
+![](/assets/rad-account-management-2d-subscription-reactivate.png)
 
 After a new payment method has been entered and confirmed your subscription will be reactivated and that new payment method will be charged going forward.
 
@@ -75,7 +75,7 @@ After a new payment method has been entered and confirmed your subscription will
 
 ### RSS Feeds
 
-![](../assets/rad-account-management-3-rss.webp)
+![](/assets/rad-account-management-3-rss.webp)
 
 This powerful feature allows you to add your own content to Rad TV via RSS feeds.
 
@@ -87,7 +87,7 @@ This powerful feature allows you to add your own content to Rad TV via RSS feeds
 
 ### Referrals
 
-![](../assets/rad-account-management-5-referrals.webp)
+![](/assets/rad-account-management-5-referrals.webp)
 
 Earn rewards by sharing Rad TV with your friends.
 
@@ -99,7 +99,7 @@ Earn rewards by sharing Rad TV with your friends.
 
 ### Developers
 
-![](../assets/rad-account-management-6-developer.webp)
+![](/assets/rad-account-management-6-developer.webp)
 
 For technically-inclined users who want to build applications using Rad TV's API.
 
@@ -110,7 +110,7 @@ For technically-inclined users who want to build applications using Rad TV's API
 
 ### Security Settings
 
-![](../assets/rad-account-management-7-security.webp)
+![](/assets/rad-account-management-7-security.webp)
 
 Keep your account secure by managing your password.
 

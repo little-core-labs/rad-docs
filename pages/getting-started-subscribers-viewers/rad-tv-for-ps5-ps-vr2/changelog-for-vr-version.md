@@ -16,9 +16,9 @@ Lastly, we are aware of an issue impacting RSS Feeds. Users have reported that l
 
 * Added letterbox support, meaning videos are no longer forced to a 16:9 aspect ratio.
 
-![](../../assets/letterboxing_portrait_support.webp "Letterboxing Portrait Support")
+![](/assets/letterboxing_portrait_support.webp "Letterboxing Portrait Support")
 
-![](../../assets/letterboxing_overriding_aspect_ratio.webp "Letterboxing Using Wrong Aspect Ratio")![](../../assets/letterboxing_wrong_aspect_ratio.webp "Letterboxing Overriding Wrong Aspect Ratio")
+![](/assets/letterboxing_overriding_aspect_ratio.webp "Letterboxing Using Wrong Aspect Ratio")![](/assets/letterboxing_wrong_aspect_ratio.webp "Letterboxing Overriding Wrong Aspect Ratio")
 
 * Player Controls GUI
   * Improved navigation
@@ -206,9 +206,9 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
   * Now using look of Sideloading and DLNA/UPnP menus
   * Thumbnail support added
 
-![](../../assets/rss_1.webp "RSS Feeds Example 1")![](../../assets/rss_2.webp "RSS Feeds Example 2")
+![](/assets/rss_1.webp "RSS Feeds Example 1")![](/assets/rss_2.webp "RSS Feeds Example 2")
 
-![](../../assets/rss_3.webp "RSS Feeds Example 3")![](../../assets/rss_4.webp "RSS Feeds Example 4")
+![](/assets/rss_3.webp "RSS Feeds Example 3")![](/assets/rss_4.webp "RSS Feeds Example 4")
 
 ### Bug Fixes
 
@@ -231,13 +231,13 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
 
 Yes, you read that right, DLNA/UPnP support is finally here. These are early days so there will be issues due to the amount of different media server applications all having their own quirks and sheer complexity of DLNA/UPnP. Plex and Jellyfin should be the most reliable as those are what were tested on the most. Please read the [docs](dlna-upnp.md) for more info on DLNA/UPnP, especially if using Jellyfin as that requires special configuration to work.
 
-![](../../assets/dnla_devices.webp "DLNA Devices Example")
+![](/assets/dnla_devices.webp "DLNA Devices Example")
 
-![](../../assets/dnla_jellyfin_items.webp "DLNA Jellyfin Items Example")
+![](/assets/dnla_jellyfin_items.webp "DLNA Jellyfin Items Example")
 
-![](../../assets/dlna_plex_items.webp "DLNA Plex Items Example")![](../../assets/dlna_plex_items_unsupported.webp "DLNA Plex Items Unsupported Example")
+![](/assets/dlna_plex_items.webp "DLNA Plex Items Example")![](/assets/dlna_plex_items_unsupported.webp "DLNA Plex Items Unsupported Example")
 
-![](../../assets/dnla_video_preview.webp "DLNA Video Preview Example")![](../../assets/dlna_video_playback.webp "DLNA Video Playback Example")
+![](/assets/dnla_video_preview.webp "DLNA Video Preview Example")![](/assets/dlna_video_playback.webp "DLNA Video Playback Example")
 
 ### New Features & Improvements
 
@@ -277,19 +277,19 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 
 * Added UI scaling in settings
 
-![](../../assets/ui_scaling_30_degrees.webp "UI Scaling 30 degrees")![](../../assets/ui_scaling_60_degrees.webp "UI Scaling 60 degrees")![](../../assets/ui_scaling_90_degrees.webp "UI Scaling 90 degrees")
+![](/assets/ui_scaling_30_degrees.webp "UI Scaling 30 degrees")![](/assets/ui_scaling_60_degrees.webp "UI Scaling 60 degrees")![](/assets/ui_scaling_90_degrees.webp "UI Scaling 90 degrees")
 
-![](../../assets/ui_scaling_45_degrees.webp "UI Scaling 45 degrees")![](../../assets/ui_scaling_75_degrees.webp "UI Scaling 75 degrees")
+![](/assets/ui_scaling_45_degrees.webp "UI Scaling 45 degrees")![](/assets/ui_scaling_75_degrees.webp "UI Scaling 75 degrees")
 
 * Within the player controls area we moved the environment settings to its own pop-out window
 
-![](../../assets/player_controls%20%281%29.webp "Player Controls")![](../../assets/player_controls_environment_settings.webp "Player Controls Environment Settings")
+![](/assets/player_controls%20%281%29.webp "Player Controls")![](/assets/player_controls_environment_settings.webp "Player Controls Environment Settings")
 
 * Added ability to rotate camera for 180° and 360° videos
   * Uses the right joystick
   * Added setting in player controls
 
-![](../../assets/player_controls_settings.webp "Player Controls Settings")
+![](/assets/player_controls_settings.webp "Player Controls Settings")
 
 * Now the submit button plays/pauses the video if the player controls are not shown
 * We have reworked how/when the player controls show:
@@ -302,7 +302,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
     * Using new fallback thumbnail
     * Minor layout changes
 
-    ![](../../assets/video_info_menu.webp "Video Info Menu")
+    ![](/assets/video_info_menu.webp "Video Info Menu")
 * Added dead-zone of 0.125 to regular PS5 controller so it's easier to navigate
 * Added auto-pause/play
   * If you dismount the VR headset playback automatically pauses
@@ -310,7 +310,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
   * Can enable/disable this feature on the settings menu under the Media Player settings
 * Replaced Halloween themed Skyboxes with Fall and Winter themes
 
-![](../../assets/skybox_fall.webp "Skybox Fall")![](../../assets/skybox_winter.webp "Skybox Winter")
+![](/assets/skybox_fall.webp "Skybox Fall")![](/assets/skybox_winter.webp "Skybox Winter")
 
 ### Bug Fixes
 
@@ -358,7 +358,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 
 Happy Halloween from the Rad TV team! Get ready for a spooky new update featuring eerie new skyboxes that will chill your bones. Watch your favorite Halloween movie via sideloading in terrifying detail with our new HDR10\* support. Or dive into horror like never before on the all-new VR Home menu, where you can experience creepy VR videos up close!
 
-![](../../assets/halloween_1.webp)![](../../assets/halloween_2.webp)![](../../assets/halloween_3.webp)
+![](/assets/halloween_1.webp)![](/assets/halloween_2.webp)![](/assets/halloween_3.webp)
 
 ### New Features & Improvements
 
@@ -366,7 +366,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
   * Added menu to sidebar
   * Includes just VR content
 
-![](../../assets/vr_home.webp)
+![](/assets/vr_home.webp)
 
 * Skybox
   * Skybox added to the app environment
@@ -377,7 +377,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
     * Change Rotation Speed (maybe do not crank it up all the way on a full stomach)
   * Added a handful of skyboxes including some Halloween themes
 
-![](../../assets/skybox_1.webp)![](../../assets/skybox_2.webp)![](../../assets/skybox_3.webp)
+![](/assets/skybox_1.webp)![](/assets/skybox_2.webp)![](/assets/skybox_3.webp)
 
 * Added support for 10-bit HDR\* content
 
@@ -392,7 +392,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
   * Back button now hides the player controls
   * Updated pop-out settings window icons
 
-![](../../assets/player_controls.webp)
+![](/assets/player_controls.webp)
 
 * Settings
   * Removed the max resolution, video demux buffer size, and number of buffer frames settings
@@ -402,7 +402,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
     * 6 frame buffers is now the standard instead of 3
   * New settings menu options widgets are closer to how most games display settings as opposed to a dropdown list
 
-![](../../assets/settings.webp)
+![](/assets/settings.webp)
 
 * Updated app name to `Rad TV for PS5`
 * Updated app icon
@@ -445,7 +445,7 @@ We also released [HandBrake presets for 8K](video-encoding.md#presets) and creat
   * Select demux video buffer size (10 MiB to 128 MiB (default 96 MiB)). Selecting a higher buffer size will result in greater memory usage but will help the video player handle higher bitrate videos more efficiently. This should make video playback smoother overall.
   * Set number of frame buffers (3 or 6 (default 3)). Frame buffer is how many frames of a video will be prepared for presentation prior to viewing. Selecting a higher frame buffer also results in higher memory usage and also contributes to smoother playback.
 
-![](../../assets/settings_menu_additions.png)
+![](/assets/settings_menu_additions.png)
 
 ### **Bug Fixes**
 
@@ -475,25 +475,25 @@ Please report bugs and improvements you'd like to see!
   * Made opaque to help with eye discomfort on stereoscopic videos
   * Rounded edges of background panels
 
-![](../../assets/player_controls_gui_redesign_0.webp "Player Control GUI Redesign 1")![](../../assets/player_controls_gui_redesign_1.webp "Player Control GUI Redesign 2")![](../../assets/player_controls_gui_redesign_2.webp "Player Control GUI Redesign 3")
+![](/assets/player_controls_gui_redesign_0.webp "Player Control GUI Redesign 1")![](/assets/player_controls_gui_redesign_1.webp "Player Control GUI Redesign 2")![](/assets/player_controls_gui_redesign_2.webp "Player Control GUI Redesign 3")
 
 * Sidebar Menu additions and improvements
   * Replaced icons
   * Added new Settings option
   * Added application version
 
-![](../../assets/sidebar_menu_redesign.webp "Sidebar Menu Redesign")
+![](/assets/sidebar_menu_redesign.webp "Sidebar Menu Redesign")
 
 * Library Menu Improvements
   * Swapped to new Sideloading Menu look
 
-![](../../assets/library_menu_redesign.png "Library Menu Redesign")
+![](/assets/library_menu_redesign.png "Library Menu Redesign")
 
 * Settings menu added
   * Added option to opt-in to increase the max supported resolution. We have not done much 8K video testing so it's going to be opt-in for right now.
   * Added option to opt-in to forcing stereoscopic videos to be displayed monoscopically while the player controls are shown for eye comfort. The video presentation switches back to stereoscopic once the player controls are hidden. Some people liked this change others dislike it so that is why it is opt-in now.
 
-![](../../assets/settings_menu.png "New Settings Menu")
+![](/assets/settings_menu.png "New Settings Menu")
 
 * Minor navigation improvements
 
@@ -524,7 +524,7 @@ Just a single bug fix this time. More fixes and improvements coming soon.
 ## The Sideloading Update (`v1.1.0`) \[09/06/2024]
 
 > [!NOTE]
-> Known issue added with this update: when sideloading from a folder with many videos if you start a video sometimes when you go back to the file view it will have a video selected that is off screen. Select the sidebar and navigate back to the videos grid to get the selection back on screen. Here is a [video for reference](../../assets/selection_bug.mp4) and to how to see the selection again.
+> Known issue added with this update: when sideloading from a folder with many videos if you start a video sometimes when you go back to the file view it will have a video selected that is off screen. Select the sidebar and navigate back to the videos grid to get the selection back on screen. Here is a [video for reference](/assets/selection_bug.mp4) and to how to see the selection again.
 
 This update brings an upgrade to the player controls UI as well as some major internal upgrades regarding the menu system.
 
@@ -538,16 +538,16 @@ This update brings an upgrade to the player controls UI as well as some major in
   * Added file view settings menu
   * Hot-plugging and hot-unplugging now better supported
 
-![](../../assets/sideloading_menu_redesign_1.webp "Sideloading Home View")![](../../assets/sideloading_menu_redesign_2.webp "Sideloading Folder View")![](../../assets/sideloading_menu_redesign_3.webp "Sideloading Subfolder View")
+![](/assets/sideloading_menu_redesign_1.webp "Sideloading Home View")![](/assets/sideloading_menu_redesign_2.webp "Sideloading Folder View")![](/assets/sideloading_menu_redesign_3.webp "Sideloading Subfolder View")
 
-![](../../assets/file_view_settings_menu_wip.webp "Sideloading File View Settings")
+![](/assets/file_view_settings_menu_wip.webp "Sideloading File View Settings")
 
 * Upgrading the player controls GUI
   * Better navigation
   * Redesign of pop-out settings window for video settings
     * Simpler and better looking
 
-![](../../assets/player_controls_gui_redesign.webp)
+![](/assets/player_controls_gui_redesign.webp)
 
 * Added 3D stereoscopic flat/rectangle support
 

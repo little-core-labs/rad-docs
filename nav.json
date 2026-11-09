@@ -1,0 +1,223 @@
+{
+  "items": [
+    {
+      "page": "README"
+    },
+    {
+      "page": "getting-started-creators-studios-publishers/README",
+      "children": [
+        {
+          "page": "getting-started-creators-studios-publishers/customizing-your-rad-tv-channel"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/upload-and-monetize-videos"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/sell-individual-videos"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/sell-subscription-video"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/4k-video-upscaling"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/surround-sound-upmixing-from-stereo-to-5.1-and-7.1"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/ai-multilingual-subtitle-generation"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/create-content-playlists"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/distribute-your-fast-channel"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/embed-video-from-rad-tv"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/publish-rss-from-outside-server"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/get-verified"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/get-approved-for-subscription-payments"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/become-an-approved-creator-legacy"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/pricing-onchain-art"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/maximize-your-earnings"
+        },
+        {
+          "page": "getting-started-creators-studios-publishers/vr-and-portrait-content-faq"
+        }
+      ]
+    },
+    {
+      "page": "getting-started-subscribers-viewers/README",
+      "children": [
+        {
+          "page": "getting-started-subscribers-viewers/account-management"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-web"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README",
+          "children": [
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/sideloading"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/dlna-upnp"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/rss-feeds"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/file-naming-conventions"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/controls-for-vr-version"
+            },
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/changelog-for-vr-version"
+            }
+          ]
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-ps4-ps-vr/README",
+          "children": [
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps4-ps-vr/sideloading"
+            }
+          ]
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-ios-apple-tv"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-android-android-tv-chromecast"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/rad-tv-for-meta-quest/README",
+          "children": [
+            {
+              "page": "getting-started-subscribers-viewers/rad-tv-for-meta-quest/sideloading"
+            }
+          ]
+        },
+        {
+          "page": "getting-started-subscribers-viewers/private-uploads"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/local-media-servers-and-dlna-upnp"
+        },
+        {
+          "page": "getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library"
+        }
+      ]
+    },
+    {
+      "page": "premium-subscriptions/README",
+      "children": [
+        {
+          "page": "premium-subscriptions/cancel-a-subscription"
+        },
+        {
+          "page": "premium-subscriptions/unlock-rad-tv-premium-with-a-stream-pass-nft"
+        }
+      ]
+    },
+    {
+      "page": "rad-tv-developer-api/README",
+      "children": [
+        {
+          "page": "rad-tv-developer-api/introduction"
+        },
+        {
+          "page": "rad-tv-developer-api/bearer-tokens"
+        },
+        {
+          "page": "rad-tv-developer-api/api-keys"
+        },
+        {
+          "page": "rad-tv-developer-api/decentralized-identifiers"
+        },
+        {
+          "page": "rad-tv-developer-api/graphql/README",
+          "children": [
+            {
+              "page": "rad-tv-developer-api/graphql/queries"
+            },
+            {
+              "page": "rad-tv-developer-api/graphql/mutations"
+            },
+            {
+              "page": "rad-tv-developer-api/graphql/examples"
+            },
+            {
+              "page": "rad-tv-developer-api/graphql/schema-reference"
+            }
+          ]
+        },
+        {
+          "page": "rad-tv-developer-api/mcp/README",
+          "children": [
+            {
+              "page": "rad-tv-developer-api/mcp/connecting"
+            },
+            {
+              "page": "rad-tv-developer-api/mcp/resources-and-prompts"
+            },
+            {
+              "page": "rad-tv-developer-api/mcp/tools-reference"
+            }
+          ]
+        },
+        {
+          "page": "rad-tv-developer-api/engagement"
+        },
+        {
+          "page": "rad-tv-developer-api/content-and-uploads"
+        },
+        {
+          "page": "rad-tv-developer-api/channels-and-playlists"
+        },
+        {
+          "page": "rad-tv-developer-api/response-format-and-errors"
+        },
+        {
+          "page": "rad-tv-developer-api/best-practices"
+        }
+      ]
+    },
+    {
+      "page": "earn-free-premium-benefits-via-referrals"
+    },
+    {
+      "page": "rad-tv-partnerships-for-businesses"
+    },
+    {
+      "page": "rad-tv-blockchain-integrations"
+    },
+    {
+      "page": "rad-tv-community-updates"
+    },
+    {
+      "page": "rad-tv-technical-support"
+    }
+  ]
+}

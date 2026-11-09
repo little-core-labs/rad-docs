@@ -14,7 +14,7 @@ RSS on Rad TV enables a private viewing environment and a direct relationship wi
 1. Go the [RSS Feeds page](https://radtv.com/edit-account/?activeTab=rss-feeds) and log into your Rad TV account if you're not already.
 2.  Insert the feed URL into the 'Add New Feed URL' field and click the 'Add' button.
 
-    ![](../assets/Untitled.png "How to add RSS feeds to your Rad TV account")
+    ![](/assets/Untitled.png "How to add RSS feeds to your Rad TV account")
 
 ### **Creating Your Own Feeds**
 

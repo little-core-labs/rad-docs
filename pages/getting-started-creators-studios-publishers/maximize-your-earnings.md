@@ -20,11 +20,11 @@ On top of that we are featuring creator content across our entire platform inclu
 
 If you need to spice it up a bit, head to your [Creator Dashboard](https://rad.live/channel/) and click the Edit Channel button in the left navigation.
 
-![](../assets/Screenshot%202024-10-28%20at%202.41.06%E2%80%AFPM.webp "Creator Dashboard")
+![](/assets/Screenshot%202024-10-28%20at%202.41.06%E2%80%AFPM.webp "Creator Dashboard")
 
 Need to add cover photos to your videos or update titles and descriptions? Head to you [My Videos](https://rad.live/channel/) page and click on the edit button (pencil icon) to edit video metadata.
 
-![](../assets/Screenshot%202024-10-28%20at%202.43.49%E2%80%AFPM.webp "My Videos Page")
+![](/assets/Screenshot%202024-10-28%20at%202.43.49%E2%80%AFPM.webp "My Videos Page")
 
 **Do you have trailers or clips that promote and provide previews of your content?**
 

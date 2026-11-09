@@ -13,7 +13,7 @@ Approved Creators are a step above Verified creators, and meet the necessary cri
 2. You have connected a wallet via the Account Subscription Tab
    1. Click on your profile picture in the top right hand corner at [RadTV.com](https://rad.live/edit-account/) and navigate to the "Account" page > Click on the "Subscription" tab > Click Register or Update Wallet ([Click here for a how-to video](https://rad.live/watch/feature/4042600b-249b-4b08-93e5-194294b6d517/).)
 
-![](../assets/Screenshot%202024-12-27%20at%203.07.39%E2%80%AFPM.webp "Account > Subscription Tab")
+![](/assets/Screenshot%202024-12-27%20at%203.07.39%E2%80%AFPM.webp "Account > Subscription Tab")
 
 3. Once Verified and you've connected a wallet to your account, fill out this [form](https://bit.ly/RadTV_ApprovedCreator) and our content team will respond via email.
 4. Once you're Approved, you can start adding content to the Premium Subscription. Read more [here](sell-subscription-video.md).

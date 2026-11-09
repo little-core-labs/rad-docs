@@ -59,7 +59,7 @@ HandBrake Presets for Rad TV for PS VR2
 4. At the top of HandBrake there is a menu bar. Select `Presets > Import from file`. It should open your default file browser and ask you to select which file to import. Find the downloaded preset file and select it.
 5. Now that the presets have been imported, you can now select it. Select `Presets > Presets`, put your cursor over it and it will show you a long list of presets. If you select one it will change your encoding configuration. Ours most likely will be at the bottom of the list.
 
-![](../../assets/Screenshot%202024-08-28%20112523.png "Importing a Preset")![](../../assets/Screenshot%202024-08-28%20123610.png "Using an Imported Preset")
+![](/assets/Screenshot%202024-08-28%20112523.png "Importing a Preset")![](/assets/Screenshot%202024-08-28%20123610.png "Using an Imported Preset")
 
 > [!NOTE]
 > There is a trick to force our presets to show at the top of the presets list. Select the first `Presets > Delete Built-In Presets`. Forewarning if you edited the built-in presets you will be losing this data unless you back it up. If you want the built-in presets still you can choose them once again by selecting `Presets > Reset Built-In Presets` and it will add back the built-in presets below the presets you just imported. Another way to do this without deleting the built-in presets and re-adding them is to manually edit the presets.json file located at `%APPDATA%/HandBrake/.`
@@ -79,7 +79,7 @@ If you are new to this and are unsure what is safe to change, we go you covered.
     * Multi-Pass Encoding: This causes an encoder to make two passes over the video when you have Avg Bitrate enabled instead of Constant Quality. This will make the final file size closer to the desired average bitrate. Average bitrate with a single pass tries its best to maintain a certain average bitrate but this is difficult to do on the fly and requires a certain amount of hindsight to do well - multi-pass encoding provides this hindsight. One major point to note is that multi-pass encoding can significantly increase the time it takes to encode.
     * Turbo analysis pass: This speeds up the initial pass if you want the final file size to be closer to the desired average bitrate but do not want to wait as long. It will result in a loss of accuracy maintaining the desired average bitrate but is still better than no multi pass encoding at all. Turn this on if you want to save significant time but want a more accurately maintained bitrate.
 
-![](../../assets/Screenshot%202024-08-28%20112828.png "Settings Safe to Alter Highlighted")
+![](/assets/Screenshot%202024-08-28%20112828.png "Settings Safe to Alter Highlighted")
 
 > [!NOTE]
 > Multi-Pass Encoding is only available for CPU encoding not GPU encoding.
@@ -91,14 +91,14 @@ If you are new to this and are unsure what is safe to change, we go you covered.
 
 There is a lot to consider when choosing a preset. Does your content have HDR? Does the hardware you're encoding with have a GPU with a dedicated video encoder on it? How long do you want to wait?
 
-![](../../assets/Screenshot%202024-08-28%20123841.png "Rad TV for PS5 / PS VR2's HandBrake Presets")
+![](/assets/Screenshot%202024-08-28%20123841.png "Rad TV for PS5 / PS VR2's HandBrake Presets")
 
 * Picking between a CPU and GPU NVENC preset is probably the least complex task. If you have an NVIDIA GPU, anything better/newer than the GTX 750 from 2015 should be able to do H.264 or H.265 NVENC. If you are able to use a NVENC and there is not a large time gap between the release of your GPU from your CPU it is highly recommended that you only use the NVENC presets. At the cost of (maybe) slightly worse quality and compression rates to actually being better than a CPU encode in a fraction of the time, NVENC is a significant time saver. Here is a resource to determine [if your NVIDIA GPU supports NVENC](https://help.elgato.com/hc/en-us/articles/360027954992-Which-NVIDIA-graphic-cards-do-support-NVENC-technology).
 * At this time we do not offer any presets for video encoders from AMD or Intel. These are shown as QSV for Intel and AMF for AMD instead of NVENC under the the list of video encoders available on the video settings tab. You can easily make your own presets by copying over values from our presets to your own.
 * Presets containing the term H.264 will be the quickest to encode, however, H.265 (a.k.a. High Efficiency Video Coding (HEVC), can provide better quality for the same size file. H.265 is better at compression but often results in longer encoding times if you are using a CPU.
 * Presets containing the term "8-bit, Non-HDR" and "10-bit, HDR" are (basically) asking you if you want the final video encoded to support HDR. You only want to do the HDR option if the source video you are using has HDR support itself. Most content generally does not have HDR. If you are inclined to check you can easily check with [VLC Player](https://www.videolan.org/) by opening the source video and going to Tools > Codec Information and seeing if the video stream contains a field called Color Primaries and has the value ITU-R BT.2020.
 
-![](../../assets/Screenshot%202024-08-28%20130643.png "VLC Player's Codec Information Window")
+![](/assets/Screenshot%202024-08-28%20130643.png "VLC Player's Codec Information Window")
 
 ### How Do I Encode A Video?
 
@@ -111,4 +111,4 @@ There is a lot to consider when choosing a preset. Does your content have HDR? D
 4. Choose a save location like your sideloading external drive, RSS Feed, or DLNA server at the bottom of the application.
 5. Hit the Start Encode button at the top or press Add to Queue > then open the Queue (also at the top) and start encoding from the Queue popup menu by pressing the Start Queue button. The queue allows you to queue up multiple videos for encoding all at once before starting and allows you to queue more videos for encoding while it's encoding.
 
-![](../../assets/Screenshot%202024-08-28%20133048.png "Start Encode")![](../../assets/Screenshot%202024-08-28%20133204.png "Add to Queue > Queue > Start Queue")
+![](/assets/Screenshot%202024-08-28%20133048.png "Start Encode")![](/assets/Screenshot%202024-08-28%20133204.png "Add to Queue > Queue > Start Queue")

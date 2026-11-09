@@ -85,7 +85,7 @@ Plex Media Server can be downloaded and installed from [here](https://www.plex.t
 
 Go to Account Settings > {Server Name} > DLNA then check the "Enable the DLNA server" option and configure any additional settings then click the "Save" button at the bottom of the page. You're all done!
 
-![](../../assets/Screenshot%202024-11-20%20124616.webp "Plex DLNA Settings")
+![](/assets/Screenshot%202024-11-20%20124616.webp "Plex DLNA Settings")
 
 ### Tips
 
@@ -109,24 +109,24 @@ Jellyfin can be download for install [here](https://jellyfin.org/downloads).
 
 1. Go to Dashboard > Plugins > Catalog and install the official DLNA plugin
 
-![](../../assets/Screenshot%202024-11-20%20125440.png "Jellyfin DLNA Plugin Install")
+![](/assets/Screenshot%202024-11-20%20125440.png "Jellyfin DLNA Plugin Install")
 
 2. Go to the Dashboard and click the Restart button to restart the server for the DLNA plugin to install
 3. Download this DLNA profile
 
-[Jellyfin DLNA Profile for Rad TV for PS VR2](../../assets/Rad%20TV%20for%20PS%20VR2.xml)
+[Jellyfin DLNA Profile for Rad TV for PS VR2](/assets/Rad%20TV%20for%20PS%20VR2.xml)
 
 4. Find your Jellyfin DLNA profiles folder. This should be in the same root folder as your cache, logs, and metadata folders. This path can be found on the Admin Dashboard as well at the bottom where it says Paths. For Windows this usually should be found at `C:\Users\{USER}\AppData\Local\jellyfin\plugins\DLNA_{X.Y.Z.W}\profiles`. Where `{USER}` is replaced with your Windows username and the `{X.Y.Z.W}` is replaced with the current DLNA plugin version.
 
-![](../../assets/Screenshot%202024-11-20%20101459.png "Jellyfin Paths")
+![](/assets/Screenshot%202024-11-20%20101459.png "Jellyfin Paths")
 
 5. Put the DLNA profile you downloaded earlier into the DLNA profiles folder.
 
-![](../../assets/Screenshot%202024-11-20%20101125.png "Jellyfin DLNA Profiles Folder")
+![](/assets/Screenshot%202024-11-20%20101125.png "Jellyfin DLNA Profiles Folder")
 
 6. Finally go back to the Dashboard and click the Restart button to restart the server for it to load the new DLNA profile. This step may be redundant but it does not hurt to restart the server one last time. Then adjust the DLNA settings as needed.
 
-![](../../assets/Screenshot%202024-11-20%20125140.png "Jellyfin DLNA Plugin Settings")
+![](/assets/Screenshot%202024-11-20%20125140.png "Jellyfin DLNA Plugin Settings")
 
 ### Tips
 
@@ -145,4 +145,4 @@ We are trying to support all major server applications, but there are quite a fe
 
 Now that you have your media server setup, all you need to do is open Rad TV for PS5 / PS VR2 and sign in with an account that has a Rad Premium subscription. Navigate to the Library menu using the sidebar. Then open the DLNA/UPnP Library Menu.
 
-![](../../assets/Image%20Sequence_026_0000.webp "DLNA/UPnP Library Menu Button")
+![](/assets/Image%20Sequence_026_0000.webp "DLNA/UPnP Library Menu Button")

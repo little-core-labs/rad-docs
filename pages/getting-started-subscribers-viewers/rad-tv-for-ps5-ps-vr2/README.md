@@ -36,13 +36,13 @@ Search "Rad TV" on the PlayStation store.
 
     You'll receive a dialog box asking which version: standard or VR of the application you would like to use.
 
-![](../../assets/PS5%20Test%20Kit-20240820-0114.webp)
+![](/assets/PS5%20Test%20Kit-20240820-0114.webp)
 
 *   ### If Already Launched and You Want to Switch Versions
 
     Simply power on or off the PS VR2 headset and you will get a dialog box asking whether you want to switch application versions.
 
-![](../../assets/PS5%20Test%20Kit-20240820-0115.webp)![](../../assets/PS5%20Test%20Kit-20240820-0113.webp)
+![](/assets/PS5%20Test%20Kit-20240820-0115.webp)![](/assets/PS5%20Test%20Kit-20240820-0113.webp)
 
 <a id="from-the-standard-versions-sideloading-or-dlna-upnp-screen"></a>
 
