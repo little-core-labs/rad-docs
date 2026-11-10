@@ -8,6 +8,9 @@ on:
 jobs:
   check:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      statuses: write
     steps:
       - uses: actions/checkout@v4
         with:
@@ -18,3 +21,18 @@ jobs:
           cache: npm
       - run: npm ci
       - run: npm run check
+      # The docs editor's "Remove page" waits for this result before it
+      # merges. Its GitHub App may read commit statuses but not check runs,
+      # so the outcome is repeated as the commit status docs/check.
+      - name: Report the result as a commit status
+        if: always() && github.event_name == 'pull_request'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          SHA: ${{ github.event.pull_request.head.sha }}
+          STATE: ${{ job.status == 'success' && 'success' || 'failure' }}
+        run: |
+          gh api "repos/${GITHUB_REPOSITORY}/statuses/${SHA}" \
+            -f state="${STATE}" \
+            -f context=docs/check \
+            -f target_url="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}" \
+            -f description="Links, images, titles and sidebar" >/dev/null
