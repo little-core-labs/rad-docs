@@ -35,7 +35,7 @@ Responses follow the [GraphQL spec](https://spec.graphql.org/draft/#sec-Response
 * **Success** — `data` is present; its key matches the operation name (e.g. `data.me`, `data.channel`, `data.createContent`).
 * **Error** — `errors` is an array of `{ message, path?, extensions? }`. HTTP status may still be 200; always check `response.errors`.
 
-See [Response format and errors](../response-format-and-errors.md) for details.
+See [Response format and errors](/docs/rad-tv-developer-api/response-format-and-errors/) for details.
 
 ## Introspection
 

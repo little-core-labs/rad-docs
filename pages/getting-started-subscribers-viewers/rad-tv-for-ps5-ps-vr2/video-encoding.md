@@ -105,8 +105,8 @@ There is a lot to consider when choosing a preset. Does your content have HDR? D
 > Specifically for our PS5 / PS VR2 application we recommend going to `Tools > Preferences > Output Files` and for the `MP4 File Extension` set it to `Always use MP4`.
 
 1. Open HandBrake and when it opens it will ask you to select a source video, do so.
-2. After selecting a source video, it should allow you to change settings. Assuming you [imported our presets and selected one](video-encoding.md#how-to-import-and-use-a-preset) using our [preset guide](video-encoding.md#which-preset-should-i-use).
-3. If you are new to this only adjust the settings as [laid out here](video-encoding.md#what-settings-are-safe-to-change).
+2. After selecting a source video, it should allow you to change settings. Assuming you [imported our presets and selected one](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding/#how-to-import-and-use-a-preset) using our [preset guide](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding/#which-preset-should-i-use).
+3. If you are new to this only adjust the settings as [laid out here](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding/#what-settings-are-safe-to-change).
 4. Choose a save location like your sideloading external drive, RSS Feed, or DLNA server at the bottom of the application.
 5. Hit the Start Encode button at the top or press Add to Queue > then open the Queue (also at the top) and start encoding from the Queue popup menu by pressing the Start Queue button. The queue allows you to queue up multiple videos for encoding all at once before starting and allows you to queue more videos for encoding while it's encoding.
 

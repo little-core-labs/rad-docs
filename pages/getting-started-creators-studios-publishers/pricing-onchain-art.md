@@ -40,6 +40,6 @@ Pricing art for onchain marketplaces requires a delicate balance. As a creator, 
 * If your art isn’t selling, don’t hesitate to tweak your prices or marketing strategies. Experimentation is key to finding the sweet spot.
 * Engage with collectors for feedback—understanding buyer preferences can help you align your pricing with market expectations.
 
-[Click here for some tips on maximizing earnings and potential sales!](maximize-your-earnings.md)
+[Click here for some tips on maximizing earnings and potential sales!](/docs/getting-started-creators-studios-publishers/maximize-your-earnings/)
 
 Setting the right price for your onchain art is about finding the balance between accessibility and honoring the value of your work. Whether it’s a 1 of 1 masterpiece, a limited edition, or a timed release, your pricing should reflect the effort, rarity, and artistry behind each piece while staying mindful of market trends and the volatility of ETH. Remember, your art has intrinsic worth, and the right collectors will see it. Trust your instincts, adapt as needed, and price in a way that invites others to celebrate and invest in your creative vision.

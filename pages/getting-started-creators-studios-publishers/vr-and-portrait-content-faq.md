@@ -11,7 +11,7 @@ In order for VR and Portrait videos to render correctly creators must assign the
 
 Follow these instructions to set the hint for your content:
 
-1. Upload your content ([Learn about uploading content](customizing-your-rad-tv-channel.md))
+1. Upload your content ([Learn about uploading content](/docs/getting-started-creators-studios-publishers/customizing-your-rad-tv-channel/))
 2. Head to the video details page by clicking the pencil icon associated with your video in your [creator dashboard](https://rad.live/channel/).
 
 ![](/assets/0%20VR%20Hint%20-%20Click%20the%20pencil%20icon%20on%20the%20video%20you%20want%20to%20set%20a%20hint%20for.webp "Navigate to the Video Details Page")

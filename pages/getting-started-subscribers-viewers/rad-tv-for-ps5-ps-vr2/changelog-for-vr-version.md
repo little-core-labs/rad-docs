@@ -231,7 +231,7 @@ RSS has finally been fixed and upgraded to the new look of the sideloading and D
 
 ## DLNA/UPnP Support (`v1.3.0`) \[11/20/2024]
 
-Yes, you read that right, DLNA/UPnP support is finally here. These are early days so there will be issues due to the amount of different media server applications all having their own quirks and sheer complexity of DLNA/UPnP. Plex and Jellyfin should be the most reliable as those are what were tested on the most. Please read the [docs](dlna-upnp.md) for more info on DLNA/UPnP, especially if using Jellyfin as that requires special configuration to work.
+Yes, you read that right, DLNA/UPnP support is finally here. These are early days so there will be issues due to the amount of different media server applications all having their own quirks and sheer complexity of DLNA/UPnP. Plex and Jellyfin should be the most reliable as those are what were tested on the most. Please read the [docs](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/dlna-upnp/) for more info on DLNA/UPnP, especially if using Jellyfin as that requires special configuration to work.
 
 ![](/assets/dnla_devices.webp "DLNA Devices Example")
 
@@ -273,7 +273,7 @@ We definitely missed the mark on the player controls with the last patch. After 
 
 One of the biggest improvements is that you can now rotate the camera using the right joystick on 180° and 360° videos. Technically, as you may notice, this feature actually rotates the sphere or semi-sphere the video plays on, however, referring to this as "camera rotation" is more easily understood. The reason we do not actually rotate the camera is because it keeps the player controls center. If you recenter your PSVR2 it will always be right there front and center not behind you or out of sight.
 
-Finally, we have altered the settings slightly with the addition of camera rotation on spherical videos. Here is the [new controls docs page](controls-for-vr-version.md) and this will be updated if/when we alter anything in the future.
+Finally, we have altered the settings slightly with the addition of camera rotation on spherical videos. Here is the [new controls docs page](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/controls-for-vr-version/) and this will be updated if/when we alter anything in the future.
 
 ### New Features & Improvements
 
@@ -324,7 +324,7 @@ Finally, we have altered the settings slightly with the addition of camera rotat
 
 ### Known Issues
 
-* The green eye bug is still present in the app. We are working on it, however, we believe the bug to only be occurring on 10-bit videos, not standard 8-bit videos. If you have an 8-bit video where this is happening please report it in Discord or our support email (`support@radtv.com`). Also we believe that if you correctly [name the file using the proper tags](file-naming-conventions.md) it **sometimes** plays correctly.
+* The green eye bug is still present in the app. We are working on it, however, we believe the bug to only be occurring on 10-bit videos, not standard 8-bit videos. If you have an 8-bit video where this is happening please report it in Discord or our support email (`support@radtv.com`). Also we believe that if you correctly [name the file using the proper tags](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/file-naming-conventions/) it **sometimes** plays correctly.
 
 <a id="bug-fix-v1.2.9-10-25-2024"></a>
 
@@ -438,7 +438,7 @@ Happy Halloween from the Rad TV team! Get ready for a spooky new update featurin
 
 This update focused on navigation improvements and additional playback settings within the video player.
 
-We also released [HandBrake presets for 8K](video-encoding.md#presets) and created a [public GitHub repository](https://github.com/little-core-labs/handbrake-presets?tab=readme-ov-file) where users can [post Issues for improvements or suggestions](https://github.com/little-core-labs/handbrake-presets/issues). Users more familiar with video encoding and GitHub can even make additions or modifications by submitting a [pull request](https://github.com/little-core-labs/handbrake-presets/pulls) to have them officially added to our set of presets for PS VR2 or other platforms like PS4, iOS, etc.
+We also released [HandBrake presets for 8K](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding/#presets) and created a [public GitHub repository](https://github.com/little-core-labs/handbrake-presets?tab=readme-ov-file) where users can [post Issues for improvements or suggestions](https://github.com/little-core-labs/handbrake-presets/issues). Users more familiar with video encoding and GitHub can even make additions or modifications by submitting a [pull request](https://github.com/little-core-labs/handbrake-presets/pulls) to have them officially added to our set of presets for PS VR2 or other platforms like PS4, iOS, etc.
 
 ### New Features & Improvements
 

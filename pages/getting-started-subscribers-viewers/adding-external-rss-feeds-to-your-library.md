@@ -20,4 +20,4 @@ RSS on Rad TV enables a private viewing environment and a direct relationship wi
 
 ### **Creating Your Own Feeds**
 
-Please checkout the [Rad TV RSS specification](../getting-started-creators-studios-publishers/publish-rss-from-outside-server.md) to see how to create and host your own Rad TV specific RSS feeds<br>
+Please checkout the [Rad TV RSS specification](/docs/getting-started-creators-studios-publishers/publish-rss-from-outside-server/) to see how to create and host your own Rad TV specific RSS feeds<br>

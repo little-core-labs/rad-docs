@@ -19,4 +19,4 @@ title: Rad TV for Web
 | RSS Feeds¹         | No  |
 
 > [!NOTE]
-> ¹ Requires a [Premium subscription](premium-and-free-on-demand-video-and-free-tv.md).
+> ¹ Requires a [Premium subscription](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).

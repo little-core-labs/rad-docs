@@ -24,4 +24,4 @@ Both require **Bearer authentication** (JWT or API key). Only the `ratings` and 
 ## Agent and LLM access
 
 * **llms.txt** — Human- and machine-readable manifest at `GET /llms.txt` (and `GET /.well-known/llms.txt`). Describes auth, MCP tools, and GraphQL.
-* **MCP** — Recommended for agents: 23 tools, 1 resource (`rad://api/capabilities`), and 2 prompts. Full tool list and arguments: see [MCP Tools reference](mcp/tools-reference.md) or `GET /llms.txt`.
+* **MCP** — Recommended for agents: 23 tools, 1 resource (`rad://api/capabilities`), and 2 prompts. Full tool list and arguments: see [MCP Tools reference](/docs/rad-tv-developer-api/mcp/tools-reference/) or `GET /llms.txt`.

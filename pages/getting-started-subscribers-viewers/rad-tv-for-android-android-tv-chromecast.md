@@ -21,4 +21,4 @@ You can also search for "Rad TV" on the Google Play Store.
 | RSS Feeds¹         | Yes     | Yes                     |
 
 > [!NOTE]
-> ¹ Requires a [Premium subscription](premium-and-free-on-demand-video-and-free-tv.md).
+> ¹ Requires a [Premium subscription](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).

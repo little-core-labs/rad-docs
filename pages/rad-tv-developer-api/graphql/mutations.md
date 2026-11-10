@@ -47,7 +47,7 @@ Call `createContentAsset` — Get an ingestion session (TUS endpoint).
 
 ### Step 3: Upload file
 
-Upload the file to the session endpoint (see [Content and uploads](../content-and-uploads.md)).
+Upload the file to the session endpoint (see [Content and uploads](/docs/rad-tv-developer-api/content-and-uploads/)).
 
 <a id="submit-for-processing"></a>
 

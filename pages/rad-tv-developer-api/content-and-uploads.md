@@ -133,7 +133,7 @@ query {
 * **images** — Thumbnails are described by `ThumbnailSet`: `urlFormat` (string with placeholder) and `count`. Replace the placeholder in `urlFormat` with zero-padded indices: `XXXXXXX` = 7-digit 0-based (MediaConvert); `XX` = 2-digit 1-based (Rad Encoder).
 * **subtitles** — `srt` and `vtt` URLs (null for MediaConvert; present for Rad Encoder).
 
-See [Schema reference — Output assets and thumbnails](graphql/schema-reference.md#output-assets-and-thumbnails) for details.
+See [Schema reference — Output assets and thumbnails](/docs/rad-tv-developer-api/graphql/schema-reference/#output-assets-and-thumbnails) for details.
 
 <a id="publish-optional"></a>
 

@@ -21,7 +21,7 @@ Click [here](https://rad.live/watch/feature/808c6871-eb67-4d8a-b272-36269d9b4e70
 
 A [Premium+ subscription ](https://rad.live/premium-plus/)is required to access this feature.
 
-Navigate to the 'My Library' section at [RadTV.com](../rad-tv-community-updates.md) by clicking on your profile picture in the top right hand corner > then click on My Library.
+Navigate to the 'My Library' section at [RadTV.com](/docs/rad-tv-community-updates/) by clicking on your profile picture in the top right hand corner > then click on My Library.
 
 From the My Library section you can upload new videos, see how much storage space you are utilizing, and see how many upload minutes (transcoding time) you have left for the month.
 

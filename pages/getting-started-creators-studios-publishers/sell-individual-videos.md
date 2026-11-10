@@ -82,7 +82,7 @@ Now that you have ETH in your wallet you are ready to create Open and Limited Ed
 
 Visit <https://radtv.com> to create your free channel and get started.
 
-Click [here for a step-by-step guide via docs](customizing-your-rad-tv-channel.md) or click [here for a how-to video](https://rad.live/watch/feature/4bb56bbd-59f2-48b6-addb-c6bb32ab0dbe/)!
+Click [here for a step-by-step guide via docs](/docs/getting-started-creators-studios-publishers/customizing-your-rad-tv-channel/) or click [here for a how-to video](https://rad.live/watch/feature/4bb56bbd-59f2-48b6-addb-c6bb32ab0dbe/)!
 
 Go to the [Rad TV Creator Studio](https://rad.live/channel/) to get started
 
@@ -184,7 +184,7 @@ The supply can be limited or open edition (unlimited). To set a total supply cap
 
 When setting your price it is important to remember that the USD value of ETH is ever changing and the amount you put in will always fluctuate in USD value. The price is locked in ETH. If you set the price at .01 ETH the price will always be .01 ETH no matter what the price of ETH is at any given time.
 
-Check out these [tips on pricing your pieces](pricing-onchain-art.md).
+Check out these [tips on pricing your pieces](/docs/getting-started-creators-studios-publishers/pricing-onchain-art/).
 
 For this demo we have set the price to .0001 ETH and we have kept the supply total at 0 in order to create and sell an unlimited number of copies.
 

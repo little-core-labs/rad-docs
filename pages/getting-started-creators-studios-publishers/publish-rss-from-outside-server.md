@@ -4,7 +4,7 @@ title: Publish RSS From Outside Server
 
 Publishers, Content Owners, Studios, and Creators can easily create On Demand TV channels, Live TV, Movie Channels, FAST syndication, OTT channels, and any type of video or streaming channel in no time using Rad TV's RSS / MRSS feed support. No need to build and maintain your own apps on PlayStation, Android TV, Apple TV, iOS, Apple Vision Pro, Android Mobile, Android TV, Amazon Fire, or Meta Quest. You can even run your own ads through these channels.
 
-Simply generate the XML with your web servers, have the XML elements point to your hosted videos and metadata, and give your users the link to add to their Rad TV Premium account. Create a channel using video hosted remotely on your own servers by creating an RSS feed using [Rad TV's specs below](publish-rss-from-outside-server.md#rssfeeds-en-elements).
+Simply generate the XML with your web servers, have the XML elements point to your hosted videos and metadata, and give your users the link to add to their Rad TV Premium account. Create a channel using video hosted remotely on your own servers by creating an RSS feed using [Rad TV's specs below](/docs/getting-started-creators-studios-publishers/publish-rss-from-outside-server/#rssfeeds-en-elements).
 
 Rad TV's RSS integration allows publishers to launch a streaming channel on Smart TVs, Mobile, PlayStation and VR in a matter of minutes. You only need video hosting and metadata for their video content and it can be made available instantly to Rad TV's apps without the publisher needing to build and maintain apps across devices, saving millions of dollars in overhead.
 

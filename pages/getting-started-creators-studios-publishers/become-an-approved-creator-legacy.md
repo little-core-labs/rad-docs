@@ -14,12 +14,12 @@ There are two types of **Creators** on Rad TV.
 
 **Approved Creators** gain a couple of major benefits.
 
-* If an Approved Creator wants to [sell-individual-videos.md](sell-individual-videos.md "mention"), their content will be made available across all devices Rad TV is on, including PlayStation, Android, Amazon Fire, Apple, Meta Quest, and the Web.
+* If an Approved Creator wants to [Sell Individual Videos](/docs/getting-started-creators-studios-publishers/sell-individual-videos/), their content will be made available across all devices Rad TV is on, including PlayStation, Android, Amazon Fire, Apple, Meta Quest, and the Web.
 * Approved Creators can have their content included into Rad TV's **Premium Subscription** for even greater reach and revenue opportunity to an existing subscriber base, joining a large number of publishers already distributing content through Rad TV's Premium Subscription.
 * Prioritized Feature Placement Across Apps
 * Rad TV Sponsorship Consideration\
   \
-  *Note: Inclusion in Rad TV's Premium Subscription requires providing Rad with your business and/or banking details in order to process fiat, non-cryptocurrency, payouts.* [sell-subscription-video.md](sell-subscription-video.md "mention")
+  *Note: Inclusion in Rad TV's Premium Subscription requires providing Rad with your business and/or banking details in order to process fiat, non-cryptocurrency, payouts.* [Sell Subscription Video](/docs/getting-started-creators-studios-publishers/sell-subscription-video/)
 
 **Requirements** to become an approved creator on Rad TV**:**
 
@@ -53,7 +53,7 @@ Either Type of Creator, Approved or Private, can decide to make an external RSS 
 
 This means that an external host or channel creator, like a digital magazine, vlog, or other video site that supports RSS feeds, can distribute content to Rad TV users privately and directly to that user's Rad TV account only (it won't show up anywhere on Rad TV's apps, the Rad TV website, or outside of that user's Rad TV account). This RSS feed is totally private between the RSS publisher and Rad TV user, but requires a Rad TV Premium Subscription for a Rad TV user to add an external RSS feed to their account.
 
-Read more about Launching an RSS Based Channel on Rad TV Here: [adding-external-rss-feeds-to-your-library.md](../getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library.md "mention")
+Read more about Launching an RSS Based Channel on Rad TV Here: [Adding External RSS Feeds to Your Library](/docs/getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library/)
 
 - - -
 

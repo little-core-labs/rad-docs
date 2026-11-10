@@ -21,7 +21,7 @@ Premium subscriptions to Rad TV give viewers access to exclusive content with no
 | Private Uploads (150GB of Storage + 900 minutes of transcoding)<sup>1</sup> | No    | No      | Yes      |
 | API Access                                                                  | No    | No      | Yes      |
 
-\*USB/Hard Drive Sideloading is available on PlayStation PS4, PlayStation VR, and PlayStation VR2. On PS5, sideloading is in the VR version of Rad TV, so it needs the PS VR2 headset. See [Rad TV for PS5 / PS VR2](../getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README.md).
+\*USB/Hard Drive Sideloading is available on PlayStation PS4, PlayStation VR, and PlayStation VR2. On PS5, sideloading is in the VR version of Rad TV, so it needs the PS VR2 headset. See [Rad TV for PS5 / PS VR2](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/).
 
 \*UPnP is available on PlayStation PS4 console, PlayStation VR, PlayStation VR2, Android TV, Apple TV, iPhone/iPad, Android Mobile. On PS5, DLNA/UPnP is in the VR version of Rad TV (added in v1.3.0), so it needs the PS VR2 headset.
 

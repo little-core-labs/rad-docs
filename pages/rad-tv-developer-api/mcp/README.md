@@ -7,7 +7,7 @@ The Rad TV API exposes a **Model Context Protocol (MCP)** server so IDEs and cod
 ## Endpoint
 
 * **URL:** `POST /mcp` (and `GET /mcp`, `DELETE /mcp` for Streamable HTTP)
-* **Auth:** Required. Send `Authorization: Bearer <api-key>`. Use an API key from `POST /internal/v0/generate-api-key` (see [API keys](../api-keys.md)).
+* **Auth:** Required. Send `Authorization: Bearer <api-key>`. Use an API key from `POST /internal/v0/generate-api-key` (see [API keys](/docs/rad-tv-developer-api/api-keys/)).
 * Production: `https://api.rad.live/mcp`.
 
 > [!NOTE]

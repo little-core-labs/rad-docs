@@ -9,7 +9,7 @@ description: >-
 > [!NOTE]
 > Rad TV for PlayStation 5 and PS VR2 is actually two applications in one: a standard version and a VR version. The standard version on the PS5 is a 2D experience while the VR version has support for the PS VR2 and stereoscopic (3D) content.
 >
-> Learn how to select a specific application version [here](README.md#how-to-select-a-specific-application-version).
+> Learn how to select a specific application version [here](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/#how-to-select-a-specific-application-version).
 
 > [!TIP]
 > New to Rad TV on PS VR2? These quick guides on rad.live cover setup, plans and common questions:
@@ -62,7 +62,7 @@ Search "Rad TV" on the PlayStation store.
 | RSS Feeds¹         | Yes              | Yes        |
 
 > [!NOTE]
-> ¹ Requires a [Premium subscription](../premium-and-free-on-demand-video-and-free-tv.md).
+> ¹ Requires a [Premium subscription](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).
 >
 > ² The player provided by Sony Interactive Entertainment is bugged when it comes to supporting live TV. Waiting on a fix from them.
 

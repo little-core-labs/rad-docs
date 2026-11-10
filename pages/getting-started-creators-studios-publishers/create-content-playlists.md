@@ -37,7 +37,7 @@ From here you can create and edit playlists. Let’s create a playlist!
 
 Add a Title, description including any links, and a thumbnail that is 1920x1080.
 
-8. Now it’s time to add content to your playlist. ([Click here](upload-and-monetize-videos.md) to learn how to upload content.) Click the dropdown arrow to select a piece of content to add to your playlist.
+8. Now it’s time to add content to your playlist. ([Click here](/docs/getting-started-creators-studios-publishers/upload-and-monetize-videos/) to learn how to upload content.) Click the dropdown arrow to select a piece of content to add to your playlist.
 
 ![](/assets/8%20Click%20the%20dropdown%20arrow.webp)
 
@@ -99,4 +99,4 @@ You will be taken to your playlists page. To edit a playlist click the pencil ic
 
 ![](/assets/21%20Click%20the%20pencil%20to%20edit%20your%20playlist.webp "Edit Playlists")
 
-That’s it! Great work! You are now a Rad TV playlist pro! [Click here](sell-individual-videos.md) to learn about monetizing your content on Rad TV.
+That’s it! Great work! You are now a Rad TV playlist pro! [Click here](/docs/getting-started-creators-studios-publishers/sell-individual-videos/) to learn about monetizing your content on Rad TV.
