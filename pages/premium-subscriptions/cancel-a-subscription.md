@@ -18,3 +18,5 @@ On this page you can see all of the current information about your subscription.
 ![](/assets/account-subscription-cancel-confirm.png)
 
 After completing these steps your subscription will be cancelled. If you experience any issues please [contact support](/docs/rad-tv-technical-support/) for further assistance.
+
+Test link: [remove me](/docs/premium-subscriptions/remove-me-test/#anything) and [again](remove-me-test.md).
