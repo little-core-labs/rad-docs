@@ -11,7 +11,7 @@ description: >-
 > [!NOTE]
 > Again, although most video encodings are supported, make sure we support the video encoding of the content you're interested in [here](video-encoding.md).
 
-The Rad TV app's VR version [supports the playback of many types of videos](README.md#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.
+The Rad TV app's VR version [supports the playback of many types of videos,](README.md#video-viewing-formats-supported) as well as video playback via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read the instructions below and reach out if you have any questions.
 
 ## Rad TV Sideloading Tutorial
 

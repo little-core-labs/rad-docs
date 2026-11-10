@@ -150,6 +150,14 @@ function main() {
     if (!page.data.description) warn(file, "no description in frontmatter");
     if (/\{%|\.gitbook\//.test(page.raw)) error(file, "GitBook markup or .gitbook/ path left over");
     if (page.raw.includes(String.fromCharCode(8212))) warn(file, "contains an em dash");
+    // The editor names a new page's file from its title and keeps accented
+    // letters and dots, which make awkward addresses ("café-guide-2.0").
+    // A folder page is README.md exactly; "readme.md" or "index.md" beside it
+    // would be a second page competing for the same address.
+    if (/^(readme|index)\.md$/i.test(path.basename(file)) && path.basename(file) !== "README.md")
+      error(file, "a page file may not be named readme or index; README.md is the folder's own page");
+    if (/[^a-z0-9-]/.test(path.basename(file, ".md")) && path.basename(file) !== "README.md")
+      warn(file, "file name has characters other than a-z, 0-9 and hyphens; consider a plainer title before it is linked");
 
     for (const { url, line } of page.links) {
       // A link to a docs page by its address on the site, "/docs/a/b/" or
