@@ -60,6 +60,17 @@
       ]
     },
     {
+      "page": "premium-subscriptions/README",
+      "children": [
+        {
+          "page": "premium-subscriptions/cancel-a-subscription"
+        },
+        {
+          "page": "premium-subscriptions/unlock-rad-tv-premium-with-a-stream-pass-nft"
+        }
+      ]
+    },
+    {
       "page": "getting-started-subscribers-viewers/README",
       "children": [
         {
@@ -75,10 +86,12 @@
           "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/README",
           "children": [
             {
-              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/sideloading"
-            },
-            {
-              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/dlna-upnp"
+              "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/sideloading",
+              "children": [
+                {
+                  "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/dlna-upnp"
+                }
+              ]
             },
             {
               "page": "getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/rss-feeds"
@@ -127,17 +140,6 @@
         },
         {
           "page": "getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library"
-        }
-      ]
-    },
-    {
-      "page": "premium-subscriptions/README",
-      "children": [
-        {
-          "page": "premium-subscriptions/cancel-a-subscription"
-        },
-        {
-          "page": "premium-subscriptions/unlock-rad-tv-premium-with-a-stream-pass-nft"
         }
       ]
     },
