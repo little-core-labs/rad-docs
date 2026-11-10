@@ -4,7 +4,9 @@ title: Rad TV for Android / Android TV / Chromecast
 
 ## How to Install
 
-https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.littlstar.android
+Android phones and tablets: https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.rad.mobile
+
+Android TV, Google TV and Chromecast: https://play.google.com/store/apps/details?gl=US&hl=en_US&id=com.littlstar.android
 
 You can also search for "Rad TV" on the Google Play Store.
 
@@ -17,7 +19,7 @@ You can also search for "Rad TV" on the Google Play Store.
 | Premium Live TV¹   | Yes     | Yes                     |
 | Premium On Demand¹ | Yes     | Yes                     |
 | Sideloading¹       | No      | No                      |
-| DLNA/UPnP¹         | No      | Yes                     |
+| DLNA/UPnP¹         | Yes     | Yes                     |
 | RSS Feeds¹         | Yes     | Yes                     |
 
 > [!NOTE]
