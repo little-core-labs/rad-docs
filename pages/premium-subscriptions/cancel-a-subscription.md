@@ -19,4 +19,4 @@ On this page you can see all of the current information about your subscription.
 
 After completing these steps your subscription will be cancelled. If you experience any issues please [contact support](/docs/rad-tv-technical-support/) for further assistance.
 
-Test link: [remove me](/docs/premium-subscriptions/remove-me-test/) and [again](remove-me-test.md).
+Test link: [remove me](/docs/premium-subscriptions/) and [again](/docs/premium-subscriptions/).
