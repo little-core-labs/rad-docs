@@ -1,0 +1,39 @@
+name: review-request
+
+# When a draft in the docs editor is set to "In review", the editor labels its
+# pull request decap-cms/pending_review. This asks the rest of the docs team to
+# review it, so GitHub emails them. Anyone on the team can then publish it.
+
+on:
+  pull_request:
+    types: [labeled]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  request:
+    if: github.event.label.name == 'decap-cms/pending_review'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - name: Ask the docs team to review
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR: ${{ github.event.pull_request.number }}
+          AUTHOR: ${{ github.event.pull_request.user.login }}
+          # The docs editors' GitHub accounts.
+          TEAM: tmugavero humanshell Prash74 CamLSM
+        run: |
+          # One request per person, so one bad login cannot sink the rest.
+          # GitHub logins are case-insensitive.
+          author=$(printf '%s' "$AUTHOR" | tr '[:upper:]' '[:lower:]')
+          for login in $TEAM; do
+            [ "$(printf '%s' "$login" | tr '[:upper:]' '[:lower:]')" = "$author" ] && continue
+            if gh api -X POST "repos/${GITHUB_REPOSITORY}/pulls/${PR}/requested_reviewers" \
+              -f "reviewers[]=${login}" >/dev/null; then
+              echo "Asked ${login} to review #${PR}"
+            else
+              echo "::warning::Could not ask ${login} to review #${PR}"
+            fi
+          done

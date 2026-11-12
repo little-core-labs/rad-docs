@@ -1,12 +1,18 @@
 // Validates the docs before they are published. Runs on every PR (see
 // .github/workflows/check.yml) and locally with `npm run check`.
 //
-// Errors fail the check: a page missing from SUMMARY.md that is not hidden, a
-// SUMMARY entry whose file does not exist, an H1 that differs from its SUMMARY
-// label, a relative link or anchor that does not resolve, an image that does
-// not exist or is too large, leftover GitBook markup, or a renamed page without
-// a redirect. Warnings are printed but do not fail: a missing description, an
-// em dash.
+// The pages live in docs.config.json's contentDir ("pages"); the sidebar is
+// nav.json. A page the sidebar does not list yet (new in the editor) is placed
+// under its parent by the site build, so that is not an error. Older checkouts
+// keep the pages at the root with SUMMARY.md, and the check still reads them.
+//
+// Errors fail the check: a sidebar entry whose page does not exist or that is
+// listed twice, a page with no title or with two (a `title` in the frontmatter
+// and an H1 in the body), a SUMMARY.md label that differs from its page's
+// title, a link or anchor that does not resolve, an image that does not exist
+// or is too large, a linked file over 20 MB, leftover GitBook markup, or a
+// removed URL without a redirect. Warnings are printed but do not fail: a
+// missing description, an em dash.
 
 import fs from "node:fs";
 import path from "node:path";
@@ -24,8 +30,13 @@ import { imageSize } from "image-size";
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const MAX_IMAGE_BYTES = 2 * 1024 * 1024;
 const MAX_IMAGE_WIDTH = 2000;
+const MAX_FILE_BYTES = 20 * 1024 * 1024;
 const NOT_PAGES = new Set(["SUMMARY.md", "CONTRIBUTING.md"]);
 const SKIP_DIRS = new Set(["node_modules", "assets", "scripts", ".github", ".git"]);
+const CONFIG = JSON.parse(fs.readFileSync(path.join(ROOT, "docs.config.json"), "utf8"));
+// "pages", "./pages" and "pages/" all mean pages; "." (or unset) is the repo root.
+const CONTENT_DIR = path.posix.normalize(CONFIG.contentDir || ".").replace(/^\.\/|\/+$/g, "") || ".";
+const CONTENT = path.join(ROOT, CONTENT_DIR);
 
 const errors = [];
 const warnings = [];
@@ -43,22 +54,49 @@ function listMarkdown(dir, out = []) {
   return out;
 }
 
-// "getting-started/foo.md" -> "/getting-started/foo", "x/README.md" -> "/x", "README.md" -> "/"
-export function urlPath(file) {
-  let p = "/" + rel(file).replace(/\.md$/, "");
+// Content-relative "getting-started/foo.md" -> "/getting-started/foo",
+// "x/README.md" -> "/x", "README.md" -> "/"
+function contentUrl(contentPath) {
+  let p = "/" + contentPath.replace(/\.md$/, "");
   if (p.endsWith("/README")) p = p.slice(0, -"/README".length) || "/";
   if (p === "/README") p = "/";
   return p;
 }
+export function urlPath(file) {
+  return contentUrl(path.relative(CONTENT, file).split(path.sep).join("/"));
+}
 
-function parseSummary() {
-  const text = fs.readFileSync(path.join(ROOT, "SUMMARY.md"), "utf8");
-  const entries = [];
-  for (const line of text.split(/\r?\n/)) {
-    const m = /^(\s*)\* \[([^\]]+)\]\(([^)]+)\)\s*$/.exec(line);
-    if (m) entries.push({ label: m[2].trim(), file: path.join(ROOT, m[3]), depth: m[1].length });
+// The sidebar, as { file, label, source }. nav.json holds a tree of
+// { page, children } where page is a content-relative path without ".md"
+// ("a/b", "a/README"); labels are the pages' titles. SUMMARY.md (older
+// checkouts) carries labels that must equal the titles.
+function navEntries() {
+  const navFile = path.join(ROOT, "nav.json");
+  if (!fs.existsSync(navFile)) {
+    const text = fs.readFileSync(path.join(ROOT, "SUMMARY.md"), "utf8");
+    const entries = [];
+    for (const line of text.split(/\r?\n/)) {
+      const m = /^(\s*)\* \[([^\]]+)\]\(([^)]+)\)\s*$/.exec(line);
+      if (m) entries.push({ label: m[2].trim(), file: path.join(ROOT, m[3]), source: path.join(ROOT, "SUMMARY.md") });
+    }
+    return entries;
   }
+  const entries = [];
+  const walkNav = items => {
+    for (const item of items || []) {
+      entries.push({ label: null, file: navPageFile(item.page), ref: item.page, source: navFile });
+      walkNav(item.children);
+    }
+  };
+  walkNav(JSON.parse(fs.readFileSync(navFile, "utf8")).items);
   return entries;
+}
+
+// "a/b" -> a/b.md, else a/b/README.md (a README reference may be lower case).
+function navPageFile(ref) {
+  const p = String(ref || "").replace(/\.md$/i, "").replace(/(^|\/)readme$/i, "$1README");
+  const direct = path.join(CONTENT, `${p}.md`);
+  return fs.existsSync(direct) ? direct : path.join(CONTENT, p, "README.md");
 }
 
 const parser = unified().use(remarkParse).use(remarkGfm);
@@ -84,31 +122,83 @@ function analyse(file) {
     if (node.type === "link" || node.type === "definition") links.push({ url: node.url, line: node.position?.start.line });
     if (node.type === "image") images.push({ url: node.url, line: node.position?.start.line });
   });
-  return { raw, data: parsed.data, h1, anchors, links, images };
+  // The title is the frontmatter `title` (pages saved by the editor) or the
+  // first H1 (pages written by hand). Never both.
+  const fmTitle = typeof parsed.data.title === "string" ? parsed.data.title.trim() : null;
+  return { raw, data: parsed.data, h1, title: fmTitle || h1, fmTitle, anchors, links, images };
 }
 
 function main() {
-  const summary = parseSummary();
-  const listed = new Map(summary.map(e => [e.file, e]));
-  const pages = listMarkdown(ROOT);
+  const nav = navEntries();
+  const listed = new Map();
+  const pages = listMarkdown(CONTENT);
   const info = new Map();
   for (const file of pages) info.set(file, analyse(file));
 
-  for (const entry of summary) {
-    if (!fs.existsSync(entry.file)) error(path.join(ROOT, "SUMMARY.md"), `entry "${entry.label}" points at a missing file ${rel(entry.file)}`);
+  for (const entry of nav) {
+    const name = entry.ref ?? entry.label;
+    if (!info.has(entry.file)) error(entry.source, `entry "${name}" points at a missing page ${rel(entry.file)}`);
+    else if (listed.has(entry.file)) error(entry.source, `lists ${rel(entry.file)} twice`);
+    listed.set(entry.file, entry);
   }
 
   for (const [file, page] of info) {
     const entry = listed.get(file);
-    if (!entry && !page.data.hidden) error(file, "not in SUMMARY.md and not hidden: true");
-    if (!page.h1) error(file, "no H1");
-    if (entry && page.h1 && entry.label !== page.h1) error(file, `H1 "${page.h1}" differs from SUMMARY label "${entry.label}"`);
+    if (page.fmTitle && page.h1) error(file, `has both a frontmatter title and an H1 ("${page.h1}"); keep one`);
+    if (!page.title) error(file, "no title: add a `title` to the frontmatter or an H1");
+    if (entry?.label && page.title && entry.label !== page.title) error(file, `title "${page.title}" differs from SUMMARY label "${entry.label}"`);
     if (!page.data.description) warn(file, "no description in frontmatter");
     if (/\{%|\.gitbook\//.test(page.raw)) error(file, "GitBook markup or .gitbook/ path left over");
     if (page.raw.includes(String.fromCharCode(8212))) warn(file, "contains an em dash");
+    // The editor names a new page's file from its title and keeps accented
+    // letters and dots, which make awkward addresses ("café-guide-2.0").
+    // A folder page is README.md exactly; "readme.md" or "index.md" beside it
+    // would be a second page competing for the same address.
+    if (/^(readme|index)\.md$/i.test(path.basename(file)) && path.basename(file) !== "README.md")
+      error(file, "a page file may not be named readme or index; README.md is the folder's own page");
+    if (/[^a-z0-9-]/.test(path.basename(file, ".md")) && path.basename(file) !== "README.md")
+      warn(file, "file name has characters other than a-z, 0-9 and hyphens; consider a plainer title before it is linked");
 
     for (const { url, line } of page.links) {
+      // A link to a docs page by its address on the site, "/docs/a/b/" or
+      // "https://rad.live/docs/a/b/" (what the editor's users paste from the
+      // browser). It must name a page that exists, and its anchor if any.
+      const site = /^(?:https:\/\/(?:www\.)?rad\.live)?\/docs(\/[^#?]*)?(?:\?[^#]*)?(#.*)?$/.exec(url);
+      if (site) {
+        const p = (site[1] || "/").replace(/^\/+|\/+$/g, "");
+        const candidates = p ? [`${p}.md`, `${p}/README.md`] : ["README.md"];
+        const targetFile = candidates.map(c => path.join(CONTENT, c)).find(f => info.has(f));
+        if (!targetFile) {
+          error(file, `line ${line}: no docs page at ${url}`);
+          continue;
+        }
+        let hash = site[2] ? site[2].slice(1) : "";
+        try {
+          hash = decodeURIComponent(hash);
+        } catch {
+          /* checked as written */
+        }
+        if (hash && !info.get(targetFile).anchors.has(hash)) error(file, `line ${line}: anchor #${hash} not found in ${rel(targetFile)}`);
+        continue;
+      }
       if (/^(https?:|mailto:|tel:)/.test(url)) continue;
+      // A file in assets/ (a download: PDF, sample feed, zip), linked the way
+      // the editor writes it. It must exist and stay a reasonable size.
+      if (url.startsWith("/assets/")) {
+        let decoded = url.split("#")[0];
+        try {
+          decoded = decodeURIComponent(decoded);
+        } catch {
+          /* checked as written */
+        }
+        const asset = path.join(ROOT, decoded.slice(1));
+        if (!fs.existsSync(asset)) error(file, `line ${line}: linked file does not exist: ${url}`);
+        else if (fs.statSync(asset).size > MAX_FILE_BYTES)
+          error(file, `line ${line}: linked file over 20 MB (${(fs.statSync(asset).size / 1048576).toFixed(1)} MB): ${url}`);
+        continue;
+      }
+      // Any other site path ("/pricing/") is a link to rad.live outside the docs.
+      if (url.startsWith("/")) continue;
       const [target, hash] = url.split("#");
       let targetFile = file;
       if (target) {
@@ -131,7 +221,12 @@ function main() {
         warn(file, `line ${line}: remote image ${url}`);
         continue;
       }
-      const target = path.resolve(path.dirname(file), decodeURIComponent(url));
+      // "/assets/x.webp" (what the editor inserts) is relative to the repo
+      // root; anything else is relative to the page.
+      const decoded = decodeURIComponent(url);
+      const target = decoded.startsWith("/assets/")
+        ? path.join(ROOT, decoded.slice(1))
+        : path.resolve(path.dirname(file), decoded);
       if (!fs.existsSync(target)) {
         error(file, `line ${line}: image does not exist: ${url}`);
         continue;
@@ -166,12 +261,19 @@ function checkRenames() {
     return; // not in a git checkout with that base; CI always is
   }
   const redirects = fs.existsSync(path.join(ROOT, "redirects.json")) ? JSON.parse(fs.readFileSync(path.join(ROOT, "redirects.json"), "utf8")) : {};
+  // What matters is the URL, not the file: a page moved without changing its
+  // URL (the move under pages/, or README.md <-> folder/README.md) needs no
+  // redirect.
+  const liveUrls = new Set(listMarkdown(CONTENT).map(urlPath));
   for (const line of diff.split("\n")) {
     const parts = line.split("\t");
     const oldFile = parts[1];
-    if (!oldFile || path.basename(oldFile) === "SUMMARY.md" || NOT_PAGES.has(path.basename(oldFile))) continue;
-    const oldUrl = urlPath(path.join(ROOT, oldFile));
-    if (!(oldUrl in redirects)) errors.push(`${oldFile}: renamed or deleted, but redirects.json has no entry for "${oldUrl}"`);
+    if (!oldFile || NOT_PAGES.has(path.basename(oldFile)) || oldFile.startsWith(".github/")) continue;
+    // A path under the content directory, or at the root before the move.
+    const prefix = CONTENT_DIR === "." ? "" : `${CONTENT_DIR}/`;
+    const oldUrl = contentUrl(prefix && oldFile.startsWith(prefix) ? oldFile.slice(prefix.length) : oldFile);
+    if (liveUrls.has(oldUrl)) continue;
+    if (!(oldUrl in redirects)) errors.push(`${oldFile}: its URL "${oldUrl}" is gone, but redirects.json has no entry for it`);
   }
 }
 

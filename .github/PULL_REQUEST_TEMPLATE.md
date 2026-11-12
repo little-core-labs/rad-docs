@@ -4,7 +4,7 @@
 
 ## Checklist
 
-- [ ] The page has a `description` in its frontmatter
-- [ ] New pages are listed in `SUMMARY.md`
+- [ ] The page has a `title` and a `description` in its frontmatter
+- [ ] New pages sit under their parent's folder in `pages/` (add them to `nav.json` only to change their order)
 - [ ] Renamed or removed pages have an entry in `redirects.json`
 - [ ] Images are under 2 MB and at most 2000 px wide

@@ -19,6 +19,7 @@ import matter from "gray-matter";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const HINT_KIND = { info: "NOTE", success: "TIP", warning: "WARNING", danger: "CAUTION" };
+const JUNK_PAGES = ["rad-tv-developer-api-1/page-1.md"];
 
 function listMarkdown(dir, out = []) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
@@ -132,6 +133,7 @@ function inlineTransforms(line, file, pages, warnings) {
     }
     return `](${relativeTo(file, target)}${hash || ""})`;
   });
+  line = line.replace(/\]\(\/broken\/pages\/yT9xavmJLwl2Rl0Arzb0\)/, `](${relativeTo(file, path.join(ROOT, "rad-tv-developer-api/README.md"))})`);
   line = line.replace(
     /\]\(https:\/\/app\.gitbook\.com\/[^)]*\/getting-started-creators-studios-publishers\/distribute-your-fast-channel\)/,
     `](${relativeTo(file, path.join(ROOT, "getting-started-creators-studios-publishers/distribute-your-fast-channel.md"))})`,
@@ -304,6 +306,7 @@ function main() {
   // SUMMARY: drop the junk section, keep everything else as it is.
   const summaryPath = path.join(ROOT, "SUMMARY.md");
   let summary = fs.readFileSync(summaryPath, "utf8").replace(/\r\n/g, "\n");
+  summary = summary.replace(/\n## Rad TV Developer API\n\n\* \[Page 1\]\([^)]*\)\n?/, "\n");
   fs.writeFileSync(summaryPath, summary.replace(/\n{3,}/g, "\n\n").replace(/\s+$/, "") + "\n");
   for (const f of [".gitbook.yaml"]) if (fs.existsSync(path.join(ROOT, f))) fs.rmSync(path.join(ROOT, f));
   console.log(`converted ${total} pages`);

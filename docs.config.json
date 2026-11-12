@@ -1,4 +1,5 @@
 {
   "siteTitle": "Rad TV Docs",
-  "launched": true
+  "launched": true,
+  "contentDir": "pages"
 }

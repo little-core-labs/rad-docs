@@ -1,0 +1,22 @@
+---
+title: Rad TV for Web
+---
+
+<a id="visit-radtv.com-and-start-watching-now"></a>
+
+## Visit [rad.live](https://rad.live/) and start watching now!
+
+## Features Supported
+
+|                    |     |
+| ------------------ | --- |
+| Free Live TV       | Yes |
+| Free On Demand     | Yes |
+| Premium Live TV¹   | Yes |
+| Premium On Demand¹ | Yes |
+| Sideloading¹       | No  |
+| DLNA/UPnP¹         | No  |
+| RSS Feeds¹         | No  |
+
+> [!NOTE]
+> ¹ Requires a [Premium subscription](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).
