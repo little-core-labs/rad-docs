@@ -243,11 +243,29 @@ function main() {
   }
 
   checkRenames();
+  checkRedirectTargets();
 
   for (const w of warnings) console.log("warning: " + w);
   for (const e of errors) console.log("error: " + e);
   console.log(`\n${pages.length} pages, ${errors.length} errors, ${warnings.length} warnings`);
   process.exit(errors.length ? 1 : 0);
+}
+
+// Every redirect lands somewhere real: a page in these docs, or another Rad
+// site (https on rad.live or a subdomain, such as developers.rad.live, where
+// the developer API docs moved). rad.live's build drops any other address.
+function checkRedirectTargets() {
+  const file = path.join(ROOT, "redirects.json");
+  if (!fs.existsSync(file)) return;
+  const redirects = JSON.parse(fs.readFileSync(file, "utf8"));
+  const liveUrls = new Set(listMarkdown(CONTENT).map(urlPath));
+  for (const [from, to] of Object.entries(redirects)) {
+    if (/^[a-z][a-z0-9+.-]*:/i.test(to)) {
+      if (!/^https:\/\/([a-z0-9-]+\.)*rad\.live(\/[^\s]*)?$/.test(to))
+        error(file, `"${from}" redirects to ${to}: only https addresses on rad.live or its subdomains are allowed`);
+    } else if (!liveUrls.has(to)) error(file, `"${from}" redirects to ${to}, which is not a page`);
+    if (liveUrls.has(from)) error(file, `"${from}" is both a page and a redirect`);
+  }
 }
 
 // A renamed or deleted page changes its URL. The old URL must be in
