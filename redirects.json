@@ -21,5 +21,11 @@
   "/rad-tv-developer-api/content-and-uploads": "https://developers.rad.live/docs/graphql/uploads/",
   "/rad-tv-developer-api/channels-and-playlists": "https://developers.rad.live/docs/graphql/playlists/",
   "/rad-tv-developer-api/response-format-and-errors": "https://developers.rad.live/docs/errors/",
-  "/rad-tv-developer-api/best-practices": "https://developers.rad.live/docs/getting-started/"
+  "/rad-tv-developer-api/best-practices": "https://developers.rad.live/docs/getting-started/",
+  "/getting-started-developer-api": "https://developers.rad.live/docs/getting-started/",
+  "/getting-started-developer-api/authentication": "https://developers.rad.live/docs/getting-started/authentication/",
+  "/getting-started-developer-api/managing-channels": "https://developers.rad.live/docs/graphql/identity/",
+  "/getting-started-developer-api/managing-playlists": "https://developers.rad.live/docs/graphql/playlists/",
+  "/getting-started-developer-api/managing-content": "https://developers.rad.live/docs/graphql/content-management/",
+  "/getting-started-developer-api/graphql-basics": "https://developers.rad.live/docs/graphql/"
 }
