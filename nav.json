@@ -142,69 +142,6 @@
       ]
     },
     {
-      "page": "rad-tv-developer-api/README",
-      "children": [
-        {
-          "page": "rad-tv-developer-api/introduction"
-        },
-        {
-          "page": "rad-tv-developer-api/bearer-tokens"
-        },
-        {
-          "page": "rad-tv-developer-api/api-keys"
-        },
-        {
-          "page": "rad-tv-developer-api/decentralized-identifiers"
-        },
-        {
-          "page": "rad-tv-developer-api/graphql/README",
-          "children": [
-            {
-              "page": "rad-tv-developer-api/graphql/queries"
-            },
-            {
-              "page": "rad-tv-developer-api/graphql/mutations"
-            },
-            {
-              "page": "rad-tv-developer-api/graphql/examples"
-            },
-            {
-              "page": "rad-tv-developer-api/graphql/schema-reference"
-            }
-          ]
-        },
-        {
-          "page": "rad-tv-developer-api/mcp/README",
-          "children": [
-            {
-              "page": "rad-tv-developer-api/mcp/connecting"
-            },
-            {
-              "page": "rad-tv-developer-api/mcp/resources-and-prompts"
-            },
-            {
-              "page": "rad-tv-developer-api/mcp/tools-reference"
-            }
-          ]
-        },
-        {
-          "page": "rad-tv-developer-api/engagement"
-        },
-        {
-          "page": "rad-tv-developer-api/content-and-uploads"
-        },
-        {
-          "page": "rad-tv-developer-api/channels-and-playlists"
-        },
-        {
-          "page": "rad-tv-developer-api/response-format-and-errors"
-        },
-        {
-          "page": "rad-tv-developer-api/best-practices"
-        }
-      ]
-    },
-    {
       "page": "earn-free-premium-benefits-via-referrals"
     },
     {
