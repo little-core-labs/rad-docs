@@ -5,7 +5,7 @@ description: Copy video files to a USB drive and play them on PS4 or PS VR with 
 
 The Rad TV app supports the playback of 2D/mono, 3D/stereo, 360°, and 180° videos via an external USB stick or hard drive when you are logged in to your Rad TV account. There are a few simple steps that must be followed to get videos to play back correctly; please read through the instructions below and reach out if you have any questions.
 
-Sideloaded videos can also be viewed in [Offline Mode](https://littlstar.zendesk.com/hc/en-us/articles/360028883451).
+Sideloaded videos can also be viewed in Offline Mode.
 
 ### Rad TV Sideloading Tutorial
 
@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=-a-kZZkK-9c
    * The name of the folder is case-insensitive
    * All videos need to be placed in this folder or they will not be able to be read by the app.
    * The app supports nested folders inside of the top-level folder.
-   * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the type inside the application before playing the video [see: [Metadata Settings](https://littlstar.zendesk.com/hc/en-us/articles/360028563652)] or you will need to name your file with the following naming conventions.
+   * Currently, the app does not automatically detect the layout of the video you are trying to play, so you will either need to set the type inside the application before playing the video or you will need to name your file with the following naming conventions.
    * Folders named "Littlstar" and "Littlestar" should still work, however there have been some reports that some hard drives no longer show up with these names. We recommend changing the folder name to "Rad".
 
 <a id="psvrsideloadinstructions-en-filenamingconventions"></a>
@@ -128,7 +128,7 @@ There are many tools for editing media file metadata. iTunes is a popular tool f
 
 ## Recommended Settings
 
-To ensure proper playback and to be able to support as many videos as possible, we recommend following our encoding guidelines found here: [Media Encoding Guidelines](https://littlstar.zendesk.com/hc/en-us/articles/360030455112)
+To ensure proper playback and to be able to support as many videos as possible, we recommend following our encoding guidelines found here: [Video Formats and Encoding](/docs/getting-started-subscribers-viewers/rad-tv-for-ps5-ps-vr2/video-encoding/)
 
 <a id="psvrsideloadinstructions-en-knownissues"></a>
 
