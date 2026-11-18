@@ -8,19 +8,30 @@ The Rad TV connector lets an AI assistant work with your own Rad TV account and 
 ## What you need
 
 - A Rad TV account with an active subscription.
-- A Claude plan that supports connectors, or a ChatGPT account.
+- Claude on any plan (the Free plan allows one custom connector), or a paid ChatGPT plan. On Claude Team and Enterprise, and on ChatGPT Business, Enterprise and Edu, your workspace admin may need to add or allow the connector.
 - For the YouTube tools only: a YouTube account connected in Rad TV.
+
+Rad TV is on its way to the Claude and ChatGPT directories. Until it's listed, add it by its address, `https://api.rad.live/mcp`, as shown below.
 
 ## Connect in Claude
 
-1. In Claude, open **Settings > Connectors**.
-2. Find **Rad TV** in the directory and click **Connect**. Until the directory listing is live, choose **Add custom connector**, name it Rad TV, and enter `https://api.rad.live/mcp`.
-3. The Rad TV sign-in page opens. Sign in and approve access.
+1. In Claude, open **Customize > Connectors**.
+2. Select **Add**, then **Add custom connector**.
+3. Name it **Rad TV**, enter `https://api.rad.live/mcp`, and click **Continue**. Keep the sign-in options Claude marks as **Detected**, then click **Add**.
+4. Click **Connect**. The Rad TV sign-in page opens. Sign in and approve access.
+5. In a chat, turn Rad TV on from **+ > Connectors** if it isn't already on.
+
+On Claude Team and Enterprise plans, an Owner adds the connector under **Organization settings > Connectors**, and each member then connects from **Customize > Connectors**.
 
 ## Connect in ChatGPT
 
-1. In ChatGPT, open the apps directory and search for **Rad TV**.
-2. Click **Connect**, then sign in to Rad TV and approve access.
+1. Go to [chatgpt.com/plugins](https://chatgpt.com/plugins).
+2. Select the **+** button, then **Add custom MCP server**.
+3. Name it **Rad TV** and enter `https://api.rad.live/mcp` as the server URL. Keep OAuth as the sign-in method.
+4. Review the warning, select **I understand and want to continue**, then **Create as a plugin**.
+5. Click **Connect**, then sign in to Rad TV and approve access.
+
+ChatGPT renames these menus from time to time. If a step looks different, look for the option to add a custom MCP server or connector and use the same address.
 
 ## What you can ask
 
