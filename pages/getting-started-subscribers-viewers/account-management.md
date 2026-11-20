@@ -24,7 +24,7 @@ The `General` tab is where you manage your core profile information.
 
 ### Subscription
 
-The `Subscription` tab is your hub for managing your Rad premium access plan.
+The `Subscription` tab is your hub for managing your Rad TV Premium plan.
 
 #### Your Premium Access
 
@@ -90,7 +90,7 @@ This powerful feature allows you to add your own content to Rad TV via RSS feeds
 
 Earn rewards by sharing Rad TV with your friends.
 
-* **Invite Friends and Win**: The current referral offer is displayed here (e.g., Win 1 Month Free of Rad Premium).
+* **Invite Friends and Win**: The current referral offer is displayed here (e.g., Win 1 Month Free of Rad TV Premium).
 * **Copy Referral Link**: Click this button to copy your unique referral link to your clipboard.
 * **Share Your Link**: Use the social media icons (e.g., X, Telegram, WhatsApp) to quickly share your link directly with friends.
 

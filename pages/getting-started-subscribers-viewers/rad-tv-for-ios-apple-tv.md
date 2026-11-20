@@ -41,7 +41,7 @@ You can also search for "Rad TV" on the Apple App Store
 
 1. Add RSS feeds to your Rad TV account using the instructions [here](/docs/getting-started-subscribers-viewers/adding-external-rss-feeds-to-your-library/).
 2. Open the Rad TV app.
-3. Make sure you are logged in and have a [Rad TV Premium membership](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).
+3. Make sure you are logged in and have a [Rad TV Premium subscription](/docs/getting-started-subscribers-viewers/premium-and-free-on-demand-video-and-free-tv/).
 4. Go to your Library and open the RSS Feeds section.
 5. If the feed you added on your Rad account parsed correctly it will show up as a folder (or folder thumbnail).
 

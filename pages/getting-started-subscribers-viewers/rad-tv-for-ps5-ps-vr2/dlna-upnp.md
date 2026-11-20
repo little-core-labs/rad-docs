@@ -142,6 +142,6 @@ We are trying to support all major server applications, but there are quite a fe
 
 ## Streaming from your Media Server
 
-Now that you have your media server setup, all you need to do is open Rad TV for PS5 / PS VR2 and sign in with an account that has a Rad Premium subscription. Navigate to the Library menu using the sidebar. Then open the DLNA/UPnP Library Menu.
+Now that you have your media server setup, all you need to do is open Rad TV for PS5 / PS VR2 and sign in with an account that has a Rad TV Premium subscription. Navigate to the Library menu using the sidebar. Then open the DLNA/UPnP Library Menu.
 
 ![](/assets/Image%20Sequence_026_0000.webp "DLNA/UPnP Library Menu Button")
